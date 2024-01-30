@@ -21,6 +21,12 @@ struct SideMenuView: View {
                     HStack {
                         VStack(alignment: .leading, spacing: 32) {
                             SideMenuHeaderView()
+                            
+                            VStack {
+                                ForEach(SideMenuOptionsModel.allCases) { option in
+                                    SideMenuRowView(option: option)
+                                }
+                            }
     
                             Spacer()
                         }
