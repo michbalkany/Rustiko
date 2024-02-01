@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		753FE3342B6BBC4F00FE6A6A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C51D624D2B68ABA1008C2157 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
 		C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionsModel.swift; sourceTree = "<group>"; };
 		C58B36622B6851A700BE085F /* Rustiko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rustiko.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +44,7 @@
 		C58B36592B6851A700BE085F = {
 			isa = PBXGroup;
 			children = (
+				753FE3342B6BBC4F00FE6A6A /* README.md */,
 				C58B36642B6851A700BE085F /* Rustiko */,
 				C58B36632B6851A700BE085F /* Products */,
 			);
