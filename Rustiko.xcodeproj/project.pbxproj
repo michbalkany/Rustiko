@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		753FE3372B6BBD6E00FE6A6A /* InboxHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FE3362B6BBD6E00FE6A6A /* InboxHomeView.swift */; };
 		C51D624E2B68ABA1008C2157 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D624D2B68ABA1008C2157 /* SideMenuRowView.swift */; };
 		C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */; };
 		C58B36662B6851A700BE085F /* RustikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36652B6851A700BE085F /* RustikoApp.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		753FE3342B6BBC4F00FE6A6A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		753FE3362B6BBD6E00FE6A6A /* InboxHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxHomeView.swift; sourceTree = "<group>"; };
 		C51D624D2B68ABA1008C2157 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
 		C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionsModel.swift; sourceTree = "<group>"; };
 		C58B36622B6851A700BE085F /* Rustiko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rustiko.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		753FE3352B6BBD5700FE6A6A /* Inbox Views */ = {
+			isa = PBXGroup;
+			children = (
+				753FE3362B6BBD6E00FE6A6A /* InboxHomeView.swift */,
+			);
+			path = "Inbox Views";
+			sourceTree = "<group>";
+		};
 		C58B36592B6851A700BE085F = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		C58B36642B6851A700BE085F /* Rustiko */ = {
 			isa = PBXGroup;
 			children = (
+				753FE3352B6BBD5700FE6A6A /* Inbox Views */,
 				C58B36652B6851A700BE085F /* RustikoApp.swift */,
 				C58B36672B6851A700BE085F /* ContentView.swift */,
 				C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */,
@@ -154,6 +165,7 @@
 				C58B36742B6851FC00BE085F /* SideMenuView.swift in Sources */,
 				C58B36762B68523000BE085F /* SideMenuHeaderView.swift in Sources */,
 				C51D624E2B68ABA1008C2157 /* SideMenuRowView.swift in Sources */,
+				753FE3372B6BBD6E00FE6A6A /* InboxHomeView.swift in Sources */,
 				C58B36682B6851A700BE085F /* ContentView.swift in Sources */,
 				C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */,
 				C58B36662B6851A700BE085F /* RustikoApp.swift in Sources */,
