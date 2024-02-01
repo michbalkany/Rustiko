@@ -12,8 +12,9 @@ struct InboxListItemView: View {
     let message: String
     
     var body: some View {
-        // Message bubble 1
+        // List Message Format
         HStack (alignment: .top) {
+            // Image Section
             Image("Brown bun burger")
                 .resizable()
                 .frame(width: 80, height: 80)
