@@ -8,95 +8,20 @@
 import SwiftUI
 
 struct InboxHomeView: View {
+    let messages = [
+        "Message Title 1",
+        "Message Title 2",
+        "Message Title 3",
+        "Message Title 4",
+    ]
     var body: some View {
         NavigationStack {
-            List {
-                // Message bubble 1
-                HStack (alignment: .top) {
-                    Image("Brown bun burger")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                        .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-                    
-                    // Text section
-                    VStack (alignment: .leading) {
-                        Text("Message Title")
-                            .font(.title2)
-                        Text("Message description and more description and more description.")
-                            .font(.subheadline)
-                            .lineLimit(2)
-                            .truncationMode(.tail)
-                    }
-                }
-                // Message bubble 2
-                HStack (alignment: .top) {
-                    Image("Brown bun burger")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                        .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-                    
-                    // Text section
-                    VStack (alignment: .leading) {
-                        Text("Message Title")
-                            .font(.title2)
-                        Text("Message description and more description and more description.")
-                            .font(.subheadline)
-                            .lineLimit(2)
-                            .truncationMode(.tail)
-                    }
-                }
-                // Message bubble 3
-                HStack (alignment: .top) {
-                    Image("Brown bun burger")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                        .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-                    
-                    // Text section
-                    VStack (alignment: .leading) {
-                        Text("Message Title")
-                            .font(.title2)
-                        Text("Message description and more description and more description.")
-                            .font(.subheadline)
-                            .lineLimit(2)
-                            .truncationMode(.tail)
-                    }
-                }
-                // Message bubble 4
-                HStack (alignment: .top) {
-                    Image("Brown bun burger")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                        .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-                    
-                    // Text section
-                    VStack (alignment: .leading) {
-                        Text("Message Title")
-                            .font(.title2)
-                        Text("Message description and more description and more description.")
-                            .font(.subheadline)
-                            .lineLimit(2)
-                            .truncationMode(.tail)
-                    }
-                }
-                // Message bubble 5
-                HStack (alignment: .top) {
-                    Image("Brown bun burger")
-                        .resizable()
-                        .frame(width: 150, height: 150)
-                        .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-                    
-                    // Text section
-                    VStack (alignment: .leading) {
-                        Text("Message Title")
-                            .font(.title2)
-                        Text("Message description and more description and more description.")
-                            .font(.subheadline)
-                            .lineLimit(2)
-                            .truncationMode(.tail)
-                    }
+            List (messages, id: \.self){ message in
+                NavigationLink (value: message) {
+                    InboxListItemView(message: message)
                 }
             }
+            .navigationDestination(for: String.self, destination: InboxMessageView.init)
             .navigationTitle("Inbox")
         }
     }
