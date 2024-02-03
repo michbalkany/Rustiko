@@ -4,7 +4,10 @@
 
 ## Requirements
 
-## Preview
+## Preview (Screenshots)
+| Screen | Preview |
+| ---------- | ---------- |
+| Home Screen | ![Home Screen]() |
 
 ## Features
 
