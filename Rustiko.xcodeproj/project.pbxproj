@@ -10,6 +10,17 @@
 		753FE3372B6BBD6E00FE6A6A /* InboxHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FE3362B6BBD6E00FE6A6A /* InboxHomeView.swift */; };
 		753FE3392B6BCF9600FE6A6A /* InboxMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FE3382B6BCF9600FE6A6A /* InboxMessageView.swift */; };
 		753FE33B2B6BD83B00FE6A6A /* InboxListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FE33A2B6BD83B00FE6A6A /* InboxListItemView.swift */; };
+		75D66BAC2B6DFB73009B3084 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D66BAB2B6DFB73009B3084 /* SettingsView.swift */; };
+		75D66BAE2B6DFD37009B3084 /* AccountPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D66BAD2B6DFD37009B3084 /* AccountPreferencesView.swift */; };
+		75D66BB02B6E09A3009B3084 /* AccountPreferenceEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D66BAF2B6E09A3009B3084 /* AccountPreferenceEditView.swift */; };
+		75D66BB42B6E15F4009B3084 /* PaymentEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D66BB32B6E15F4009B3084 /* PaymentEmptyView.swift */; };
+		75D66BB62B6E16BD009B3084 /* PaymentAddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D66BB52B6E16BD009B3084 /* PaymentAddCardView.swift */; };
+		75D66BB82B6E19D6009B3084 /* PaymentWithCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D66BB72B6E19D6009B3084 /* PaymentWithCardView.swift */; };
+		75D66BBB2B6E1F43009B3084 /* PrivacyAndSecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D66BBA2B6E1F43009B3084 /* PrivacyAndSecurityView.swift */; };
+		75D66BBD2B6E1F63009B3084 /* PrivacyAndSecurityEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D66BBC2B6E1F63009B3084 /* PrivacyAndSecurityEditView.swift */; };
+		75D8CA992B6D3703009BB4F9 /* GiftCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8CA982B6D3703009BB4F9 /* GiftCardsView.swift */; };
+		75D8CA9B2B6D3DC4009BB4F9 /* PromoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8CA9A2B6D3DC4009BB4F9 /* PromoCardView.swift */; };
+		75D8CA9D2B6D43C9009BB4F9 /* RewardsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8CA9C2B6D43C9009BB4F9 /* RewardsCardView.swift */; };
 		C51D624E2B68ABA1008C2157 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D624D2B68ABA1008C2157 /* SideMenuRowView.swift */; };
 		C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */; };
 		C58B36662B6851A700BE085F /* RustikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36652B6851A700BE085F /* RustikoApp.swift */; };
@@ -25,6 +36,17 @@
 		753FE3362B6BBD6E00FE6A6A /* InboxHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxHomeView.swift; sourceTree = "<group>"; };
 		753FE3382B6BCF9600FE6A6A /* InboxMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxMessageView.swift; sourceTree = "<group>"; };
 		753FE33A2B6BD83B00FE6A6A /* InboxListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxListItemView.swift; sourceTree = "<group>"; };
+		75D66BAB2B6DFB73009B3084 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		75D66BAD2B6DFD37009B3084 /* AccountPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPreferencesView.swift; sourceTree = "<group>"; };
+		75D66BAF2B6E09A3009B3084 /* AccountPreferenceEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPreferenceEditView.swift; sourceTree = "<group>"; };
+		75D66BB32B6E15F4009B3084 /* PaymentEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentEmptyView.swift; sourceTree = "<group>"; };
+		75D66BB52B6E16BD009B3084 /* PaymentAddCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAddCardView.swift; sourceTree = "<group>"; };
+		75D66BB72B6E19D6009B3084 /* PaymentWithCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentWithCardView.swift; sourceTree = "<group>"; };
+		75D66BBA2B6E1F43009B3084 /* PrivacyAndSecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyAndSecurityView.swift; sourceTree = "<group>"; };
+		75D66BBC2B6E1F63009B3084 /* PrivacyAndSecurityEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyAndSecurityEditView.swift; sourceTree = "<group>"; };
+		75D8CA982B6D3703009BB4F9 /* GiftCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardsView.swift; sourceTree = "<group>"; };
+		75D8CA9A2B6D3DC4009BB4F9 /* PromoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCardView.swift; sourceTree = "<group>"; };
+		75D8CA9C2B6D43C9009BB4F9 /* RewardsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsCardView.swift; sourceTree = "<group>"; };
 		C51D624D2B68ABA1008C2157 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
 		C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionsModel.swift; sourceTree = "<group>"; };
 		C58B36622B6851A700BE085F /* Rustiko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rustiko.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +79,55 @@
 			path = "Inbox Views";
 			sourceTree = "<group>";
 		};
+		75D66BAA2B6DFB60009B3084 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				75D66BAB2B6DFB73009B3084 /* SettingsView.swift */,
+				75D66BB92B6E1F17009B3084 /* Privacy & Security */,
+				75D66BB22B6E15D8009B3084 /* Payment */,
+				75D66BB12B6E15C6009B3084 /* Account Preferences */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		75D66BB12B6E15C6009B3084 /* Account Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				75D66BAD2B6DFD37009B3084 /* AccountPreferencesView.swift */,
+				75D66BAF2B6E09A3009B3084 /* AccountPreferenceEditView.swift */,
+			);
+			path = "Account Preferences";
+			sourceTree = "<group>";
+		};
+		75D66BB22B6E15D8009B3084 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				75D66BB32B6E15F4009B3084 /* PaymentEmptyView.swift */,
+				75D66BB72B6E19D6009B3084 /* PaymentWithCardView.swift */,
+				75D66BB52B6E16BD009B3084 /* PaymentAddCardView.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		75D66BB92B6E1F17009B3084 /* Privacy & Security */ = {
+			isa = PBXGroup;
+			children = (
+				75D66BBA2B6E1F43009B3084 /* PrivacyAndSecurityView.swift */,
+				75D66BBC2B6E1F63009B3084 /* PrivacyAndSecurityEditView.swift */,
+			);
+			path = "Privacy & Security";
+			sourceTree = "<group>";
+		};
+		75D8CA972B6D36C3009BB4F9 /* Sheet Sliders */ = {
+			isa = PBXGroup;
+			children = (
+				75D8CA982B6D3703009BB4F9 /* GiftCardsView.swift */,
+				75D8CA9A2B6D3DC4009BB4F9 /* PromoCardView.swift */,
+				75D8CA9C2B6D43C9009BB4F9 /* RewardsCardView.swift */,
+			);
+			path = "Sheet Sliders";
+			sourceTree = "<group>";
+		};
 		C58B36592B6851A700BE085F = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +148,8 @@
 		C58B36642B6851A700BE085F /* Rustiko */ = {
 			isa = PBXGroup;
 			children = (
+				75D66BAA2B6DFB60009B3084 /* Settings */,
+				75D8CA972B6D36C3009BB4F9 /* Sheet Sliders */,
 				753FE3352B6BBD5700FE6A6A /* Inbox Views */,
 				C58B36652B6851A700BE085F /* RustikoApp.swift */,
 				C58B36672B6851A700BE085F /* ContentView.swift */,
@@ -168,15 +241,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D66BB62B6E16BD009B3084 /* PaymentAddCardView.swift in Sources */,
 				C58B36742B6851FC00BE085F /* SideMenuView.swift in Sources */,
+				75D66BAE2B6DFD37009B3084 /* AccountPreferencesView.swift in Sources */,
+				75D66BB02B6E09A3009B3084 /* AccountPreferenceEditView.swift in Sources */,
+				75D8CA9D2B6D43C9009BB4F9 /* RewardsCardView.swift in Sources */,
 				753FE3392B6BCF9600FE6A6A /* InboxMessageView.swift in Sources */,
 				C58B36762B68523000BE085F /* SideMenuHeaderView.swift in Sources */,
 				C51D624E2B68ABA1008C2157 /* SideMenuRowView.swift in Sources */,
 				753FE33B2B6BD83B00FE6A6A /* InboxListItemView.swift in Sources */,
+				75D66BB82B6E19D6009B3084 /* PaymentWithCardView.swift in Sources */,
 				753FE3372B6BBD6E00FE6A6A /* InboxHomeView.swift in Sources */,
+				75D66BB42B6E15F4009B3084 /* PaymentEmptyView.swift in Sources */,
+				75D8CA9B2B6D3DC4009BB4F9 /* PromoCardView.swift in Sources */,
 				C58B36682B6851A700BE085F /* ContentView.swift in Sources */,
+				75D66BBD2B6E1F63009B3084 /* PrivacyAndSecurityEditView.swift in Sources */,
 				C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */,
+				75D8CA992B6D3703009BB4F9 /* GiftCardsView.swift in Sources */,
+				75D66BBB2B6E1F43009B3084 /* PrivacyAndSecurityView.swift in Sources */,
 				C58B36662B6851A700BE085F /* RustikoApp.swift in Sources */,
+				75D66BAC2B6DFB73009B3084 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +394,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rustiko/Preview Content\"";
-				DEVELOPMENT_TEAM = 324KXDJHTP;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -339,7 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rustiko/Preview Content\"";
-				DEVELOPMENT_TEAM = 324KXDJHTP;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
