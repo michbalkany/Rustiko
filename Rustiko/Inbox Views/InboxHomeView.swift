@@ -17,7 +17,7 @@ struct InboxHomeView: View {
     var body: some View {
         NavigationStack {
             // List of messages
-            List (messages, id: \.self){ message in
+            List (messages, id: \.self) { message in
                 // Links messages to each list item
                 NavigationLink (value: message) {
                     InboxListItemView(message: message)
