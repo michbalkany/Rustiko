@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		753856692B73D5DC00FF5663 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753856682B73D5DC00FF5663 /* LocationView.swift */; };
 		753FE3372B6BBD6E00FE6A6A /* InboxHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FE3362B6BBD6E00FE6A6A /* InboxHomeView.swift */; };
 		753FE3392B6BCF9600FE6A6A /* InboxMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FE3382B6BCF9600FE6A6A /* InboxMessageView.swift */; };
 		753FE33B2B6BD83B00FE6A6A /* InboxListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FE33A2B6BD83B00FE6A6A /* InboxListItemView.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		753856682B73D5DC00FF5663 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		753FE3342B6BBC4F00FE6A6A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		753FE3362B6BBD6E00FE6A6A /* InboxHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxHomeView.swift; sourceTree = "<group>"; };
 		753FE3382B6BCF9600FE6A6A /* InboxMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxMessageView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		753856672B73D5AD00FF5663 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				753856682B73D5DC00FF5663 /* LocationView.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		753FE3352B6BBD5700FE6A6A /* Inbox Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +189,7 @@
 		C58B36642B6851A700BE085F /* Rustiko */ = {
 			isa = PBXGroup;
 			children = (
+				753856672B73D5AD00FF5663 /* Location */,
 				C51D62A32B7083FE008C2157 /* Order Views */,
 				75D66BAA2B6DFB60009B3084 /* Settings */,
 				75D8CA972B6D36C3009BB4F9 /* Sheet Sliders */,
@@ -285,6 +296,7 @@
 				75D66BB42B6E15F4009B3084 /* PaymentEmptyView.swift in Sources */,
 				75D8CA9B2B6D3DC4009BB4F9 /* PromoCardView.swift in Sources */,
 				C58B36682B6851A700BE085F /* ContentView.swift in Sources */,
+				753856692B73D5DC00FF5663 /* LocationView.swift in Sources */,
 				75D66BBD2B6E1F63009B3084 /* PrivacyAndSecurityEditView.swift in Sources */,
 				C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */,
 				C51D62A02B7035E5008C2157 /* TabBarView.swift in Sources */,
