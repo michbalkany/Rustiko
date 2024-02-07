@@ -11,8 +11,8 @@ import SwiftUI
 struct RustikoApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            AccountPreferencesView()
+            ContentView()
+//            AccountPreferencesView()
         }
     }
 }

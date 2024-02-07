@@ -179,12 +179,12 @@
 		C58B36642B6851A700BE085F /* Rustiko */ = {
 			isa = PBXGroup;
 			children = (
+				C58B36652B6851A700BE085F /* RustikoApp.swift */,
+				C58B36672B6851A700BE085F /* ContentView.swift */,
 				C51D62A32B7083FE008C2157 /* Order Views */,
 				75D66BAA2B6DFB60009B3084 /* Settings */,
 				75D8CA972B6D36C3009BB4F9 /* Sheet Sliders */,
 				753FE3352B6BBD5700FE6A6A /* Inbox Views */,
-				C58B36652B6851A700BE085F /* RustikoApp.swift */,
-				C58B36672B6851A700BE085F /* ContentView.swift */,
 				C51D62A22B70366B008C2157 /* Tab Bar  */,
 				C51D62A12B70364C008C2157 /* Side Menu Views */,
 				C58B36692B6851AA00BE085F /* Assets.xcassets */,
