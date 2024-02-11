@@ -32,6 +32,8 @@
 		C58B366D2B6851AA00BE085F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58B366C2B6851AA00BE085F /* Preview Assets.xcassets */; };
 		C58B36742B6851FC00BE085F /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36732B6851FC00BE085F /* SideMenuView.swift */; };
 		C58B36762B68523000BE085F /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36752B68523000BE085F /* SideMenuHeaderView.swift */; };
+		C594B6972B791DD200F35C1E /* PickUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594B6962B791DD200F35C1E /* PickUpView.swift */; };
+		C594B6992B791DDD00F35C1E /* DeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594B6982B791DDD00F35C1E /* DeliveryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		C58B366C2B6851AA00BE085F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C58B36732B6851FC00BE085F /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		C58B36752B68523000BE085F /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		C594B6962B791DD200F35C1E /* PickUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpView.swift; sourceTree = "<group>"; };
+		C594B6982B791DDD00F35C1E /* DeliveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				C51D62A42B70842A008C2157 /* OrderView.swift */,
+				C594B6962B791DD200F35C1E /* PickUpView.swift */,
+				C594B6982B791DDD00F35C1E /* DeliveryView.swift */,
 			);
 			path = "Order Views";
 			sourceTree = "<group>";
@@ -189,12 +195,9 @@
 		C58B36642B6851A700BE085F /* Rustiko */ = {
 			isa = PBXGroup;
 			children = (
-
 				C58B36652B6851A700BE085F /* RustikoApp.swift */,
 				C58B36672B6851A700BE085F /* ContentView.swift */,
-
 				753856672B73D5AD00FF5663 /* Location */,
-
 				C51D62A32B7083FE008C2157 /* Order Views */,
 				75D66BAA2B6DFB60009B3084 /* Settings */,
 				75D8CA972B6D36C3009BB4F9 /* Sheet Sliders */,
@@ -295,6 +298,7 @@
 				C51D624E2B68ABA1008C2157 /* SideMenuRowView.swift in Sources */,
 				753FE33B2B6BD83B00FE6A6A /* InboxListItemView.swift in Sources */,
 				75D66BB82B6E19D6009B3084 /* PaymentWithCardView.swift in Sources */,
+				C594B6972B791DD200F35C1E /* PickUpView.swift in Sources */,
 				753FE3372B6BBD6E00FE6A6A /* InboxHomeView.swift in Sources */,
 				75D66BB42B6E15F4009B3084 /* PaymentEmptyView.swift in Sources */,
 				75D8CA9B2B6D3DC4009BB4F9 /* PromoCardView.swift in Sources */,
@@ -302,6 +306,7 @@
 				753856692B73D5DC00FF5663 /* LocationView.swift in Sources */,
 				75D66BBD2B6E1F63009B3084 /* PrivacyAndSecurityEditView.swift in Sources */,
 				C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */,
+				C594B6992B791DDD00F35C1E /* DeliveryView.swift in Sources */,
 				C51D62A02B7035E5008C2157 /* TabBarView.swift in Sources */,
 				75D8CA992B6D3703009BB4F9 /* GiftCardsView.swift in Sources */,
 				75D66BBB2B6E1F43009B3084 /* PrivacyAndSecurityView.swift in Sources */,
