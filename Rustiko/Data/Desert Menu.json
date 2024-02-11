@@ -1,0 +1,72 @@
+[
+    {
+        "id": 124,
+        "name": "original cheesecake",
+        "price": 13,
+        "parent_category": "dessert",
+    },
+    {
+        "id": 125,
+        "name": "oreo cheesecake",
+        "price": 15,
+        "parent_category": "dessert",
+    },
+    {
+        "id": 126,
+        "name": "dulce de leche cheesecake",
+        "price": 15,
+        "parent_category": "dessert",
+    },
+    {
+        "id": 127,
+        "name": "nutella cheesecake",
+        "price": 15,
+        "parent_category": "dessert",
+    },
+    {
+        "id": 128,
+        "name": "chocolate mousse",
+        "price": 14,
+        "parent_category": "dessert",
+    },
+    {
+        "id": 129,
+        "name": "tiramisu",
+        "price": 14,
+        "parent_category": "dessert",
+    },
+    {
+        "id": 130,
+        "name": "créme brulee",
+        "price": 14,
+        "parent_category": "dessert",
+    },
+    {
+        "id": 131,
+        "name": "lava cake",
+        "price": 16,
+        "parent_category": "dessert",
+        "description": "with vanilla ice cream",
+    },
+    {
+        "id": 132,
+        "name": "hot chocolate chip cookie",
+        "price": 16,
+        "parent_category": "dessert",
+        "description": "with vanilla ice cream",
+    },
+    {
+        "id": 133,
+        "name": "brownie a la mode",
+        "price": 16,
+        "parent_category": "dessert",
+    },
+    {
+        "id": 134,
+        "name": "warm apple crumble",
+        "price": 16,
+        "parent_category": "dessert",
+        "description": "with vanilla ice cream",
+    },
+
+]
