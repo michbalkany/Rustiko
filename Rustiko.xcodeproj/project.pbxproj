@@ -217,10 +217,8 @@
 		C58B36642B6851A700BE085F /* Rustiko */ = {
 			isa = PBXGroup;
 			children = (
- HEAD
 
 				75E2CE4F2B769091005F3D52 /* Data */,
- development
 				C58B36652B6851A700BE085F /* RustikoApp.swift */,
 				C58B36672B6851A700BE085F /* ContentView.swift */,
 				753856672B73D5AD00FF5663 /* Location */,
