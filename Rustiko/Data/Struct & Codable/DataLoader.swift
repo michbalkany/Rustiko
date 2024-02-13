@@ -34,6 +34,9 @@ extension Bundle {
         // Assign JSONDecoder to variable
         let decoder = JSONDecoder()
         
+        // Set decoding strategy to convert from snake case
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        
         // Decode the data using Struct provided
         guard let loaded = try? decoder.decode(T.self, from: data) else {
             fatalError("Failed to decode \(file) from bundle.")
