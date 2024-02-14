@@ -8,7 +8,7 @@
 import Foundation
 
 // Published data to views that subscribe
-final class MenuData: ObservableObject {
+class MenuData: ObservableObject {
     // Published list of menu items of type Menu struct
     @Published var breakfast: [Menu] = Bundle.main.decode("Breakfast Menu.json")
     @Published var lunch: [Menu] = Bundle.main.decode("Lunch Menu.json")

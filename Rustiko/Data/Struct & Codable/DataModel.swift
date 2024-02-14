@@ -9,7 +9,6 @@ import Foundation
 import SwiftData
 
 
-
 // Class Struct For JSON Codable
 class Menu: Codable, Identifiable {
     // Non-optional Attributes

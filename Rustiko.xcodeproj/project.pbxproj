@@ -29,6 +29,7 @@
 		75D8CA992B6D3703009BB4F9 /* GiftCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8CA982B6D3703009BB4F9 /* GiftCardsView.swift */; };
 		75D8CA9B2B6D3DC4009BB4F9 /* PromoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8CA9A2B6D3DC4009BB4F9 /* PromoCardView.swift */; };
 		75D8CA9D2B6D43C9009BB4F9 /* RewardsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8CA9C2B6D43C9009BB4F9 /* RewardsCardView.swift */; };
+		75E64CE22B7D263A0019849E /* JSONViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E64CE12B7D263A0019849E /* JSONViewTest.swift */; };
 		C51D624E2B68ABA1008C2157 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D624D2B68ABA1008C2157 /* SideMenuRowView.swift */; };
 		C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */; };
 		C51D62A02B7035E5008C2157 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D629F2B7035E5008C2157 /* TabBarView.swift */; };
@@ -67,6 +68,7 @@
 		75D8CA982B6D3703009BB4F9 /* GiftCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardsView.swift; sourceTree = "<group>"; };
 		75D8CA9A2B6D3DC4009BB4F9 /* PromoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCardView.swift; sourceTree = "<group>"; };
 		75D8CA9C2B6D43C9009BB4F9 /* RewardsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsCardView.swift; sourceTree = "<group>"; };
+		75E64CE12B7D263A0019849E /* JSONViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONViewTest.swift; sourceTree = "<group>"; };
 		C51D624D2B68ABA1008C2157 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
 		C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionsModel.swift; sourceTree = "<group>"; };
 		C51D629F2B7035E5008C2157 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				7560B63D2B7A555100ADA62F /* DataModel.swift */,
 				7560B63F2B7A556E00ADA62F /* DataLoader.swift */,
+				75E64CE12B7D263A0019849E /* JSONViewTest.swift */,
 			);
 			path = "Struct & Codable";
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			files = (
 				75D66BB62B6E16BD009B3084 /* PaymentAddCardView.swift in Sources */,
 				C58B36742B6851FC00BE085F /* SideMenuView.swift in Sources */,
+				75E64CE22B7D263A0019849E /* JSONViewTest.swift in Sources */,
 				75D66BAE2B6DFD37009B3084 /* AccountPreferencesView.swift in Sources */,
 				75D66BB02B6E09A3009B3084 /* AccountPreferenceEditView.swift in Sources */,
 				75D8CA9D2B6D43C9009BB4F9 /* RewardsCardView.swift in Sources */,
