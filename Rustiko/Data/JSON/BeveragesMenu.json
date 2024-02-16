@@ -2,88 +2,90 @@
     {
         "id": 135,
         "name": "green lemonade",
-        "price": 7.50,
+        "price": 7.5,
         "parent_category": "beverages",
         "child_category": "juices & smoothies",
-        "description": "with mint leaves",
+        "description": "with mint leaves"
     },
     {
         "id": 136,
         "name": "tropi colada",
-        "price": 7.50,
+        "price": 7.5,
         "parent_category": "beverages",
         "child_category": "juices & smoothies",
-        "description": "pineapple, mango, and coconut cream",
+        "description": "pineapple, mango, and coconut cream"
     },
     {
         "id": 137,
         "name": "chill out",
-        "price": 7.50,
+        "price": 7.5,
         "parent_category": "beverages",
         "child_category": "juices & smoothies",
-        "description": "pineapple, passion fruit, and orange juice",    },
+        "description": "pineapple, passion fruit, and orange juice"
+    },
     {
         "id": 138,
         "name": "mango pilates",
-        "price": 7.50,
+        "price": 7.5,
         "parent_category": "beverages",
         "child_category": "juices & smoothies",
-        "description": "peach, mango and strawberry",
+        "description": "peach, mango and strawberry"
     },
     {
         "id": 139,
         "name": "anti cellulite",
-        "price": 7.50,
+        "price": 7.5,
         "parent_category": "beverages",
         "child_category": "juices & smoothies",
-        "description": "pineapple, cucumber & orange juice",
+        "description": "pineapple, cucumber & orange juice"
     },
     {
         "id": 140,
         "name": "passion mango",
-        "price": 8.50,
+        "price": 8.5,
         "parent_category": "beverages",
         "child_category": "juices & smoothies",
-        "description": "with passion fruit and yogurt",
+        "description": "with passion fruit and yogurt"
     },
     {
         "id": 141,
         "name": "banana yoga",
-        "price": 8.50,
+        "price": 8.5,
         "parent_category": "beverages",
         "child_category": "juices & smoothies",
-        "description": "strawberry, banana, mint & yogurt",
+        "description": "strawberry, banana, mint & yogurt"
     },
     {
         "id": 142,
         "name": "date blast",
-        "price": 8.50,
+        "price": 8.5,
         "parent_category": "beverages",
         "child_category": "juices & smoothies",
-        "description": "dates, banana, and yogurt",
+        "description": "dates, banana, and yogurt"
     },
     {
         "id": 143,
         "name": "peach mix",
-        "price": 8.50,
+        "price": 8.5,
         "parent_category": "beverages",
         "child_category": "juices & smoothies",
-        "description": "peach, mango, and coconut cream",
+        "description": "peach, mango, and coconut cream"
     },
     {
         "id": 144,
         "name": "strawberry fashion",
-        "price": 8.50,
+        "price": 8.5,
         "parent_category": "beverages",
         "child_category": "juices & smoothies",
-        "description": "strawberry, passion fruit, and yogurt",    },
+        "description": "strawberry, passion fruit, and yogurt"
+    },
     {
         "id": 145,
         "name": "baron herzog champagne brut",
         "price": 14,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "california glass",
+        "description": "california glass"
     },
     {
         "id": 146,
@@ -91,7 +93,7 @@
         "price": 49,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": " Bottle",
+        "description": " Bottle"
     },
     {
         "id": 147,
@@ -99,7 +101,7 @@
         "price": 13,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "california glass",
+        "description": "california glass"
     },
     {
         "id": 148,
@@ -107,7 +109,7 @@
         "price": 39,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 149,
@@ -115,7 +117,7 @@
         "price": 13,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "italy glass",
+        "description": "italy glass"
     },
     {
         "id": 150,
@@ -123,7 +125,7 @@
         "price": 39,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 151,
@@ -131,7 +133,7 @@
         "price": 13,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "california glass",
+        "description": "california glass"
     },
     {
         "id": 152,
@@ -139,7 +141,7 @@
         "price": 39,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 153,
@@ -147,7 +149,7 @@
         "price": 13,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "israel glass",
+        "description": "israel glass"
     },
     {
         "id": 154,
@@ -155,7 +157,7 @@
         "price": 39,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 155,
@@ -163,7 +165,7 @@
         "price": 19,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "israel glass",
+        "description": "israel glass"
     },
     {
         "id": 156,
@@ -171,7 +173,7 @@
         "price": 59,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 157,
@@ -179,7 +181,7 @@
         "price": 13,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "california glass",
+        "description": "california glass"
     },
     {
         "id": 158,
@@ -187,7 +189,7 @@
         "price": 39,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 159,
@@ -195,7 +197,7 @@
         "price": 17,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "new zealand glass",
+        "description": "new zealand glass"
     },
     {
         "id": 160,
@@ -203,97 +205,98 @@
         "price": 53,
         "parent_category": "beverages",
         "child_category": "white and rose",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 161,
         "name": "americano",
         "price": 3,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 162,
         "name": "latte",
         "price": 6,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 163,
         "name": "cappuccino",
         "price": 6,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 164,
         "name": "macchiato",
         "price": 4,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 165,
         "name": "espresso",
         "price": 4,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 166,
         "name": "cortadito",
         "price": 4,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",    },
+        "child_category": "coffee & tea bar"
+    },
     {
         "id": 167,
         "name": "iced coffee",
         "price": 6,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 168,
         "name": "iced tea",
         "price": 5,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 169,
         "name": "mojito iced tea",
         "price": 6,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 170,
         "name": "hot tea",
         "price": 5,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 171,
         "name": "nana tea",
         "price": 5,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 172,
         "name": "hot chocolate",
         "price": 6,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 173,
         "name": "chocolate milk",
         "price": 5,
         "parent_category": "beverages",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 174,
@@ -301,7 +304,7 @@
         "price": 13,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "california glass",
+        "description": "california glass"
     },
     {
         "id": 175,
@@ -309,7 +312,7 @@
         "price": 39,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 176,
@@ -317,7 +320,7 @@
         "price": 27,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "israel glass",
+        "description": "israel glass"
     },
     {
         "id": 177,
@@ -325,7 +328,7 @@
         "price": 86,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 178,
@@ -333,7 +336,7 @@
         "price": 17,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "israel glass",
+        "description": "israel glass"
     },
     {
         "id": 179,
@@ -341,7 +344,7 @@
         "price": 57,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 180,
@@ -349,7 +352,7 @@
         "price": 13,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "israel glass",
+        "description": "israel glass"
     },
     {
         "id": 181,
@@ -357,7 +360,7 @@
         "price": 39,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 182,
@@ -365,7 +368,7 @@
         "price": 13,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "israel glass",
+        "description": "israel glass"
     },
     {
         "id": 183,
@@ -373,7 +376,7 @@
         "price": 39,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 184,
@@ -381,7 +384,7 @@
         "price": 13,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "israel glass",
+        "description": "israel glass"
     },
     {
         "id": 185,
@@ -389,7 +392,7 @@
         "price": 39,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 186,
@@ -397,7 +400,7 @@
         "price": 15,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "spain glass",
+        "description": "spain glass"
     },
     {
         "id": 187,
@@ -405,7 +408,7 @@
         "price": 49,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 188,
@@ -413,7 +416,7 @@
         "price": 14,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "israel glass",
+        "description": "israel glass"
     },
     {
         "id": 189,
@@ -421,7 +424,7 @@
         "price": 39,
         "parent_category": "beverages",
         "child_category": "red wines",
-        "description": "bottle",
+        "description": "bottle"
     },
     {
         "id": 190,
@@ -429,7 +432,7 @@
         "price": 14,
         "parent_category": "beverages",
         "child_category": "cocktails",
-        "description": "glass",
+        "description": "glass"
     },
     {
         "id": 191,
@@ -437,7 +440,7 @@
         "price": 15,
         "parent_category": "beverages",
         "child_category": "cocktails",
-        "description": "glass",
+        "description": "glass"
     },
     {
         "id": 192,
@@ -445,7 +448,6 @@
         "price": 15,
         "parent_category": "beverages",
         "child_category": "cocktails",
-        "description": "glass",
-    },
-
+        "description": "glass"
+    }
 ]

@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct JSONViewTest: View {
-    @EnvironmentObject var menu: MenuData
-    
     var body: some View {
-//        Text(menu.breakfast[0].name)
-        Text("Sample")
+        // Beverages
+        Text("\(beverages[0].price)")
+        
+        // Breakfast
+        Text("\(breakfast[0].name)")
+        
+        // Dessert
+        Text("\(dessert[0].childCategory ?? "None")")
+        
+        // Dinner
+        Text("\(dinner[0].description ?? "None")")
+        
+        // Lunch
+        Text("\(lunch[0].id)")
+        
     }
 }
 

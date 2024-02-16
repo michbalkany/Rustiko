@@ -10,15 +10,11 @@ import SwiftData
 
 @main
 struct RustikoApp: App {
-    
-    @StateObject var menuData = MenuData()
-    
     var body: some Scene {
         WindowGroup {
 //            OrderView()
 //            AccountPreferencesView()
             JSONViewTest()
-                .environmentObject(menuData)
         }
         .modelContainer(for: SwiftDataMenuModel.self)
     }

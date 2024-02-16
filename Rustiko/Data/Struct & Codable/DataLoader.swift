@@ -7,42 +7,35 @@
 
 import Foundation
 
-// Published data to views that subscribe
-class MenuData: ObservableObject {
-    // Published list of menu items of type Menu struct
-    @Published var breakfast: [Menu] = Bundle.main.decode("Breakfast Menu.json")
-    @Published var lunch: [Menu] = Bundle.main.decode("Lunch Menu.json")
-    @Published var dinner: [Menu] = Bundle.main.decode("Dinner Menu.json")
-    @Published var dessert: [Menu] = Bundle.main.decode("Dessert Menu.json")
-    @Published var beverages: [Menu] = Bundle.main.decode("Beverages Menu.json")
-}
+// Variables that contain all JSON data. These can be accessed globally
+var beverages: [Menu] = load("BeveragesMenu.json")
+var breakfast: [Menu] = load("BreakfastMenu.json")
+var dessert: [Menu] = load("DessertMenu.json")
+var dinner: [Menu] = load("DinnerMenu.json")
+var lunch: [Menu] = load("LunchMenu.json")
 
 
-// Extension on Bundle for finding, loading and decoding JSON files to Swift Data types
-extension Bundle {
-    func decode<T: Codable>(_ file: String) -> T {
-        // Locate the file in the app bundle
-        guard let url = self.url(forResource: file, withExtension: nil) else {
-            fatalError("Failed to locate \(file) in bundle.")
-        }
-        
-        // Convert data to Swift Data types
-        guard let data = try? Data(contentsOf: url) else {
-            fatalError("Failed to load \(file) from bundle.")
-        }
-        
-        // Assign JSONDecoder to variable
+// Function for finding, loading and decoding JSON files to Swift Data types
+func load<T: Decodable>(_ filename: String) -> T {
+    let data: Data
+
+    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+        else {
+            fatalError("Couldn't find \(filename) in main bundle.")
+    }
+
+    do {
+        data = try Data(contentsOf: file)
+    } catch {
+        fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
+    }
+
+    do {
         let decoder = JSONDecoder()
-        
-        // Set decoding strategy to convert from snake case
         decoder.keyDecodingStrategy = .convertFromSnakeCase
         
-        // Decode the data using Struct provided
-        guard let loaded = try? decoder.decode(T.self, from: data) else {
-            fatalError("Failed to decode \(file) from bundle.")
-        }
-        
-        // Return the loaded Swift Data type data
-        return loaded
+        return try decoder.decode(T.self, from: data)
+    } catch {
+        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }

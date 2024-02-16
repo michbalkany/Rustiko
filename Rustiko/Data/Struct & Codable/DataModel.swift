@@ -10,20 +10,19 @@ import SwiftData
 
 
 // Class Struct For JSON Codable
-class Menu: Codable, Identifiable {
-    // Non-optional Attributes
+struct Menu: Identifiable, Codable {
+    // Non-optional Section
     let id: Int
     let name: String
-    let price: Int
+    let price: Double
     
-    // Optional Attributes
+    // Optional Section
     let parentCategory: String?
     let childCategory: String?
     let description: String?
     let options: Choices?
     let addOn: Additions?
 
-    // For Menu items with different accompaniments
     struct Choices: Codable {
         let first: String
         let second: String
@@ -31,7 +30,6 @@ class Menu: Codable, Identifiable {
         let fourth: String
     }
     
-    // For menu items with extra add ons that are paid for
     struct Additions: Codable {
         let addOnItem: String
         let addOnPrice: Double
