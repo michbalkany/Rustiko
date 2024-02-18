@@ -29,7 +29,28 @@ struct TabBarView: View {
     
     var body: some View {
         NavigationStack {
-            Text("Hello World")
+            Text("hello")
+//            TabView {
+//                InboxHomeView()
+//                    .tabItem {
+//                        Label("Inbox", systemImage: "envelope")
+//                    }
+//                
+//                OrderView()
+//                    .tabItem {
+//                        Label("Order", systemImage: "bag")
+//                    }
+//                
+//                TabBarView(filter: .reserve)
+//                    .tabItem {
+//                        Label("Reserve", systemImage: "fork.knife")
+//                    }
+//                
+//                TabBarView(filter: .help)
+//                    .tabItem {
+//                        Label("Help", systemImage: "bubble.left.and.bubble.right")
+//                    }
+//            }
                 .navigationTitle(title)
         }
     }
