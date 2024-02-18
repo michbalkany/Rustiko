@@ -5,7 +5,7 @@
         "price": 22,
         "parent_category": "lunch",
         "child_category": "small plates",
-        "description": "with tomato chunks, sour cream and corn tortilla chips",
+        "description": "with tomato chunks, sour cream and corn tortilla chips"
     },
     {
         "id": 52,
@@ -13,7 +13,7 @@
         "price": 17,
         "parent_category": "lunch",
         "child_category": "small plates",
-        "description": "fried dough cheese fingers served with honey-dijon sauce",
+        "description": "fried dough cheese fingers served with honey-dijon sauce"
     },
     {
         "id": 53,
@@ -21,7 +21,7 @@
         "price": 26,
         "parent_category": "lunch",
         "child_category": "small plates",
-        "description": "with sweet chilli sauce",
+        "description": "with sweet chilli sauce"
     },
     {
         "id": 54,
@@ -29,7 +29,7 @@
         "price": 21,
         "parent_category": "lunch",
         "child_category": "small plates",
-        "description": "raw tuna, arugula, wasabi-mayo, soy-sesame ponzu and peanuts",
+        "description": "raw tuna, arugula, wasabi-mayo, soy-sesame ponzu and peanuts"
     },
     {
         "id": 55,
@@ -37,7 +37,7 @@
         "price": 22,
         "parent_category": "lunch",
         "child_category": "small plates",
-        "description": "raw salmon, radish, arugula, with cilantro mayo",
+        "description": "raw salmon, radish, arugula, with cilantro mayo"
     },
     {
         "id": 56,
@@ -45,7 +45,7 @@
         "price": 23,
         "parent_category": "lunch",
         "child_category": "small plates",
-        "description": "breaded eggplant with tomato sauce, arugula and mozzarella cheese",
+        "description": "breaded eggplant with tomato sauce, arugula and mozzarella cheese"
     },
     {
         "id": 57,
@@ -53,7 +53,7 @@
         "price": 20,
         "parent_category": "lunch",
         "child_category": "small plates",
-        "description": "avocado spread, tomatoes, mix greens and zataar mayo with a side of house salad",
+        "description": "avocado spread, tomatoes, mix greens and zataar mayo with a side of house salad"
     },
     {
         "id": 58,
@@ -61,7 +61,7 @@
         "price": 20,
         "parent_category": "lunch",
         "child_category": "small plates",
-        "description": "served with your choice of fries, soup or salad",
+        "description": "served with your choice of fries, soup or salad"
     },
     {
         "id": 59,
@@ -69,7 +69,7 @@
         "price": 24,
         "parent_category": "lunch",
         "child_category": "from the woods",
-        "description": "roasted tomatoes, mozzarella, smoke gouda and pesto",
+        "description": "roasted tomatoes, mozzarella, smoke gouda and pesto"
     },
     {
         "id": 60,
@@ -77,7 +77,7 @@
         "price": 24,
         "parent_category": "lunch",
         "child_category": "from the woods",
-        "description": "tomato sauce, mozzarella, mushrooms and caramelized onions",
+        "description": "tomato sauce, mozzarella, mushrooms and caramelized onions"
     },
     {
         "id": 61,
@@ -85,7 +85,7 @@
         "price": 25,
         "parent_category": "lunch",
         "child_category": "from the woods",
-        "description": "mozzarella, goat cheese, chives, sweet red peppers and roasted tomatoes",
+        "description": "mozzarella, goat cheese, chives, sweet red peppers and roasted tomatoes"
     },
     {
         "id": 62,
@@ -93,7 +93,7 @@
         "price": 25,
         "parent_category": "lunch",
         "child_category": "from the woods",
-        "description": "with creamy-tomato sauce mozzarella and an over-easy egg",
+        "description": "with creamy-tomato sauce mozzarella and an over-easy egg"
     },
     {
         "id": 63,
@@ -101,14 +101,14 @@
         "price": 25,
         "parent_category": "lunch",
         "child_category": "from the woods",
-        "description": "creamy base, mixed mushrooms, mozzarella and a drizzle of truffle oil",
+        "description": "creamy base, mixed mushrooms, mozzarella and a drizzle of truffle oil"
     },
     {
         "id": 64,
         "name": "tomato soup",
         "price": 13,
         "parent_category": "lunch",
-        "child_category": "soup",
+        "child_category": "soup"
     },
     {
         "id": 65,
@@ -116,14 +116,15 @@
         "price": 14,
         "parent_category": "lunch",
         "child_category": "soup",
-        "description": "with sliced bread au gratin",    },
+        "description": "with sliced bread au gratin"
+    },
     {
         "id": 66,
         "name": "impossible lasagna",
         "price": 27,
         "parent_category": "lunch",
         "child_category": "large plates",
-        "description": "layers pasta, impossible meat and cheese with tomato sauce au gratin",
+        "description": "layers pasta, impossible meat and cheese with tomato sauce au gratin"
     },
     {
         "id": 67,
@@ -131,7 +132,7 @@
         "price": 27,
         "parent_category": "lunch",
         "child_category": "large plates",
-        "description": "with tomato sauce, pesto, mozzarella and feta cheese",
+        "description": "with tomato sauce, pesto, mozzarella and feta cheese"
     },
     {
         "id": 68,
@@ -139,7 +140,7 @@
         "price": 26,
         "parent_category": "lunch",
         "child_category": "large plates",
-        "description": "with creamy tomato sauce and fresh basil",
+        "description": "with creamy tomato sauce and fresh basil"
     },
     {
         "id": 69,
@@ -147,7 +148,7 @@
         "price": 26,
         "parent_category": "lunch",
         "child_category": "large plates",
-        "description": "tomato sauce, eggplant, goat cheese and black olives",
+        "description": "tomato sauce, eggplant, goat cheese and black olives"
     },
     {
         "id": 70,
@@ -155,7 +156,7 @@
         "price": 29,
         "parent_category": "lunch",
         "child_category": "large plates",
-        "description": "mixed mushrooms with parmesan cheese in a creamy sauce",
+        "description": "mixed mushrooms with parmesan cheese in a creamy sauce"
     },
     {
         "id": 71,
@@ -163,7 +164,7 @@
         "price": 27,
         "parent_category": "lunch",
         "child_category": "large plates",
-        "description": "with caramelized onions, tomatoes, mayo-pesto, Swiss cheese and sweet potato fries",
+        "description": "with caramelized onions, tomatoes, mayo-pesto, Swiss cheese and sweet potato fries"
     },
     {
         "id": 72,
@@ -171,7 +172,7 @@
         "price": 29,
         "parent_category": "lunch",
         "child_category": "large plates",
-        "description": "our homemade salmon patty, tomatoes, lettuce, and house mayo, served with french fries",
+        "description": "our homemade salmon patty, tomatoes, lettuce, and house mayo, served with french fries"
     },
     {
         "id": 73,
@@ -179,7 +180,7 @@
         "price": 28,
         "parent_category": "lunch",
         "child_category": "large plates",
-        "description": "crispy hand-battered fish fingers, with coleslaw, french fries and zataar mayo",
+        "description": "crispy hand-battered fish fingers, with coleslaw, french fries and zataar mayo"
     },
     {
         "id": 74,
@@ -187,7 +188,7 @@
         "price": 39,
         "parent_category": "lunch",
         "child_category": "large plates",
-        "description": "seared over eggplant puree with lentil salad, cherry tomatoes, and arugula",
+        "description": "seared over eggplant puree with lentil salad, cherry tomatoes, and arugula"
     },
     {
         "id": 75,
@@ -195,7 +196,7 @@
         "price": 40,
         "parent_category": "lunch",
         "child_category": "large plates",
-        "description": "with creamy pesto fettuccine",
+        "description": "with creamy pesto fettuccine"
     },
     {
         "id": 76,
@@ -203,7 +204,7 @@
         "price": 44,
         "parent_category": "lunch",
         "child_category": "large plates",
-        "description": "in butter lemon sauce with sautéed potatoes and pearl onions",
+        "description": "in butter lemon sauce with sautéed potatoes and pearl onions"
     },
     {
         "id": 77,
@@ -211,7 +212,7 @@
         "price": 20,
         "parent_category": "lunch",
         "child_category": "salads",
-        "description": "with spinach, goat cheese, golden and red beets, sunflower seeds and lemon-balsamic vinaigrette",
+        "description": "with spinach, goat cheese, golden and red beets, sunflower seeds and lemon-balsamic vinaigrette"
     },
     {
         "id": 78,
@@ -219,7 +220,7 @@
         "price": 20,
         "parent_category": "lunch",
         "child_category": "salads",
-        "description": "romaine lettuce with garlic croutons, fakon and parmesan cheese",
+        "description": "romaine lettuce with garlic croutons, fakon and parmesan cheese"
     },
     {
         "id": 79,
@@ -227,21 +228,23 @@
         "price": 21,
         "parent_category": "lunch",
         "child_category": "salads",
-        "description": "cherry tomatoes, arugula, fresh mozzarella with balsamic vinaigrette",    },
+        "description": "cherry tomatoes, arugula, fresh mozzarella with balsamic vinaigrette"
+    },
     {
         "id": 80,
         "name": "kale and roasted sweet potato salad",
         "price": 22,
         "parent_category": "lunch",
         "child_category": "salads",
-        "description": "with mix greens, feta cheese, cranberry and almond with honey mustard dressing",    },
+        "description": "with mix greens, feta cheese, cranberry and almond with honey mustard dressing"
+    },
     {
         "id": 81,
         "name": "pear and parmesan salad",
         "price": 22,
         "parent_category": "lunch",
         "child_category": "salads",
-        "description": "with arugula, parmesan cheese, roasted almonds and asian pear sliced, with honey mustard dressing",
+        "description": "with arugula, parmesan cheese, roasted almonds and asian pear sliced, with honey mustard dressing"
     },
     {
         "id": 82,
@@ -249,7 +252,7 @@
         "price": 22,
         "parent_category": "lunch",
         "child_category": "salads",
-        "description": "mix greens, smoked salmon, mango dices, and crispy leek with passion fruit vinaigrette",
+        "description": "mix greens, smoked salmon, mango dices, and crispy leek with passion fruit vinaigrette"
     },
     {
         "id": 83,
@@ -257,6 +260,6 @@
         "price": 20,
         "parent_category": "lunch",
         "child_category": "salads",
-        "description": "mix greens, cherry tomatoes, cucumber, hearts of palm, corn with house dressing",
-    },
+        "description": "mix greens, cherry tomatoes, cucumber, hearts of palm, corn with house dressing"
+    }
 ]

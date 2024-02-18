@@ -6,13 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct RustikoApp: App {
     var body: some Scene {
         WindowGroup {
-            OrderView()
+//            OrderView()
 //            AccountPreferencesView()
+            JSONViewTest()
         }
+        .modelContainer(for: SwiftDataMenuModel.self)
     }
 }

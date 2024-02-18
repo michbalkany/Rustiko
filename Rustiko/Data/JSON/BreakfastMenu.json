@@ -4,76 +4,77 @@
         "name": "tequeños",
         "price": 17,
         "parent_category": "breakfast",
-        "child_category": "appetizers",
+        "child_category": "appetizers"
     },
     {
         "id": 2,
         "name": "potato puff",
         "price": 10,
         "parent_category": "breakfast",
-        "child_category": "appetizers",
+        "child_category": "appetizers"
     },
     {
         "id": 3,
         "name": "french fries",
         "price": 8,
         "parent_category": "breakfast",
-        "child_category": "appetizers",
+        "child_category": "appetizers"
     },
     {
         "id": 4,
         "name": "sweet potatoe fries",
         "price": 8,
         "parent_category": "breakfast",
-        "child_category": "appetizers",
+        "child_category": "appetizers"
     },
     {
         "id": 5,
         "name": "crispy cauliflower",
         "price": 26,
         "parent_category": "breakfast",
-        "child_category": "appetizers",
+        "child_category": "appetizers"
     },
     {
         "id": 6,
         "name": "croissant",
         "price": 5,
         "parent_category": "breakfast",
-        "child_category": "bakery",
+        "child_category": "bakery"
     },
     {
         "id": 7,
         "name": "croissant caprese",
         "price": 7,
         "parent_category": "breakfast",
-        "child_category": "bakery",
+        "child_category": "bakery"
     },
     {
         "id": 8,
         "name": "pain aux chocolate",
-        "price": 6.50,
+        "price": 6.5,
         "parent_category": "breakfast",
-        "child_category": "bakery",
+        "child_category": "bakery"
     },
     {
         "id": 9,
         "name": "cookies",
         "price": 4,
         "parent_category": "breakfast",
-        "child_category": "bakery",
+        "child_category": "bakery"
     },
     {
         "id": 10,
         "name": "muffins",
         "price": 5,
         "parent_category": "breakfast",
-        "child_category": "bakery",    },
+        "child_category": "bakery"
+    },
     {
         "id": 11,
         "name": "cookies box",
         "price": 12,
         "parent_category": "breakfast",
-        "child_category": "bakery",
+        "child_category": "bakery"
     },
     {
         "id": 12,
@@ -81,7 +82,7 @@
         "price": 16,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "2 eggs with bell peppers and tomato ragu",
+        "description": "2 eggs with bell peppers and tomato ragu"
     },
     {
         "id": 13,
@@ -89,7 +90,7 @@
         "price": 17,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "swiss cheese, mushroom and caramelized onions",
+        "description": "swiss cheese, mushroom and caramelized onions"
     },
     {
         "id": 14,
@@ -97,7 +98,7 @@
         "price": 17,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "with cherry tomatoes, avocado spread and spinach",
+        "description": "with cherry tomatoes, avocado spread and spinach"
     },
     {
         "id": 15,
@@ -105,7 +106,7 @@
         "price": 17,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "with arugula, roasted peppers and zucchini",
+        "description": "with arugula, roasted peppers and zucchini"
     },
     {
         "id": 16,
@@ -127,7 +128,7 @@
         "price": 15,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "cheddar and swiss cheese sandwich served with a side of house salad",
+        "description": "cheddar and swiss cheese sandwich served with a side of house salad"
     },
     {
         "id": 18,
@@ -135,7 +136,7 @@
         "price": 17,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "tuna salad, cherry tomatoes, avocado spread, mix green over toasted belgian bread",
+        "description": "tuna salad, cherry tomatoes, avocado spread, mix green over toasted belgian bread"
     },
     {
         "id": 19,
@@ -155,7 +156,7 @@
         "price": 18,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "spinach, mushrooms, sunny side up egg and swiss cheese",
+        "description": "spinach, mushrooms, sunny side up egg and swiss cheese"
     },
     {
         "id": 21,
@@ -163,7 +164,7 @@
         "price": 18,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "smoked salmon, cream cheese, arugula, red onions and baby cappers",
+        "description": "smoked salmon, cream cheese, arugula, red onions and baby cappers"
     },
     {
         "id": 22,
@@ -171,7 +172,7 @@
         "price": 14,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "with maple syrup",
+        "description": "with maple syrup"
     },
     {
         "id": 23,
@@ -179,7 +180,7 @@
         "price": 15,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "with bananas and powder sugar",
+        "description": "with bananas and powder sugar"
     },
     {
         "id": 24,
@@ -187,7 +188,7 @@
         "price": 16,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "classic triangle-shaped slices topped with a sprinkle of powder sugar and cinnamon",
+        "description": "classic triangle-shaped slices topped with a sprinkle of powder sugar and cinnamon"
     },
     {
         "id": 25,
@@ -195,7 +196,7 @@
         "price": 12,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "with granola and fruits",
+        "description": "with granola and fruits"
     },
     {
         "id": 26,
@@ -203,7 +204,7 @@
         "price": 11,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "served with milk and choice of fruit",
+        "description": "served with milk and choice of fruit"
     },
     {
         "id": 27,
@@ -211,7 +212,7 @@
         "price": 20,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "mix greens, corn, cherry tomatoes, cucumber, hearts of palm with house dressing",
+        "description": "mix greens, corn, cherry tomatoes, cucumber, hearts of palm with house dressing"
     },
     {
         "id": 28,
@@ -219,166 +220,168 @@
         "price": 20,
         "parent_category": "breakfast",
         "child_category": "menu",
-        "description": "romaine lettuce, garlic croutons, fakon and parmesan cheese",
+        "description": "romaine lettuce, garlic croutons, fakon and parmesan cheese"
     },
     {
         "id": 29,
         "name": "americano",
         "price": 3,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 30,
         "name": "capuccino",
         "price": 6,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 31,
         "name": "espresso",
         "price": 4,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 32,
         "name": "iced coffee",
         "price": 6,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 33,
         "name": "hot tea",
         "price": 5,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 34,
         "name": "hot chocolate",
         "price": 6,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 35,
         "name": "frozen capuccino",
         "price": 7,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 36,
         "name": "latte",
         "price": 6,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",    },
+        "child_category": "coffee & tea bar"
+    },
     {
         "id": 37,
         "name": "macciatto",
         "price": 4,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 38,
         "name": "cortadito",
         "price": 4,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 39,
         "name": "iced tea",
         "price": 5,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 40,
         "name": "nana tea",
         "price": 5,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 41,
         "name": "chocolate milk",
         "price": 5,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 42,
         "name": "milkshake",
         "price": 9,
         "parent_category": "breakfast",
-        "child_category": "coffee & tea bar",
+        "child_category": "coffee & tea bar"
     },
     {
         "id": 43,
         "name": "green lemonade",
-        "price": 7.50,
+        "price": 7.5,
         "parent_category": "breakfast",
         "child_category": "juices & smoothies",
-        "description": "with mint leaves",
+        "description": "with mint leaves"
     },
     {
         "id": 44,
         "name": "tropi colada",
-        "price": 7.50,
+        "price": 7.5,
         "parent_category": "breakfast",
         "child_category": "juices & smoothies",
-        "description": "pineapple, mango, and coconut cream",
+        "description": "pineapple, mango, and coconut cream"
     },
     {
         "id": 45,
         "name": "chill out",
-        "price": 7.50,
+        "price": 7.5,
         "parent_category": "breakfast",
         "child_category": "juices & smoothies",
-        "description": "pineapple, passion fruit, and orange juice",
+        "description": "pineapple, passion fruit, and orange juice"
     },
     {
         "id": 46,
         "name": "mango pilates",
-        "price": 7.50,
+        "price": 7.5,
         "parent_category": "breakfast",
         "child_category": "juices & smoothies",
-        "description": "mango and strawberry",
+        "description": "mango and strawberry"
     },
     {
         "id": 47,
         "name": "anti cellulite",
-        "price": 7.50,
+        "price": 7.5,
         "parent_category": "breakfast",
         "child_category": "juices & smoothies",
-        "description": "pineapple, cucumber, and orange juice",
+        "description": "pineapple, cucumber, and orange juice"
     },
     {
         "id": 48,
         "name": "passion mango",
-        "price": 8.50,
+        "price": 8.5,
         "parent_category": "breakfast",
         "child_category": "juices & smoothies",
-        "description": "with passion fruit and yogurt",    },
+        "description": "with passion fruit and yogurt"
+    },
     {
         "id": 49,
         "name": "banana yoga",
-        "price": 8.50,
+        "price": 8.5,
         "parent_category": "breakfast",
         "child_category": "juices & smoothies",
-        "description": "strawberry, banana, mint and yogurt",
+        "description": "strawberry, banana, mint and yogurt"
     },
     {
         "id": 50,
         "name": "date blast",
-        "price": 8.50,
+        "price": 8.5,
         "parent_category": "breakfast",
         "child_category": "juices & smoothies",
-        "description": "dates, banana, and yogurt",
-    },
+        "description": "dates, banana, and yogurt"
+    }
 ]
