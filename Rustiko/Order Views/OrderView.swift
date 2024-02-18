@@ -18,17 +18,8 @@ struct OrderView: View {
     ]
     
     var body: some View {
-//        ScrollView(.horizontal) {
-//            LazyHStack {
-//                
-//                ForEach(0...5, id: \.self) { i in
-//                Circle()
-//                    .frame(width: 75, height: 75)
-//                        
-//                }
-//            }
-//        }
-        VStack(alignment: .leading) {
+        
+        VStack(alignment: .center) {
             Text("Menu")
                 .font(.title2)
                 .fontWeight(.semibold)
@@ -39,11 +30,16 @@ struct OrderView: View {
                 
                 VStack(spacing: 24) {
                     ForEach(foodImages, id:\.self) {foodImage in
-                        VStack(alignment: .leading, spacing: 15) {
+                        VStack(alignment: .trailing, spacing: 15) {
+                            Button {
+                                // plus button tapped
+                            } label: {
+                                Image(systemName: "plus")
+                            }
                             Image(foodImage)
                                 .resizable()
                                 .scaledToFill()
-                                .frame(width: 360, height: 150)
+                                .frame(width: 200, height: 150)
                                 .cornerRadius(10)
                             
                             VStack(alignment: .leading, spacing: 10) {
@@ -71,6 +67,8 @@ struct OrderView: View {
                 }
             }
         }
+        
+        
     }
 }
 

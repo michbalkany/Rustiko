@@ -14,12 +14,12 @@ struct ContentView: View {
     var body: some View {
         
             TabView {
-                TabBarView(filter: .inbox)
+                InboxHomeView()
                     .tabItem {
                         Label("Inbox", systemImage: "envelope")
                     }
                 
-                TabBarView(filter: .order)
+                OrderView()
                     .tabItem {
                         Label("Order", systemImage: "bag")
                     }

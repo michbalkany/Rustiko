@@ -41,6 +41,7 @@
 		C58B36762B68523000BE085F /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36752B68523000BE085F /* SideMenuHeaderView.swift */; };
 		C594B6972B791DD200F35C1E /* PickUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594B6962B791DD200F35C1E /* PickUpView.swift */; };
 		C594B6992B791DDD00F35C1E /* DeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594B6982B791DDD00F35C1E /* DeliveryView.swift */; };
+		C5F271942B824C0D0014370F /* ScrollingOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F271932B824C0D0014370F /* ScrollingOptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		C58B36752B68523000BE085F /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
 		C594B6962B791DD200F35C1E /* PickUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpView.swift; sourceTree = "<group>"; };
 		C594B6982B791DDD00F35C1E /* DeliveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryView.swift; sourceTree = "<group>"; };
+		C5F271932B824C0D0014370F /* ScrollingOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingOptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				C51D62A42B70842A008C2157 /* OrderView.swift */,
 				C594B6962B791DD200F35C1E /* PickUpView.swift */,
 				C594B6982B791DDD00F35C1E /* DeliveryView.swift */,
+				C5F271932B824C0D0014370F /* ScrollingOptionView.swift */,
 			);
 			path = "Order Views";
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				753FE33B2B6BD83B00FE6A6A /* InboxListItemView.swift in Sources */,
 				75D66BB82B6E19D6009B3084 /* PaymentWithCardView.swift in Sources */,
 				C594B6972B791DD200F35C1E /* PickUpView.swift in Sources */,
+				C5F271942B824C0D0014370F /* ScrollingOptionView.swift in Sources */,
 				753FE3372B6BBD6E00FE6A6A /* InboxHomeView.swift in Sources */,
 				75D66BB42B6E15F4009B3084 /* PaymentEmptyView.swift in Sources */,
 				75D8CA9B2B6D3DC4009BB4F9 /* PromoCardView.swift in Sources */,
