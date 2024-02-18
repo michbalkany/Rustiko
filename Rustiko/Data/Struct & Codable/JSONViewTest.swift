@@ -24,6 +24,8 @@ struct JSONViewTest: View {
         // Lunch
         Text("\(lunch[0].id)")
         
+        // Breakfast
+        Text("\(beverages[43].description ?? "Something else")")
     }
 }
 
