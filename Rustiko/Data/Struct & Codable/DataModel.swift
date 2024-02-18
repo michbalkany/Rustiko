@@ -10,7 +10,16 @@ import SwiftData
 
 
 // Class Struct For JSON Codable
-struct Menu: Identifiable, Codable {
+struct Menu: Identifiable, Codable, Hashable {
+    
+    static func == (lhs: Menu, rhs: Menu) -> Bool {
+        return lhs.id == rhs.id && lhs.name == rhs.name
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
     // Non-optional Section
     let id: Int
     let name: String
