@@ -8,37 +8,50 @@
 import SwiftUI
 
 struct ScrollingOptionView: View {
+    
+    
     let scrollList = [
-    "Featured",
-    "All day breakfast",
-    "Lunch",
-    "Appetizers",
-    "Coffee & Tea",
-    "Bakery",
-    "Salads",
-    "Plates",
-    "Sandwiches & Wraps",
-    "Cold beverages",
-    "Sauces & Sides",
-    "Desserts"
+        beverages,
+        breakfast,
+        dinner,
+        dessert,
+        lunch
     ]
     
     var body: some View {
-        
+        //        Text("hello")
         ScrollView(.horizontal) {
-                  LazyHStack {
-      
-                      ForEach(0...11, id: \.self) { i in
-                      Circle()
-                          .frame(width: 75, height: 75)
-      
-                      }
-                      
-                  }
-              }
-        
+            LazyHStack {
+                ForEach(scrollList, id: \.self) { item in
+                    NavigationLink(value: item) {
+                        // lorem ipsum
+                        VStack {
+                            Circle()
+                                .frame(width: 75, height: 75)
+                            Button {
+                                // something
+                            } label: {
+                                Text(String("\(item[0].parentCategory ?? "None")"))
+                            }
+                            ForEach(item, id: \.self) { menu in
+                                NavigationLink(value: menu) {
+                                    
+                                    Text(menu.name)
+                                   
+                                    
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            
+        }
     }
+    
 }
+
 
 #Preview {
     ScrollingOptionView()

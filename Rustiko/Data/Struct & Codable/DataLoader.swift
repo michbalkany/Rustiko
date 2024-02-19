@@ -16,7 +16,7 @@ var lunch: [Menu] = load("LunchMenu.json")
 
 
 // Function for finding, loading and decoding JSON files to Swift Data types
-func load<T: Decodable>(_ filename: String) -> T {
+func load<T: Codable>(_ filename: String) -> T {
     let data: Data
 
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)

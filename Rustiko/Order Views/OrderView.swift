@@ -29,7 +29,7 @@ struct OrderView: View {
                 
                 
                 VStack(spacing: 24) {
-                    ForEach(foodImages, id:\.self) {foodImage in
+                    ForEach(foodImages, id:\.self) { foodImage in
                         VStack(alignment: .trailing, spacing: 15) {
                             Button {
                                 // plus button tapped
