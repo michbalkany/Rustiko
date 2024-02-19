@@ -21,3 +21,6 @@ struct MenuTest: View {
 #Preview {
     MenuTest(menu: beverages)
 }
+
+
+// test view for menu items
