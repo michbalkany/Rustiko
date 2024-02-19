@@ -13,12 +13,22 @@ import SwiftData
 struct Menu: Identifiable, Codable, Hashable {
     
     static func == (lhs: Menu, rhs: Menu) -> Bool {
+<<<<<<< HEAD
             return lhs.id == rhs.id && lhs.name == rhs.name
         }
         
         func hash(into hasher: inout Hasher) {
             hasher.combine(id)
         }
+=======
+        return lhs.id == rhs.id && lhs.name == rhs.name
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
+>>>>>>> 26e2d96db999fc5e09b64f289cd7e58a76d64166
     // Non-optional Section
     let id: Int
     let name: String
