@@ -13,14 +13,12 @@ import SwiftData
 struct Menu: Identifiable, Codable, Hashable {
     
     static func == (lhs: Menu, rhs: Menu) -> Bool {
-            return lhs.id == rhs.id && lhs.name == rhs.name
-        }
-
+        return lhs.id == rhs.id && lhs.name == rhs.name
+    }
+    
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
     }
-    
-
     // Non-optional Section
     let id: Int
     let name: String
@@ -32,7 +30,7 @@ struct Menu: Identifiable, Codable, Hashable {
     let description: String?
     let options: Choices?
     let addOn: Additions?
-
+    
     struct Choices: Codable {
         let first: String
         let second: String
@@ -62,7 +60,7 @@ class SwiftDataMenuModel {
     let menuDescription: String?
     let options: Choices?
     let addOn: Additions?
-
+    
     // For Menu items with different accompaniments
     // Set Codable & Hashable to Choices struct to conform to Persistent Model in Swift Data
     struct Choices: Codable, Hashable {
