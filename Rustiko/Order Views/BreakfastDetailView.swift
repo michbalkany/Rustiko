@@ -1,28 +1,24 @@
 //
-//  MenuTest.swift
+//  BreakfastDetailView.swift
 //  Rustiko
 //
-//  Created by Micah Njeru on 19/02/2024.
+//  Created by Mich balkany on 2/21/24.
 //
 
 import SwiftUI
 
-struct MenuTest: View {
-//    let drinkImages = [
-//    "Fresh-juice",
-//    "latte-coffe-cup",
-//    "milkshake"
-//    ]
-    var menu: [Menu]
+struct BreakfastDetailView: View {
+//    let breakfasts: [Menu]
+    var breakfast: [Menu]
+    
     var body: some View {
-        
         
         List {
             
             // Appetizers section
             
             Section(header: Text("Appetizers")) {
-                ForEach(menu, id: \.self) { sample in
+                ForEach(breakfast, id: \.self) { sample in
                     if sample.childCategory == "appetizers" {
                         VStack(alignment: .leading) {
                             Image ( "Brown-bun-burger")
@@ -41,7 +37,7 @@ struct MenuTest: View {
             
             // Bakery section
             Section(header: Text("Bakery")) {
-                ForEach(menu, id: \.self) { sample in
+                ForEach(breakfast, id: \.self) { sample in
                     if sample.childCategory == "bakery" {
                         VStack {
                             // image section
@@ -60,7 +56,7 @@ struct MenuTest: View {
             
             // Main menu Section
             Section(header: Text("Main")) {
-                ForEach(menu, id: \.self) { sample in
+                ForEach(breakfast, id: \.self) { sample in
                     if sample.childCategory == "menu" {
                         VStack {
                             Image ("kebab-plate")
@@ -80,7 +76,7 @@ struct MenuTest: View {
             
             // coffe and tea bar Section
             Section(header: Text("coffee & tea bar")) {
-                ForEach(menu, id: \.self) { sample in
+                ForEach(breakfast, id: \.self) { sample in
                     if sample.childCategory == "coffee & tea bar" {
                         VStack {
                             Image ("latte-coffee-cup")
@@ -100,7 +96,7 @@ struct MenuTest: View {
             // Juices & Smoothies header
             
             Section(header: Text("Juices & smoothies")) {
-                ForEach(menu, id: \.self) { sample in
+                ForEach(breakfast, id: \.self) { sample in
                     if sample.childCategory == "juices & smoothies" {
                         VStack(alignment: .leading) {
                             Image ( "milkshake")
@@ -120,18 +116,5 @@ struct MenuTest: View {
 }
 
 #Preview {
-    MenuTest(menu: breakfast)
+    BreakfastDetailView(breakfast: breakfast)
 }
-
-
-// test view for menu items
-
-
-// i am trying to make sections inbetween each child catagory.
-
-// /List(beverages, id: \.self) { sample in
-//    Section(sample.parentCategory ?? "none") {
-//        ForEach(Menu(sample.childCategory ?? "none"), id: \.self) { bevy in
-//            Text("\(beverages[bevy])")
-//        }
-//    }

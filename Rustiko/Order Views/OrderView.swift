@@ -20,14 +20,13 @@ struct OrderView: View {
     var body: some View {
         
         VStack(alignment: .center) {
+            ScrollingOptionView()
             Text("Menu")
                 .font(.title2)
                 .fontWeight(.semibold)
                 .padding()
             
             ScrollView {
-                
-                
                 VStack(spacing: 24) {
                     ForEach(foodImages, id:\.self) { foodImage in
                         VStack(alignment: .trailing, spacing: 15) {
@@ -43,7 +42,6 @@ struct OrderView: View {
                                 .cornerRadius(10)
                             
                             VStack(alignment: .leading, spacing: 10) {
-                                
                                 HStack {
                                     Text("Breakfast Special")
                                     
