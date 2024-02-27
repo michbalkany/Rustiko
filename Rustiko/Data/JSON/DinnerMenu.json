@@ -1,329 +1,282 @@
 [
     {
-        "id": 84,
-        "name": "goat cheese bites",
-        "price": 19,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "with marinara sauce and pesto"
+        "id": 12,
+        "menu": "dinner",
+        "category": "small plates",
+        "item": [
+            {
+                "id": 84,
+                "name": "goat cheese bites",
+                "price": 19,
+                "description": "with marinara sauce and pesto"
+            },
+            {
+                "id": 85,
+                "name": "spinach and artichokes dip",
+                "price": 22,
+                "description": "with tomato chunks sauce, sour cream and corn tortilla chips"
+            },
+            {
+                "id": 86,
+                "name": "fancy sweet corn",
+                "price": 19,
+                "description": "grilled with lemon soy butter, sweet sauce and a touch of spicy"
+            },
+            {
+                "id": 87,
+                "name": "tequeños",
+                "price": 17,
+                "description": "fried dough cheese fingers served with honey-dijon sauce"
+            },
+            {
+                "id": 88,
+                "name": "crispy cauliflower",
+                "price": 26,
+                "description": "with sweet chilli sauce"
+            },
+            {
+                "id": 89,
+                "name": "quinotto",
+                "price": 25,
+                "description": "creamy quinoa, mixed mushrooms with a drizzle of truffle oil"
+            },
+            {
+                "id": 90,
+                "name": "crispy mini taco",
+                "price": 19,
+                "description": "raw salmon tartar, guacamole and sesame seeds"
+            },
+            {
+                "id": 91,
+                "name": "tuna pizzeta carpaccio",
+                "price": 21,
+                "description": "raw tuna, arugula, wasabi, soy-sesame ponzu and peanuts"
+            },
+            {
+                "id": 92,
+                "name": "salmon carpaccio",
+                "price": 22,
+                "description": "raw salmon, radish and arugula with cilantro-mayo"
+            },
+            {
+                "id": 93,
+                "name": "mac & cheese",
+                "price": 22,
+                "description": "with bread crumbs, cheddar and parmesan au gratin"
+            },
+            {
+                "id": 94,
+                "name": "beets gnocchi",
+                "price": 22,
+                "description": "with goat cheese fondue"
+            },
+            {
+                "id": 95,
+                "name": "eggplant parmesan",
+                "price": 23,
+                "description": "breaded eggplant with tomato sauce, arugula and mozzarella cheese"
+            }
+        ]
     },
     {
-        "id": 85,
-        "name": "spinach and artichokes dip",
-        "price": 22,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "with tomato chunks sauce, sour cream and corn tortilla chips"
+        "id": 13,
+        "menu": "dinner",
+        "category": "from the woods",
+        "item": [
+            {
+                "id": 96,
+                "name": "smoked caprese pizza",
+                "price": 24,
+                "description": "roasted tomatoes, mozzarella, smoked Gouda and pesto with tomato sauce"
+            },
+            {
+                "id": 97,
+                "name": "mushroom pizza",
+                "price": 24,
+                "description": "tomato sauce, mozzarella, mix mushrooms and caramelized onions"
+            },
+            {
+                "id": 98,
+                "name": "goat cheese pizza",
+                "price": 25,
+                "description": "mozzarella, goat cheese, chives, sweet red peppers and roasted tomatoes, with tomato sauce"
+            },
+            {
+                "id": 99,
+                "name": "eggs and spinach pizza",
+                "price": 25,
+                "description": "with creamy-tomato sauce, mozzarella and over easy egg"
+            },
+            {
+                "id": 100,
+                "name": "broccoli pizza",
+                "price": 25,
+                "description": "creamy base, sautéed spinach, fresh mozzarella, and sunflower seeds"
+            },
+            {
+                "id": 101,
+                "name": "truffle pizza",
+                "price": 25,
+                "description": "creamy base, mixed mushrooms, mozzarella and a drizzle of truffle oil"
+            },
+            {
+                "id": 102,
+                "name": "cheeses and figs pizza",
+                "price": 28,
+                "description": "dry figs, caramelized onions, feta and blue cheese over creamy base"
+            }
+        ]
     },
     {
-        "id": 86,
-        "name": "fancy sweet corn",
-        "price": 19,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "grilled with lemon soy butter, sweet sauce and a touch of spicy"
+        "id": 14,
+        "menu": "dinner",
+        "category": "soups",
+        "item": [
+            {
+                "id": 103,
+                "name": "soup of the day",
+                "price": 13
+            },
+            {
+                "id": 104,
+                "name": "onion soup",
+                "price": 14,
+                "description": "with sliced bread au gratin"
+            }
+        ]
     },
     {
-        "id": 87,
-        "name": "tequeños",
-        "price": 17,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "fried dough cheese fingers served with honey-dijon sauce"
+        "id": 15,
+        "menu": "dinner",
+        "category": "large plates",
+        "item": [
+            {
+                "id": 105,
+                "name": "spaghetti squash",
+                "price": 27,
+                "description": "with tomato sauce, pesto, mozzarella and feta cheese"
+            },
+            {
+                "id": 106,
+                "name": "pumpkin ravioli",
+                "price": 27,
+                "description": "in a creamy smoked cheese sauce with walnuts and a touch of cinnamon"
+            },
+            {
+                "id": 107,
+                "name": "mushrooms panzerotti",
+                "price": 28,
+                "description": "filled with mushrooms, leeks in a red wine creamy sauce"
+            },
+            {
+                "id": 108,
+                "name": "carrots gnocchi",
+                "price": 29,
+                "description": "in a creamy tomato sauce with sundried tomatoes"
+            },
+            {
+                "id": 109,
+                "name": "linguini broccoli",
+                "price": 29,
+                "description": "with olive oil, fresh garlic and mushrooms"
+            },
+            {
+                "id": 110,
+                "name": "farfalle milano",
+                "price": 31,
+                "description": "sun-dried tomatoes, roasted garlic, fresh mushrooms, cream sauce"
+            },
+            {
+                "id": 111,
+                "name": "pappardelle truffle",
+                "price": 31,
+                "description": "in a creamy mushroom sauce with a touch of truffle oil and parmesan cheese"
+            },
+            {
+                "id": 112,
+                "name": "salmon & kani risotto",
+                "price": 34,
+                "description": "with cherry tomatoes, fish dices, imitation shrimp and crab"
+            },
+            {
+                "id": 113,
+                "name": "salmon burger",
+                "price": 32,
+                "description": "our homemade salmon patty, tomatoes, lettuce, and house mayo, served with french fries"
+            },
+            {
+                "id": 114,
+                "name": "salmon in crosta",
+                "price": 42,
+                "description": "with mixed mushrooms crust over fettuccini Alfredo"
+            },
+            {
+                "id": 115,
+                "name": "tuna steak",
+                "price": 39,
+                "description": "seared, with lentil salad, cherry tomatoes, arugula over eggplant puree"
+            },
+            {
+                "id": 116,
+                "name": "branzino",
+                "price": 45,
+                "description": "in butter lemon wine sauce with sautéed potatoes and pearl onions"
+            },
+            {
+                "id": 117,
+                "name": "sea bass piccata",
+                "price": 47,
+                "description": "with spinach, kale, edamame and zucchini in a lemon capers sauce"
+            }
+        ]
     },
     {
-        "id": 88,
-        "name": "crispy cauliflower",
-        "price": 26,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "with sweet chilli sauce"
-    },
-    {
-        "id": 89,
-        "name": "quinotto",
-        "price": 25,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "creamy quinoa, mixed mushrooms with a drizzle of truffle oil"
-    },
-    {
-        "id": 90,
-        "name": "crispy mini taco",
-        "price": 19,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "raw salmon tartar, guacamole and sesame seeds"
-    },
-    {
-        "id": 91,
-        "name": "tuna pizzeta carpaccio",
-        "price": 21,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "raw tuna, arugula, wasabi, soy-sesame ponzu and peanuts"
-    },
-    {
-        "id": 92,
-        "name": "salmon carpaccio",
-        "price": 22,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "raw salmon, radish and arugula with cilantro-mayo"
-    },
-    {
-        "id": 93,
-        "name": "mac & cheese",
-        "price": 22,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "with bread crumbs, cheddar and parmesan au gratin"
-    },
-    {
-        "id": 94,
-        "name": "beets gnocchi",
-        "price": 22,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "with goat cheese fondue"
-    },
-    {
-        "id": 95,
-        "name": "eggplant parmesan",
-        "price": 23,
-        "parent_category": "dinner",
-        "child_category": "small plates",
-        "description": "breaded eggplant with tomato sauce, arugula and mozzarella cheese"
-    },
-    {
-        "id": 96,
-        "name": "smoked caprese pizza",
-        "price": 24,
-        "parent_category": "dinner",
-        "child_category": "from the woods",
-        "description": "roasted tomatoes, mozzarella, smoked Gouda and pesto with tomato sauce"
-    },
-    {
-        "id": 97,
-        "name": "mushroom pizza",
-        "price": 24,
-        "parent_category": "dinner",
-        "child_category": "from the woods",
-        "description": "tomato sauce, mozzarella, mix mushrooms and caramelized onions"
-    },
-    {
-        "id": 98,
-        "name": "goat cheese pizza",
-        "price": 25,
-        "parent_category": "dinner",
-        "child_category": "from the woods",
-        "description": "mozzarella, goat cheese, chives, sweet red peppers and roasted tomatoes, with tomato sauce"
-    },
-    {
-        "id": 99,
-        "name": "eggs and spinach pizza",
-        "price": 25,
-        "parent_category": "dinner",
-        "child_category": "from the woods",
-        "description": "with creamy-tomato sauce, mozzarella and over easy egg"
-    },
-    {
-        "id": 100,
-        "name": "broccoli pizza",
-        "price": 25,
-        "parent_category": "dinner",
-        "child_category": "from the woods",
-        "description": "creamy base, sautéed spinach, fresh mozzarella, and sunflower seeds"
-    },
-    {
-        "id": 101,
-        "name": "truffle pizza",
-        "price": 25,
-        "parent_category": "dinner",
-        "child_category": "from the woods",
-        "description": "creamy base, mixed mushrooms, mozzarella and a drizzle of truffle oil"
-    },
-    {
-        "id": 102,
-        "name": "cheeses and figs pizza",
-        "price": 28,
-        "parent_category": "dinner",
-        "child_category": "from the woods",
-        "description": "dry figs, caramelized onions, feta and blue cheese over creamy base"
-    },
-    {
-        "id": 103,
-        "name": "soup of the day",
-        "price": 13,
-        "parent_category": "dinner",
-        "child_category": "soups"
-    },
-    {
-        "id": 104,
-        "name": "onion soup",
-        "price": 14,
-        "parent_category": "dinner",
-        "child_category": "soups",
-        "description": "with sliced bread au gratin"
-    },
-    {
-        "id": 105,
-        "name": "spaghetti squash",
-        "price": 27,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "with tomato sauce, pesto, mozzarella and feta cheese"
-    },
-    {
-        "id": 106,
-        "name": "pumpkin ravioli",
-        "price": 27,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "in a creamy smoked cheese sauce with walnuts and a touch of cinnamon"
-    },
-    {
-        "id": 107,
-        "name": "mushrooms panzerotti",
-        "price": 28,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "filled with mushrooms, leeks in a red wine creamy sauce"
-    },
-    {
-        "id": 108,
-        "name": "carrots gnocchi",
-        "price": 29,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "in a creamy tomato sauce with sundried tomatoes"
-    },
-    {
-        "id": 109,
-        "name": "linguini broccoli",
-        "price": 29,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "with olive oil, fresh garlic and mushrooms"
-    },
-    {
-        "id": 110,
-        "name": "farfalle milano",
-        "price": 31,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "sun-dried tomatoes, roasted garlic, fresh mushrooms, cream sauce"
-    },
-    {
-        "id": 111,
-        "name": "pappardelle truffle",
-        "price": 31,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "in a creamy mushroom sauce with a touch of truffle oil and parmesan cheese"
-    },
-    {
-        "id": 112,
-        "name": "salmon & kani risotto",
-        "price": 34,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "with cherry tomatoes, fish dices, imitation shrimp and crab"
-    },
-    {
-        "id": 113,
-        "name": "salmon burger",
-        "price": 32,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "our homemade salmon patty, tomatoes, lettuce, and house mayo, served with french fries"
-    },
-    {
-        "id": 114,
-        "name": "salmon in crosta",
-        "price": 42,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "with mixed mushrooms crust over fettuccini Alfredo"
-    },
-    {
-        "id": 115,
-        "name": "tuna steak",
-        "price": 39,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "seared, with lentil salad, cherry tomatoes, arugula over eggplant puree"
-    },
-    {
-        "id": 116,
-        "name": "branzino",
-        "price": 45,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "in butter lemon wine sauce with sautéed potatoes and pearl onions"
-    },
-    {
-        "id": 117,
-        "name": "sea bass piccata",
-        "price": 47,
-        "parent_category": "dinner",
-        "child_category": "large plates",
-        "description": "with spinach, kale, edamame and zucchini in a lemon capers sauce"
-    },
-    {
-        "id": 118,
-        "name": "quinoa salad",
-        "price": 20,
-        "parent_category": "dinner",
-        "child_category": "salads",
-        "description": "with spinach, goat cheese, golden and red beets, sunflower seeds with lemon-balsamic dressing"
-    },
-    {
-        "id": 119,
-        "name": "caesar salad",
-        "price": 20,
-        "parent_category": "dinner",
-        "child_category": "salads",
-        "description": "romaine lettuce with garlic croutons, fakon and parmesan cheese"
-    },
-    {
-        "id": 120,
-        "name": "baby caprese",
-        "price": 21,
-        "parent_category": "dinner",
-        "child_category": "salads",
-        "description": "cherry tomatoes, arugula, fresh mozzarella with balsamic vinaigrette"
-    },
-    {
-        "id": 121,
-        "name": "kale and roasted sweet potato salad",
-        "price": 22,
-        "parent_category": "dinner",
-        "child_category": "salads",
-        "description": "with mix greens, feta cheese, cranberries, and almonds with honey mustard dressing"
-    },
-    {
-        "id": 122,
-        "name": "pear and parmesan salad",
-        "price": 22,
-        "parent_category": "dinner",
-        "child_category": "salads",
-        "description": "with arugula, parmesan cheese, roasted almonds and asian pear sliced, with honey mustard dressing"
-    },
-    {
-        "id": 123,
-        "name": "caribbean salad",
-        "price": 22,
-        "parent_category": "dinner",
-        "child_category": "salads",
-        "description": "mix greens, smoked salmon, mango dices, and crispy leeks with passion fruit vinaigrette"
-    },
-    {
-        "id": 124,
-        "name": "signature salad",
-        "price": 20,
-        "parent_category": "dinner",
-        "child_category": "salads",
-        "description": "mix green, cherry tomatoes, cucumber, hearts of palm, corn with house dressing"
+        "id": 16,
+        "menu": "dinner",
+        "category": "salads",
+        "item": [
+            {
+                "id": 118,
+                "name": "quinoa salad",
+                "price": 20,
+                "description": "with spinach, goat cheese, golden and red beets, sunflower seeds with lemon-balsamic dressing"
+            },
+            {
+                "id": 119,
+                "name": "caesar salad",
+                "price": 20,
+                "description": "romaine lettuce with garlic croutons, fakon and parmesan cheese"
+            },
+            {
+                "id": 120,
+                "name": "baby caprese",
+                "price": 21,
+                "description": "cherry tomatoes, arugula, fresh mozzarella with balsamic vinaigrette"
+            },
+            {
+                "id": 121,
+                "name": "kale and roasted sweet potato salad",
+                "price": 22,
+                "description": "with mix greens, feta cheese, cranberries, and almonds with honey mustard dressing"
+            },
+            {
+                "id": 122,
+                "name": "pear and parmesan salad",
+                "price": 22,
+                "description": "with arugula, parmesan cheese, roasted almonds and asian pear sliced, with honey mustard dressing"
+            },
+            {
+                "id": 123,
+                "name": "caribbean salad",
+                "price": 22,
+                "description": "mix greens, smoked salmon, mango dices, and crispy leeks with passion fruit vinaigrette"
+            },
+            {
+                "id": 124,
+                "name": "signature salad",
+                "price": 20,
+                "description": "mix green, cherry tomatoes, cucumber, hearts of palm, corn with house dressing"
+            }
+        ]
     }
 ]

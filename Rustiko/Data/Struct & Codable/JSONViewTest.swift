@@ -18,10 +18,34 @@ struct JSONViewTest: View {
     
     var body: some View {
         NavigationStack {
-            List(scrollList, id: \.self) { item in
-                NavigationLink(item[0].parentCategory ?? "None", value: item)
+            ScrollView(.horizontal){
+                LazyHStack{
+                    ForEach(scrollList, id: \.self) { item in
+                        VStack{
+                            Image(systemName: "person")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 30)
+                            NavigationLink(item[0].menu, value: item)
+                        }
+                        .navigationDestination(for: [Menu].self, destination: MenuTest.init)
+                    }
+                }
+                //                VStack{
+                //                    List(scrollList, id: \.self) { item in
+                //                        NavigationLink(item[0].menu, value: item)
+                //                        //                NavigationLink(item[0].parentCategory ?? "None", value: item)
+                //                    }
+                //                    .navigationDestination(for: [Menu].self, destination: ListDetailView.init)
+                //                }
             }
-            .navigationDestination(for: [Menu].self, destination: MenuTest.init)
+            
+            // Bottom Backup?
+            //            List(scrollList, id: \.self) { item in
+            //                NavigationLink(item[0].menu, value: item)
+            //                //                NavigationLink(item[0].parentCategory ?? "None", value: item)
+            //            }
+            //            .navigationDestination(for: [Menu].self, destination: ListDetailView.init)
             
         }
         

@@ -10,9 +10,13 @@ import SwiftUI
 struct MenuTest: View {
     var menu: [Menu]
     var body: some View {
-        List(menu, id: \.self) { sample in
-            VStack {
-                Text(sample.name)
+        VStack{
+            List(menu, id: \.self) { item in
+                Section(header: Text(item.category)){
+                    ForEach(item.item) { food in
+                        Text(food.name)
+                    }
+                }
             }
         }
     }

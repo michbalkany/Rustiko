@@ -13,24 +13,32 @@ import SwiftData
 struct Menu: Identifiable, Codable, Hashable {
     
     static func == (lhs: Menu, rhs: Menu) -> Bool {
-        return lhs.id == rhs.id && lhs.name == rhs.name
+        return lhs.id == rhs.id && lhs.category == rhs.category
     }
     
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
+//        hasher.combine(category)
     }
-    // Non-optional Section
-    let id: Int
-    let name: String
-    let price: Double
     
-    // Optional Section
-    let parentCategory: String?
-    let childCategory: String?
-    let description: String?
-    let options: Choices?
-    let addOn: Additions?
+    var id: Int
+    let menu: String
+    let category: String
+    let item: [Food]
     
+    // Menu Item Struct
+    struct Food: Identifiable ,Codable {
+        let id: Int
+        let name: String
+        let price: Double
+        
+        // Optional Section
+        let description: String?
+        let options: Choices?
+        let addOn: Additions?
+    }
+    
+    // Menu Item Option Struct
     struct Choices: Codable {
         let first: String
         let second: String
@@ -38,6 +46,7 @@ struct Menu: Identifiable, Codable, Hashable {
         let fourth: String
     }
     
+    // Menu Item Addition Struct
     struct Additions: Codable {
         let addOnItem: String
         let addOnPrice: Double

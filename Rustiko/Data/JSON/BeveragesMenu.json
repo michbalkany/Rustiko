@@ -1,453 +1,372 @@
 [
     {
-        "id": 135,
-        "name": "green lemonade",
-        "price": 7.5,
-        "parent_category": "beverages",
-        "child_category": "juices & smoothies",
-        "description": "with mint leaves"
+        "id": 1,
+        "menu": "beverages",
+        "category": "juices & smoothies",
+        "item": [
+            {
+                "id": 135,
+                "name": "green lemonade",
+                "price": 7.5,
+                "description": "with mint leaves"
+            },
+            {
+                "id": 136,
+                "name": "tropi colada",
+                "price": 7.5,
+                "description": "pineapple, mango, and coconut cream"
+            },
+            {
+                "id": 137,
+                "name": "chill out",
+                "price": 7.5,
+                "description": "pineapple, passion fruit, and orange juice"
+            },
+            {
+                "id": 138,
+                "name": "mango pilates",
+                "price": 7.5,
+                "description": "peach, mango and strawberry"
+            },
+            {
+                "id": 139,
+                "name": "anti cellulite",
+                "price": 7.5,
+                "description": "pineapple, cucumber & orange juice"
+            },
+            {
+                "id": 140,
+                "name": "passion mango",
+                "price": 8.5,
+                "description": "with passion fruit and yogurt"
+            },
+            {
+                "id": 141,
+                "name": "banana yoga",
+                "price": 8.5,
+                "description": "strawberry, banana, mint & yogurt"
+            },
+            {
+                "id": 142,
+                "name": "date blast",
+                "price": 8.5,
+                "description": "dates, banana, and yogurt"
+            },
+            {
+                "id": 143,
+                "name": "peach mix",
+                "price": 8.5,
+                "description": "peach, mango, and coconut cream"
+            },
+            {
+                "id": 144,
+                "name": "strawberry fashion",
+                "price": 8.5,
+                "description": "strawberry, passion fruit, and yogurt"
+            }
+        ]
     },
     {
-        "id": 136,
-        "name": "tropi colada",
-        "price": 7.5,
-        "parent_category": "beverages",
-        "child_category": "juices & smoothies",
-        "description": "pineapple, mango, and coconut cream"
+        "id": 2,
+        "menu": "beverages",
+        "category": "white and rose",
+        "item": [
+            {
+                "id": 145,
+                "name": "baron herzog champagne brut",
+                "price": 14,
+                "description": "california glass"
+            },
+            {
+                "id": 146,
+                "name": "baron herzog champagne brut",
+                "price": 49,
+                "description": " Bottle"
+            },
+            {
+                "id": 147,
+                "name": "baron herzog white zinfandel",
+                "price": 13,
+                "description": "california glass"
+            },
+            {
+                "id": 148,
+                "name": "baron herzog white zinfandel",
+                "price": 39,
+                "description": "bottle"
+            },
+            {
+                "id": 149,
+                "name": "bartenura moscato",
+                "price": 13,
+                "description": "italy glass"
+            },
+            {
+                "id": 150,
+                "name": "bartenura moscato",
+                "price": 39,
+                "description": "bottle"
+            },
+            {
+                "id": 151,
+                "name": "baron herzog pinot grigio",
+                "price": 13,
+                "description": "california glass"
+            },
+            {
+                "id": 152,
+                "name": "baron herzog pinot grigio",
+                "price": 39,
+                "description": "bottle"
+            },
+            {
+                "id": 153,
+                "name": "binyamina bin chardonnay",
+                "price": 13,
+                "description": "israel glass"
+            },
+            {
+                "id": 154,
+                "name": "binyamina bin chardonnay",
+                "price": 39,
+                "description": "bottle"
+            },
+            {
+                "id": 155,
+                "name": "binyamina reserve chardonnay",
+                "price": 19,
+                "description": "israel glass"
+            },
+            {
+                "id": 156,
+                "name": "binyamina reserve chardonnay",
+                "price": 59,
+                "description": "bottle"
+            },
+            {
+                "id": 157,
+                "name": "baron herzog chenin blanc",
+                "price": 13,
+                "description": "california glass"
+            },
+            {
+                "id": 158,
+                "name": "baron herzog chenin blanc",
+                "price": 39,
+                "description": "bottle"
+            },
+            {
+                "id": 159,
+                "name": "goose bay sauvignon blanc",
+                "price": 17,
+                "description": "new zealand glass"
+            },
+            {
+                "id": 160,
+                "name": "goose bay sauvignon blanc",
+                "price": 53,
+                "description": "bottle"
+            }
+        ]
     },
     {
-        "id": 137,
-        "name": "chill out",
-        "price": 7.5,
-        "parent_category": "beverages",
-        "child_category": "juices & smoothies",
-        "description": "pineapple, passion fruit, and orange juice"
+        "id": 3,
+        "menu": "beverages",
+        "category": "coffee & tea bar",
+        "item": [
+            {
+                "id": 161,
+                "name": "americano",
+                "price": 3
+            },
+            {
+                "id": 162,
+                "name": "latte",
+                "price": 6
+            },
+            {
+                "id": 163,
+                "name": "cappuccino",
+                "price": 6
+            },
+            {
+                "id": 164,
+                "name": "macchiato",
+                "price": 4
+            },
+            {
+                "id": 165,
+                "name": "espresso",
+                "price": 4
+            },
+            {
+                "id": 166,
+                "name": "cortadito",
+                "price": 4
+            },
+            {
+                "id": 167,
+                "name": "iced coffee",
+                "price": 6
+            },
+            {
+                "id": 168,
+                "name": "iced tea",
+                "price": 5
+            },
+            {
+                "id": 169,
+                "name": "mojito iced tea",
+                "price": 6
+            },
+            {
+                "id": 170,
+                "name": "hot tea",
+                "price": 5
+            },
+            {
+                "id": 171,
+                "name": "nana tea",
+                "price": 5
+            },
+            {
+                "id": 172,
+                "name": "hot chocolate",
+                "price": 6
+            },
+            {
+                "id": 173,
+                "name": "chocolate milk",
+                "price": 5
+            }
+        ]
     },
     {
-        "id": 138,
-        "name": "mango pilates",
-        "price": 7.5,
-        "parent_category": "beverages",
-        "child_category": "juices & smoothies",
-        "description": "peach, mango and strawberry"
+        "id": 4,
+        "menu": "beverages",
+        "category": "red wines",
+        "item": [
+            {
+                "id": 174,
+                "name": "baron herzog cab sauvignon",
+                "price": 13,
+                "description": "california glass"
+            },
+            {
+                "id": 175,
+                "name": "baron herzog cab sauvignon",
+                "price": 39,
+                "description": "bottle"
+            },
+            {
+                "id": 176,
+                "name": "psagot cabernet sauvignon",
+                "price": 27,
+                "description": "israel glass"
+            },
+            {
+                "id": 177,
+                "name": "psagot cabernet sauvignon",
+                "price": 86,
+                "description": "bottle"
+            },
+            {
+                "id": 178,
+                "name": "psagot sinai cabernet/ shiraz",
+                "price": 17,
+                "description": "israel glass"
+            },
+            {
+                "id": 179,
+                "name": "psagot sinai cabernet/ shiraz",
+                "price": 57,
+                "description": "bottle"
+            },
+            {
+                "id": 180,
+                "name": "binyamina bin merlot",
+                "price": 13,
+                "description": "israel glass"
+            },
+            {
+                "id": 181,
+                "name": "binyamina bin merlot",
+                "price": 39,
+                "description": "bottle"
+            },
+            {
+                "id": 182,
+                "name": "barkan malbec",
+                "price": 13,
+                "description": "israel glass"
+            },
+            {
+                "id": 183,
+                "name": "barkan malbec",
+                "price": 39,
+                "description": "bottle"
+            },
+            {
+                "id": 184,
+                "name": "barkan classic pinot noir",
+                "price": 13,
+                "description": "israel glass"
+            },
+            {
+                "id": 185,
+                "name": "barkan classic pinot noir",
+                "price": 39,
+                "description": "bottle"
+            },
+            {
+                "id": 186,
+                "name": "ramon cardova rioja",
+                "price": 15,
+                "description": "spain glass"
+            },
+            {
+                "id": 187,
+                "name": "ramon cardova rioja",
+                "price": 49,
+                "description": "bottle"
+            },
+            {
+                "id": 188,
+                "name": "segal's fusion red",
+                "price": 14,
+                "description": "israel glass"
+            },
+            {
+                "id": 189,
+                "name": "segal's fusion red",
+                "price": 39,
+                "description": "bottle"
+            }
+        ]
     },
     {
-        "id": 139,
-        "name": "anti cellulite",
-        "price": 7.5,
-        "parent_category": "beverages",
-        "child_category": "juices & smoothies",
-        "description": "pineapple, cucumber & orange juice"
-    },
-    {
-        "id": 140,
-        "name": "passion mango",
-        "price": 8.5,
-        "parent_category": "beverages",
-        "child_category": "juices & smoothies",
-        "description": "with passion fruit and yogurt"
-    },
-    {
-        "id": 141,
-        "name": "banana yoga",
-        "price": 8.5,
-        "parent_category": "beverages",
-        "child_category": "juices & smoothies",
-        "description": "strawberry, banana, mint & yogurt"
-    },
-    {
-        "id": 142,
-        "name": "date blast",
-        "price": 8.5,
-        "parent_category": "beverages",
-        "child_category": "juices & smoothies",
-        "description": "dates, banana, and yogurt"
-    },
-    {
-        "id": 143,
-        "name": "peach mix",
-        "price": 8.5,
-        "parent_category": "beverages",
-        "child_category": "juices & smoothies",
-        "description": "peach, mango, and coconut cream"
-    },
-    {
-        "id": 144,
-        "name": "strawberry fashion",
-        "price": 8.5,
-        "parent_category": "beverages",
-        "child_category": "juices & smoothies",
-        "description": "strawberry, passion fruit, and yogurt"
-    },
-    {
-        "id": 145,
-        "name": "baron herzog champagne brut",
-        "price": 14,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "california glass"
-    },
-    {
-        "id": 146,
-        "name": "baron herzog champagne brut",
-        "price": 49,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": " Bottle"
-    },
-    {
-        "id": 147,
-        "name": "baron herzog white zinfandel",
-        "price": 13,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "california glass"
-    },
-    {
-        "id": 148,
-        "name": "baron herzog white zinfandel",
-        "price": 39,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "bottle"
-    },
-    {
-        "id": 149,
-        "name": "bartenura moscato",
-        "price": 13,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "italy glass"
-    },
-    {
-        "id": 150,
-        "name": "bartenura moscato",
-        "price": 39,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "bottle"
-    },
-    {
-        "id": 151,
-        "name": "baron herzog pinot grigio",
-        "price": 13,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "california glass"
-    },
-    {
-        "id": 152,
-        "name": "baron herzog pinot grigio",
-        "price": 39,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "bottle"
-    },
-    {
-        "id": 153,
-        "name": "binyamina bin chardonnay",
-        "price": 13,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "israel glass"
-    },
-    {
-        "id": 154,
-        "name": "binyamina bin chardonnay",
-        "price": 39,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "bottle"
-    },
-    {
-        "id": 155,
-        "name": "binyamina reserve chardonnay",
-        "price": 19,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "israel glass"
-    },
-    {
-        "id": 156,
-        "name": "binyamina reserve chardonnay",
-        "price": 59,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "bottle"
-    },
-    {
-        "id": 157,
-        "name": "baron herzog chenin blanc",
-        "price": 13,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "california glass"
-    },
-    {
-        "id": 158,
-        "name": "baron herzog chenin blanc",
-        "price": 39,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "bottle"
-    },
-    {
-        "id": 159,
-        "name": "goose bay sauvignon blanc",
-        "price": 17,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "new zealand glass"
-    },
-    {
-        "id": 160,
-        "name": "goose bay sauvignon blanc",
-        "price": 53,
-        "parent_category": "beverages",
-        "child_category": "white and rose",
-        "description": "bottle"
-    },
-    {
-        "id": 161,
-        "name": "americano",
-        "price": 3,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 162,
-        "name": "latte",
-        "price": 6,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 163,
-        "name": "cappuccino",
-        "price": 6,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 164,
-        "name": "macchiato",
-        "price": 4,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 165,
-        "name": "espresso",
-        "price": 4,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 166,
-        "name": "cortadito",
-        "price": 4,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 167,
-        "name": "iced coffee",
-        "price": 6,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 168,
-        "name": "iced tea",
-        "price": 5,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 169,
-        "name": "mojito iced tea",
-        "price": 6,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 170,
-        "name": "hot tea",
-        "price": 5,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 171,
-        "name": "nana tea",
-        "price": 5,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 172,
-        "name": "hot chocolate",
-        "price": 6,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 173,
-        "name": "chocolate milk",
-        "price": 5,
-        "parent_category": "beverages",
-        "child_category": "coffee & tea bar"
-    },
-    {
-        "id": 174,
-        "name": "baron herzog cab sauvignon",
-        "price": 13,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "california glass"
-    },
-    {
-        "id": 175,
-        "name": "baron herzog cab sauvignon",
-        "price": 39,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "bottle"
-    },
-    {
-        "id": 176,
-        "name": "psagot cabernet sauvignon",
-        "price": 27,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "israel glass"
-    },
-    {
-        "id": 177,
-        "name": "psagot cabernet sauvignon",
-        "price": 86,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "bottle"
-    },
-    {
-        "id": 178,
-        "name": "psagot sinai cabernet/ shiraz",
-        "price": 17,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "israel glass"
-    },
-    {
-        "id": 179,
-        "name": "psagot sinai cabernet/ shiraz",
-        "price": 57,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "bottle"
-    },
-    {
-        "id": 180,
-        "name": "binyamina bin merlot",
-        "price": 13,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "israel glass"
-    },
-    {
-        "id": 181,
-        "name": "binyamina bin merlot",
-        "price": 39,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "bottle"
-    },
-    {
-        "id": 182,
-        "name": "barkan malbec",
-        "price": 13,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "israel glass"
-    },
-    {
-        "id": 183,
-        "name": "barkan malbec",
-        "price": 39,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "bottle"
-    },
-    {
-        "id": 184,
-        "name": "barkan classic pinot noir",
-        "price": 13,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "israel glass"
-    },
-    {
-        "id": 185,
-        "name": "barkan classic pinot noir",
-        "price": 39,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "bottle"
-    },
-    {
-        "id": 186,
-        "name": "ramon cardova rioja",
-        "price": 15,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "spain glass"
-    },
-    {
-        "id": 187,
-        "name": "ramon cardova rioja",
-        "price": 49,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "bottle"
-    },
-    {
-        "id": 188,
-        "name": "segal's fusion red",
-        "price": 14,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "israel glass"
-    },
-    {
-        "id": 189,
-        "name": "segal's fusion red",
-        "price": 39,
-        "parent_category": "beverages",
-        "child_category": "red wines",
-        "description": "bottle"
-    },
-    {
-        "id": 190,
-        "name": "mimosa",
-        "price": 14,
-        "parent_category": "beverages",
-        "child_category": "cocktails",
-        "description": "glass"
-    },
-    {
-        "id": 191,
-        "name": "red sangria",
-        "price": 15,
-        "parent_category": "beverages",
-        "child_category": "cocktails",
-        "description": "glass"
-    },
-    {
-        "id": 192,
-        "name": "white sangria",
-        "price": 15,
-        "parent_category": "beverages",
-        "child_category": "cocktails",
-        "description": "glass"
+        "id": 5,
+        "menu": "beverages",
+        "category": "cocktails",
+        "item": [
+            {
+                "id": 190,
+                "name": "mimosa",
+                "price": 14,
+                "description": "glass"
+            },
+            {
+                "id": 191,
+                "name": "red sangria",
+                "price": 15,
+                "description": "glass"
+            },
+            {
+                "id": 192,
+                "name": "white sangria",
+                "price": 15,
+                "description": "glass"
+            }
+        ]
     }
 ]
