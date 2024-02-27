@@ -20,7 +20,7 @@ struct OrderView: View {
     var body: some View {
         
         VStack(alignment: .center) {
-            ScrollingOptionView()
+            ScrollingOptionView(menu: beverages)
             Text("Menu")
                 .font(.title2)
                 .fontWeight(.semibold)
