@@ -21,10 +21,10 @@ struct ScrollingOptionView: View {
     var body: some View {
         NavigationStack {
             ForEach(scrollList, id: \.self) { item in
-                ScrollView {
-                        NavigationLink(item[0].parentCategory ?? "None", value: item)
-                    
-                }
+//                ScrollView {
+//                        NavigationLink(item[0].parentCategory ?? "None", value: item)
+//                    
+//                }
             }
             .navigationDestination(for: [Menu].self, destination: MenuTest.init)
             
