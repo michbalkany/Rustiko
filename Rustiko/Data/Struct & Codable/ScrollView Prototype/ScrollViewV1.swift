@@ -72,13 +72,13 @@ struct ScrollViewV1: View {
             ScrollViewReader { proxy in
                 VStack {
                     Button("Jump to Red Wines") {
-                        proxy.scrollTo(12, anchor: .top)
+                        proxy.scrollTo(7, anchor: .top)
                     }
                     List {
                         // Loop through the actual JSON files
                         ForEach(scrollList, id: \.self) { menu in
                             // Loop through the Menu Categories in the JSON file
-                            ForEach(menu, id: \.self) { item in
+                            ForEach(menu) { item in
                                 // Add the Section title per category
 //                                Section(header: Text(item.category).id(item.id)) {
                                 Text(item.category)
@@ -89,7 +89,7 @@ struct ScrollViewV1: View {
                                     // Loop through the specific menu items per category
                                 ForEach(item.item) { food in
                                         // Display the food items and modify view as needed
-                                        Text(food.name)
+                                    Text(food.name)
                                     }
                                 }
                             }
