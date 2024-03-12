@@ -7,14 +7,20 @@
 
 import SwiftUI
 import SwiftData
+import Firebase
 
 @main
 struct RustikoApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
 //            OrderView()
 //            AccountPreferencesView()
-            JSONViewTest()
+              AuthHomeView()
+//            JSONViewTest()
         }
         .modelContainer(for: SwiftDataMenuModel.self)
     }
