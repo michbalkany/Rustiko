@@ -22,7 +22,7 @@ struct ScrollingOptionView: View {
         NavigationStack {
             ForEach(scrollList, id: \.self) { item in
                 ScrollView {
-                        NavigationLink(item[0].parentCategory ?? "None", value: item)
+//                        NavigationLink(item[0].parentCategory ?? "None", value: item)
                     
                 }
             }

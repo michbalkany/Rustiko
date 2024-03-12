@@ -35,6 +35,8 @@
 		C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */; };
 		C51D62A02B7035E5008C2157 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D629F2B7035E5008C2157 /* TabBarView.swift */; };
 		C51D62A52B70842A008C2157 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D62A42B70842A008C2157 /* OrderView.swift */; };
+		C57409E52B8E843600241907 /* FinalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57409E42B8E843600241907 /* FinalListView.swift */; };
+		C57409E72B8E849D00241907 /* FinalScrollViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57409E62B8E849D00241907 /* FinalScrollViewTest.swift */; };
 		C58B36662B6851A700BE085F /* RustikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36652B6851A700BE085F /* RustikoApp.swift */; };
 		C58B36682B6851A700BE085F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36672B6851A700BE085F /* ContentView.swift */; };
 		C58B366A2B6851AA00BE085F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58B36692B6851AA00BE085F /* Assets.xcassets */; };
@@ -76,6 +78,8 @@
 		C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionsModel.swift; sourceTree = "<group>"; };
 		C51D629F2B7035E5008C2157 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		C51D62A42B70842A008C2157 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		C57409E42B8E843600241907 /* FinalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalListView.swift; sourceTree = "<group>"; };
+		C57409E62B8E849D00241907 /* FinalScrollViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScrollViewTest.swift; sourceTree = "<group>"; };
 		C58B36622B6851A700BE085F /* Rustiko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rustiko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58B36652B6851A700BE085F /* RustikoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustikoApp.swift; sourceTree = "<group>"; };
 		C58B36672B6851A700BE085F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 				7560B63F2B7A556E00ADA62F /* DataLoader.swift */,
 				75E64CE12B7D263A0019849E /* JSONViewTest.swift */,
 				754CE18B2B83A1BE00962E88 /* MenuTest.swift */,
+				C57409E42B8E843600241907 /* FinalListView.swift */,
+				C57409E62B8E849D00241907 /* FinalScrollViewTest.swift */,
 			);
 			path = "Struct & Codable";
 			sourceTree = "<group>";
@@ -355,6 +361,7 @@
 				75D8CA9D2B6D43C9009BB4F9 /* RewardsCardView.swift in Sources */,
 				753FE3392B6BCF9600FE6A6A /* InboxMessageView.swift in Sources */,
 				C58B36762B68523000BE085F /* SideMenuHeaderView.swift in Sources */,
+				C57409E72B8E849D00241907 /* FinalScrollViewTest.swift in Sources */,
 				754CE18C2B83A1BE00962E88 /* MenuTest.swift in Sources */,
 				C51D624E2B68ABA1008C2157 /* SideMenuRowView.swift in Sources */,
 				7560B6402B7A556E00ADA62F /* DataLoader.swift in Sources */,
@@ -365,6 +372,7 @@
 				C5F271942B824C0D0014370F /* ScrollingOptionView.swift in Sources */,
 				753FE3372B6BBD6E00FE6A6A /* InboxHomeView.swift in Sources */,
 				75D66BB42B6E15F4009B3084 /* PaymentEmptyView.swift in Sources */,
+				C57409E52B8E843600241907 /* FinalListView.swift in Sources */,
 				75D8CA9B2B6D3DC4009BB4F9 /* PromoCardView.swift in Sources */,
 				C58B36682B6851A700BE085F /* ContentView.swift in Sources */,
 				753856692B73D5DC00FF5663 /* LocationView.swift in Sources */,
