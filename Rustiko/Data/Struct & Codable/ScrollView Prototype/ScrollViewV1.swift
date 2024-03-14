@@ -19,6 +19,7 @@ struct ScrollViewV1: View {
     
     // Test menu
     let menu: [Menu]
+    var index = 1
     
     var body: some View {
         VStack {
@@ -71,27 +72,27 @@ struct ScrollViewV1: View {
             // TEST 2
             ScrollViewReader { proxy in
                 VStack {
-                    Button("Jump to Red Wines") {
-                        proxy.scrollTo(7, anchor: .top)
+                    Button("Jump to Coffee & Tea bar") {
+                        proxy.scrollTo(13, anchor: .top)
                     }
                     List {
                         // Loop through the actual JSON files
                         ForEach(scrollList, id: \.self) { menu in
+                            Text(menu[0].menu)
+                                .id(menu[0])
                             // Loop through the Menu Categories in the JSON file
-                            ForEach(menu) { item in
+                            ForEach(menu) { sampleMenu in
                                 // Add the Section title per category
-//                                Section(header: Text(item.category).id(item.id)) {
-                                Text(item.category)
+                                Text("\(sampleMenu.id) ->  \(sampleMenu.category)")
                                     .font(.title2)
                                     .fontWeight(.bold)
-                                    .id(item.id)
+//                                    .id(sampleMenu.id)
                                     .padding()
-                                    // Loop through the specific menu items per category
-                                ForEach(item.item) { food in
-                                        // Display the food items and modify view as needed
-                                    Text(food.name)
-                                    }
-                                }
+                                // Loop through the specific menu items per category
+//                                ForEach(sampleMenu.item) { food in
+////                                     Display the food items and modify view as needed
+//                                    Text(food.name)
+//                                }
                             }
                         }
                     }
@@ -99,7 +100,7 @@ struct ScrollViewV1: View {
             }
         }
     }
-//}
+}
 
 #Preview {
     ScrollViewV1(menu: beverages)
