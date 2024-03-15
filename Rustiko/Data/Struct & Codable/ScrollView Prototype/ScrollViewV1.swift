@@ -23,52 +23,6 @@ struct ScrollViewV1: View {
     
     var body: some View {
         VStack {
-            // Top ScrollView
-            //            ScrollViewReader { value in
-            //                ScrollView {
-            //                    HStack {
-            //                        Button("Jump to #1") {
-            //                            value.scrollTo(1, anchor: .top)
-            //                        }
-            //
-            //                        Button("Jump to #5") {
-            //                            value.scrollTo(7)
-            //                        }
-            //                    }
-            //
-            //                    .padding()
-            //
-            //                    ForEach(menu, id: \.self) { item in
-            //                        Text(item.category)
-            //                            .font(.title)
-            //                            .frame(width: 200, height: 200)
-            //                            .id(item.id)
-            //                    }
-            //                }
-            //            }
-            
-            // List of menu items & sections
-            //            ScrollViewReader { test in
-            //                ScrollView {
-            //                    Button("Jump to red wines") {
-            //                        test.scrollTo(10, anchor: .top)
-            //                    }
-            //                    .padding()
-            //
-            //                    ForEach(scrollList, id: \.self) { menu in
-            //                        ForEach(menu, id: \.self) { sample in
-            //                            Section(header: Text(sample.category)) {
-            //                                ForEach(sample.item) { food in
-            //                                    Text(food.name)
-            //                                }
-            //                            }
-            //                        }
-            //                    }
-            //                }
-            //            }
-            
-            // Create a general List
-            
             // TEST 2
             ScrollViewReader { proxy in
                 VStack {
