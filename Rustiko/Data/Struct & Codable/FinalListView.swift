@@ -2,20 +2,30 @@
 //  FinalListView.swift
 //  Rustiko
 //
+
+//  Created by Mich balkany on 2/27/24.
+
 //  Created by Micah Njeru on 05/03/2024.
+
 //
 
 import SwiftUI
 
 struct FinalListView: View {
+
+
     
+
     let scrollList = [
         beverages,
         breakfast,
         dessert,
         dinner,
         lunch
-    ]
+
+      ]
+
+    
     
     var body: some View {
         // Create a general List
@@ -35,6 +45,7 @@ struct FinalListView: View {
                 }
             }
         }
+
     }
 }
 
