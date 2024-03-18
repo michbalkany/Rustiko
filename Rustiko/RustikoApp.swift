@@ -15,7 +15,7 @@ struct RustikoApp: App {
 //            OrderView()
 //            AccountPreferencesView()
 //            JSONViewTest()
-            ScrollViewV1(menu: beverages)
+            Home()
         }
         .modelContainer(for: SwiftDataMenuModel.self)
     }
