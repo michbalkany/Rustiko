@@ -20,8 +20,8 @@ struct RustikoApp: App {
 //            OrderView()
 //            AccountPreferencesView()
 //            JSONViewTest()
-            Home()
-//              AuthHomeView()
+//            Home()
+              AuthHomeView()
 //            JSONViewTest()
         }
         .modelContainer(for: SwiftDataMenuModel.self)
