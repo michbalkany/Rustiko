@@ -167,9 +167,6 @@ struct MenuCardView: View {
             ForEach(tab.foodMenu) { food in
                 // Place Section Here
                 
-                // Loop once again inside food, for the food item list
-                // `(ForEach food) { foodItem in`
-                
                 
                 // Food View...
                 HStack(spacing: 15) {
