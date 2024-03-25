@@ -419,11 +419,8 @@
 				75D66BAE2B6DFD37009B3084 /* AccountPreferencesView.swift in Sources */,
 				75D66BB02B6E09A3009B3084 /* AccountPreferenceEditView.swift in Sources */,
 				75D8CA9D2B6D43C9009BB4F9 /* RewardsCardView.swift in Sources */,
-<<<<<<< HEAD
 				75A96B732BA8480900F24BD7 /* Home.swift in Sources */,
-=======
 				C5A494872BA08738002ED576 /* ProfileView.swift in Sources */,
->>>>>>> main
 				753FE3392B6BCF9600FE6A6A /* InboxMessageView.swift in Sources */,
 				C58B36762B68523000BE085F /* SideMenuHeaderView.swift in Sources */,
 				C57409E72B8E849D00241907 /* FinalScrollViewTest.swift in Sources */,
