@@ -40,6 +40,8 @@
 		C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */; };
 		C51D62A02B7035E5008C2157 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D629F2B7035E5008C2157 /* TabBarView.swift */; };
 		C51D62A52B70842A008C2157 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D62A42B70842A008C2157 /* OrderView.swift */; };
+		C52015F02BA8731A00A63747 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C52015EF2BA8731A00A63747 /* Lottie */; };
+		C52015F32BA8733C00A63747 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C52015F22BA8733C00A63747 /* FirebaseAuth */; };
 		C57409E52B8E843600241907 /* FinalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57409E42B8E843600241907 /* FinalListView.swift */; };
 		C57409E72B8E849D00241907 /* FinalScrollViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57409E62B8E849D00241907 /* FinalScrollViewTest.swift */; };
 		C58B36662B6851A700BE085F /* RustikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36652B6851A700BE085F /* RustikoApp.swift */; };
@@ -54,9 +56,7 @@
 		C5A494872BA08738002ED576 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A494862BA08738002ED576 /* ProfileView.swift */; };
 		C5A4948B2BA0887C002ED576 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A4948A2BA0887B002ED576 /* Login.swift */; };
 		C5A4948F2BA0895B002ED576 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5A4948E2BA0895A002ED576 /* GoogleService-Info.plist */; };
-		C5A494932BA08ABA002ED576 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C5A494922BA08ABA002ED576 /* Lottie */; };
 		C5A494972BA08C3F002ED576 /* AnimEmail.json in Resources */ = {isa = PBXBuildFile; fileRef = C5A494962BA08C3F002ED576 /* AnimEmail.json */; };
-		C5A4949A2BA08D74002ED576 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C5A494992BA08D74002ED576 /* FirebaseAuth */; };
 		C5F271942B824C0D0014370F /* ScrollingOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F271932B824C0D0014370F /* ScrollingOptionView.swift */; };
 /* End PBXBuildFile section */
 
@@ -119,8 +119,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5A494932BA08ABA002ED576 /* Lottie in Frameworks */,
-				C5A4949A2BA08D74002ED576 /* FirebaseAuth in Frameworks */,
+				C52015F02BA8731A00A63747 /* Lottie in Frameworks */,
+				C52015F32BA8733C00A63747 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +345,8 @@
 			);
 			name = Rustiko;
 			packageProductDependencies = (
-				C5A494922BA08ABA002ED576 /* Lottie */,
-				C5A494992BA08D74002ED576 /* FirebaseAuth */,
+				C52015EF2BA8731A00A63747 /* Lottie */,
+				C52015F22BA8733C00A63747 /* FirebaseAuth */,
 			);
 			productName = Rustiko;
 			productReference = C58B36622B6851A700BE085F /* Rustiko.app */;
@@ -377,8 +377,8 @@
 			);
 			mainGroup = C58B36592B6851A700BE085F;
 			packageReferences = (
-				C5A494902BA08A5E002ED576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				C5A494912BA08ABA002ED576 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				C52015EE2BA8731A00A63747 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				C52015F12BA8733C00A63747 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = C58B36632B6851A700BE085F /* Products */;
 			projectDirPath = "";
@@ -586,7 +586,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rustiko/Preview Content\"";
-				DEVELOPMENT_TEAM = 4V8RH85RKC;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -615,7 +615,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rustiko/Preview Content\"";
-				DEVELOPMENT_TEAM = 4V8RH85RKC;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -660,15 +660,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C5A494902BA08A5E002ED576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.22.1;
-			};
-		};
-		C5A494912BA08ABA002ED576 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+		C52015EE2BA8731A00A63747 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios";
 			requirement = {
@@ -676,17 +668,25 @@
 				minimumVersion = 4.4.1;
 			};
 		};
+		C52015F12BA8733C00A63747 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C5A494922BA08ABA002ED576 /* Lottie */ = {
+		C52015EF2BA8731A00A63747 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C5A494912BA08ABA002ED576 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			package = C52015EE2BA8731A00A63747 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
 		};
-		C5A494992BA08D74002ED576 /* FirebaseAuth */ = {
+		C52015F22BA8733C00A63747 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C5A494902BA08A5E002ED576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = C52015F12BA8733C00A63747 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */

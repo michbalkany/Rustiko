@@ -19,13 +19,10 @@ struct RustikoApp: App {
         WindowGroup {
 //            OrderView()
 //            AccountPreferencesView()
-<<<<<<< HEAD
 //            JSONViewTest()
-            Home()
-=======
+//            Home()
               AuthHomeView()
 //            JSONViewTest()
->>>>>>> main
         }
         .modelContainer(for: SwiftDataMenuModel.self)
     }
