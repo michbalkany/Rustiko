@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentsProfileView: View {
+    @AppStorage("log_status") private var logStatus: Bool = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if logStatus {
+            // Home View
+            HomeView()
+            
+        } else {
+            Login()
+        }
+        }
     }
-}
 
 #Preview {
     ContentsProfileView()

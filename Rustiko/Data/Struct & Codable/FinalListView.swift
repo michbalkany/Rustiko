@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-struct FinalListView1: View {
+struct FinalListView: View {
 
 
     
@@ -48,5 +48,5 @@ struct FinalListView1: View {
 }
 
 #Preview {
-    FinalListView1()
+    FinalListView()
 }
