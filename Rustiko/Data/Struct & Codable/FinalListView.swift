@@ -7,11 +7,9 @@
 
 //  Created by Micah Njeru on 05/03/2024.
 
-//
-
 import SwiftUI
 
-struct FinalListView: View {
+struct FinalListView1: View {
 
 
     
@@ -50,5 +48,5 @@ struct FinalListView: View {
 }
 
 #Preview {
-    FinalListView()
+    FinalListView1()
 }
