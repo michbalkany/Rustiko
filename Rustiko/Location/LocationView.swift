@@ -31,7 +31,7 @@ struct LocationView: View {
                         .font(.title)
                         .padding()
                     
-                    // Instructions
+                    // Sub heading instructions
                     Text("Click on the location Name to zoom in")
                         .padding()
                     
@@ -45,14 +45,18 @@ struct LocationView: View {
                         
                         // Text section
                         VStack (alignment: .leading) {
+                            
+                            // Text title
                             Text("Location Name")
                                 .font(.title3)
+                            
+                            // Text body
                             Text("Street, Address, Apt, Floor, Room.")
                                 .font(.subheadline)
                                 .lineLimit(2)
                                 .truncationMode(.tail)
                             
-                            // Jumpt to location
+                            // Jump to location Button
                             Button("Rustiko") {
                                 position = MapCameraPosition.region(
                                     MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 25.884855, longitude: -80.123619), latitudinalMeters: 10, longitudinalMeters: 10)

@@ -9,14 +9,18 @@ import SwiftUI
 
 struct RewardsCardView: View {
     
+    // Sheet property
     @State private var showingSheet = false
     
     var body: some View {
+        
+        // Button for showing Sheet
         Button("Rewards"){
             showingSheet.toggle()
         }
         .popover(isPresented: $showingSheet) {
             VStack(alignment: .center){
+                
                 // Title
                 Text("Rustiko Rewards")
                     .font(.title)

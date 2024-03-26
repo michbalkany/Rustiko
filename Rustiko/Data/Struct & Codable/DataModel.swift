@@ -18,7 +18,6 @@ struct Menu: Identifiable, Codable, Hashable {
     
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
-//        hasher.combine(category)
     }
     
     var id: Int
@@ -65,6 +64,7 @@ class SwiftDataMenuModel {
     // Optional Attributes
     let parentCategory: String?
     let childCategory: String?
+    
     // Changed "description" to "menuDescription" because it's a reserved keyword in Swift Data + Core Data
     let menuDescription: String?
     let options: Choices?

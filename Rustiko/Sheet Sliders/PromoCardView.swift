@@ -9,15 +9,21 @@ import SwiftUI
 
 struct PromoCardView: View {
     
+    // Sheet property
     @State private var showingSheet = false
+    
+    // Promocode text field property
     @State private var promoCode:String = ""
     
     var body: some View {
+        
+        // Button for showing sheet
         Button("Promo Code") {
             showingSheet.toggle()
         }
         .popover(isPresented: $showingSheet){
             VStack(alignment: .center) {
+                
                 // Title
                 Text("Enter Promo Code")
                     .font(.title)

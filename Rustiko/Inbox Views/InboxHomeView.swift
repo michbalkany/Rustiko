@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct InboxHomeView: View {
+    
+    // Sample Images to loop through
     let messages = [
         "Message Title 1",
         "Message Title 2",
         "Message Title 3",
         "Message Title 4",
+        "Message Title 5",
     ]
+    
     var body: some View {
         NavigationStack {
             // List of messages

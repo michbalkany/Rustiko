@@ -9,11 +9,14 @@ import SwiftUI
 
 struct InboxListItemView: View {
     
+    // Message property
     let message: String
     
     var body: some View {
+        
         // List Message Format
         HStack (alignment: .top) {
+            
             // Image Section
             Image("Brown bun burger")
                 .resizable()
@@ -22,8 +25,12 @@ struct InboxListItemView: View {
             
             // Text section
             VStack (alignment: .leading) {
+                
+                // Message Title
                 Text(message)
                     .font(.title3)
+                
+                // Message Body
                 Text("Message description, more description and more description.")
                     .font(.subheadline)
                     .lineLimit(2)

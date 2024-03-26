@@ -9,6 +9,7 @@ import SwiftUI
 
 struct InboxMessageView: View {
     
+    // Message property
     let message: String
     
     var body: some View {
@@ -23,7 +24,6 @@ struct InboxMessageView: View {
             // Message Title
             Text(message)
                 .font(.largeTitle)
-//                .fontWeight(.heavy)
                 .padding()
             
             // Message Body
