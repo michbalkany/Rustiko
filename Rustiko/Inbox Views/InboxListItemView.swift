@@ -18,7 +18,7 @@ struct InboxListItemView: View {
         HStack (alignment: .top) {
             
             // Image Section
-            Image("Brown bun burger")
+            Image("caesar salad")
                 .resizable()
                 .frame(width: 80, height: 80)
                 .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))

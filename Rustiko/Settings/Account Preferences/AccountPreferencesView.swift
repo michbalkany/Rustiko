@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AccountPreferencesView: View {
     
+    // Preferences Attributes
     @State private var location = false
     @State private var notification = false
     @State private var emailNotification = false
@@ -46,37 +47,42 @@ struct AccountPreferencesView: View {
                     }
                     .padding(.bottom)
                     
-                    // User details
+                    // First Name
                     HStack {
                         Text("First Name: ")
                             .padding()
                         Spacer()
                     }
                     
+                    // Last Name
                     HStack {
                         Text("Last Name: ")
                             .padding()
                         Spacer()
                     }
                     
+                    // Email
                     HStack {
                         Text("Email: ")
                             .padding()
                         Spacer()
                     }
                     
+                    // Phone number
                     HStack {
                         Text("Phone Number: ")
                             .padding()
                         Spacer()
                     }
                     
+                    // Gender
                     HStack {
                         Text("Gender: ")
                             .padding()
                         Spacer()
                     }
                     
+                    // Date of Birth
                     HStack {
                         Text("Date of Birth: ")
                             .padding()
@@ -87,9 +93,11 @@ struct AccountPreferencesView: View {
                     Divider()
                         .padding()
                     
-                    // Toggle Title
+                    // Location & Notifications Section
                     HStack {
                         Spacer()
+                        
+                        // Top title
                         Text("Location & Notifications")
                             .font(.title3)
                             .padding(.bottom)
@@ -98,10 +106,16 @@ struct AccountPreferencesView: View {
                     
                     // Toggle Settings
                     VStack {
+                        
+                        // Location toggle
                         Toggle("Location", isOn: $location)
                             .padding()
+                        
+                        // Notification toggle
                         Toggle("Notifications", isOn: $notification)
                             .padding()
+                        
+                        // Email toggle
                         Toggle("Email Notifications", isOn: $emailNotification)
                             .padding()
                         

@@ -24,8 +24,11 @@ struct LocationView: View {
     
     var body: some View {
         VStack {
+            
+            // Map view
             Map(position: $position)
                 .popover(isPresented: $showingSheet){
+                    
                     // Title
                     Text("Locations")
                         .font(.title)
@@ -38,7 +41,7 @@ struct LocationView: View {
                     // Sample Location
                     HStack {
                         // Image Section
-                        Image("Brown bun burger")
+                        Image("caesar salad")
                             .resizable()
                             .frame(width: 80, height: 80)
                             .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
@@ -46,11 +49,11 @@ struct LocationView: View {
                         // Text section
                         VStack (alignment: .leading) {
                             
-                            // Text title
+                            // Location title
                             Text("Location Name")
                                 .font(.title3)
                             
-                            // Text body
+                            // Address body
                             Text("Street, Address, Apt, Floor, Room.")
                                 .font(.subheadline)
                                 .lineLimit(2)

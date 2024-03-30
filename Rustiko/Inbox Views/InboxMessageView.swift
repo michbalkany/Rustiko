@@ -15,7 +15,7 @@ struct InboxMessageView: View {
     var body: some View {
         VStack (alignment: .leading) {
             // Image
-            Image("Brown bun burger")
+            Image("caesar salad")
                 .resizable()
                 .frame(width: .infinity)
                 .aspectRatio(contentMode: .fit)

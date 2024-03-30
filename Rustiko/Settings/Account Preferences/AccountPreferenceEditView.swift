@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AccountPreferenceEditView: View {
     
+    // Preference Edit Attributes
     @State private var firstName:String = ""
     @State private var lastName: String = ""
     @State private var email:String = ""
@@ -16,6 +17,7 @@ struct AccountPreferenceEditView: View {
     @State private var gender: String = ""
     @State private var dateOfBirth: Date = Date.now
     
+    // List of Preconfigured Gender Options
     let genderList = [
         "Other", "Male", "Female", "Not applicable"
     ]
@@ -39,6 +41,7 @@ struct AccountPreferenceEditView: View {
             
             // Text Boxes
             VStack(alignment: .center){
+                
                 // First Name Text Box
                 TextField("First name", text: $firstName)
                     .foregroundStyle(.gray)
