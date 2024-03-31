@@ -9,8 +9,10 @@ import SwiftUI
 
 struct PrivacyAndSecurityView: View {
     
+    // PrivacyAndSecurityView attributes
     @State private var faceID = false
     @State private var showingEdit = false
+    
     var body: some View {
         // Edit Button Stack
         HStack{

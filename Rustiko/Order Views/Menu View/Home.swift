@@ -13,6 +13,7 @@ struct Home: View {
     @State var currentTab = ""
     @Namespace var animation
     
+    // Assign color environment variable
     @Environment(\.colorScheme) var scheme
     
     var body: some View {

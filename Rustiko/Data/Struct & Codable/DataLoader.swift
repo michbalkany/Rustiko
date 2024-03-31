@@ -17,19 +17,24 @@ var lunch: [Menu] = load("LunchMenu.json")
 
 // Function for finding, loading and decoding JSON files to Swift Data types
 func load<T: Codable>(_ filename: String) -> T {
+    
+    // "data" Data Type assignment
     let data: Data
 
+    // Safely pass in the file path
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
         else {
             fatalError("Couldn't find \(filename) in main bundle.")
     }
 
+    // Convert the data in the file to Data type
     do {
         data = try Data(contentsOf: file)
     } catch {
         fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
     }
 
+    // Instatiate JSONDecoder(), assign Decoding Strategy and decode data
     do {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase

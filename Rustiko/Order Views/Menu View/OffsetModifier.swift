@@ -9,7 +9,10 @@ import SwiftUI
 
 struct OffsetModifier: ViewModifier {
     
+    // OffsetModifier tab attribute
     var tab: Tab
+    
+    // Bind currentTab to Home currentTab value
     @Binding var currentTab: String
     
     func body(content: Content) -> some View {

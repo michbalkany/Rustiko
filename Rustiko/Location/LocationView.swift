@@ -40,6 +40,7 @@ struct LocationView: View {
                     
                     // Sample Location
                     HStack {
+                        
                         // Image Section
                         Image("caesar salad")
                             .resizable()
