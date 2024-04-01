@@ -13,7 +13,7 @@ struct Home: View {
     @State var currentTab = ""
     @Namespace var animation
     
-    // Assign color environment variable
+    // Color environment variable for ease of color accessing
     @Environment(\.colorScheme) var scheme
     
     var body: some View {
@@ -21,22 +21,26 @@ struct Home: View {
             
             VStack {
                 
+                // Top Section with Back Arrow, Menu Title and Search Icon
                 HStack(spacing: 15) {
                     
+                    // Back Arrow Button
                     Button {
-                        
+                        // Insert Button Functionality Here
                     } label: {
                         Image(systemName: "arrow.left")
                             .font(.title2)
                     }
                     
+                    // Menu Title
                     Text("McDonald's - Chinatown")
                         .font(.title3)
                         .fontWeight(.semibold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                     
+                    // Search Button
                     Button {
-                        
+                        // Insert Button Functionality Here
                     } label: {
                         Image(systemName: "magnifyingglass")
                             .font(.title2)
@@ -45,18 +49,23 @@ struct Home: View {
                 .foregroundColor(.primary)
                 .padding(.horizontal)
                 
-                // Scroll View Reader...
-                // to scroll tab automatically when user scrolls...
-                
+                // Scroll View Reader for top level tabs
+                // To scroll tab automatically when user scrolls
                 ScrollViewReader { proxy in
                     
+                    // Tab Horizontal Scroll View
                     ScrollView(.horizontal, showsIndicators: false) {
                         
+                        // Horizontal Alignment of the Tabs
                         HStack(spacing: 30) {
                             
+                            // Loop through the tabs in Tab.swift file
                             ForEach(tabItems) { tab in
                                 
+                                // Vertical Alignment of the Tab String and Underline Capsule
                                 VStack {
+                                    
+                                    // Tab Text
                                     Text(tab.tab)
                                     // Sets color of current selected tab
                                         .foregroundColor(currentTab.replacingOccurrences(of: " SCROLL", with: "") == tab.id ? .black : .gray)
@@ -64,6 +73,7 @@ struct Home: View {
                                     // For matched geometry effect
                                     if currentTab.replacingOccurrences(of: " SCROLL", with: "") == tab.id {
                                         
+                                        // Current Tab Underline Capsule
                                         Capsule()
                                             .fill(.black)
                                             .matchedGeometryEffect(id: "TAB", in: animation)
@@ -71,6 +81,7 @@ struct Home: View {
                                             .padding(.horizontal, -10)
                                     } else {
                                         
+                                        // Not-Current Tab Underline Capsule
                                         Capsule()
                                             .fill(.clear)
                                             .frame(height: 3)
@@ -102,9 +113,10 @@ struct Home: View {
                 .padding(.top)
             }
             .padding([.top])
-            // Divider...
             .background(scheme == .dark ? Color.black : Color.white)
             .overlay(
+                
+                // Divider...
                 Divider()
                     .padding(.horizontal, -15)
                 , alignment: .bottom
@@ -112,14 +124,15 @@ struct Home: View {
             
             ScrollView(.vertical, showsIndicators: false) {
                 
-                // Scroll view reader to scroll the content...
+                // Scroll view reader to scroll the Menu Items
                 ScrollViewReader { proxy in
                     
                     VStack(spacing: 15) {
                         
+                        // Loop through each tabItem from Tab.swift file
                         ForEach(tabItems) { tab in
                             
-                            // Menu Card View...
+                            // Menu Card View
                             MenuCardView(tab: tab, currentTab: $currentTab)
                                 .padding(.top)
                         }
@@ -137,10 +150,10 @@ struct Home: View {
                     }
                 }
             }
-            // Setting Coordinate Space name for offset...
+            // Setting Coordinate Space name for offset
             .coordinateSpace(name: "SCROLL")
         }
-        // Setting first tab...
+        // Setting first tab 
         .onAppear {
             currentTab = tabItems.first?.id ?? ""
         }
@@ -151,55 +164,62 @@ struct Home: View {
     Home()
 }
 
-
+// Menu View to show individual menu items
 struct MenuCardView: View {
     
+    // Tab attribute to read from
     var tab: Tab
+    
+    // Binding to currentTab in Home view
     @Binding var currentTab: String
     
     var body: some View {
         
         VStack(alignment: .leading, spacing: 20) {
             
+            // Menu Section Title
             Text(tab.tab)
                 .font(.title.bold())
                 .padding(.vertical)
             
+            // Loop through each Menu Section's items
             ForEach(tab.foodMenu) { food in
-                // Place Section Here
                 
-                
-                // Food View...
+                // Food Menu Item Category View
                 HStack(spacing: 15) {
                     
                     VStack(alignment: .leading, spacing: 10) {
                         
+                        // Food Menu Item Category
                         Text(food.category)
                             .font(.title3.bold())
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 
+                // Food Menu Item View
                 VStack(alignment: .leading, spacing: 10) {
                     
-                    
+                    // Loop through each Menu item in Food Category
                     ForEach(food.item) { foodItem in
                         
+                        // Food Menu Item Name
                         Text(foodItem.name)
                             .font(.title3)
                         
+                        // Food Menu Item Description
                         Text(foodItem.description ?? "Served as is")
                             .foregroundStyle(.gray)
                         
+                        // Food Menu Item Price
                         Text(String(format: "Price: $%.2f", foodItem.price))
                             .fontWeight(.bold)
                         
+                        // Divider for separating each Food Menu Item
                         Divider()
                     }
                     
                 }
-                
-                //                Divider()
             }
         }
         .modifier(OffsetModifier(tab: tab, currentTab: $currentTab))

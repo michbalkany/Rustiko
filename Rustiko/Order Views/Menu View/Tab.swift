@@ -16,7 +16,7 @@ struct Tab: Identifiable {
     var foodMenu: [Menu]
 }
 
-// Tab Items...
+// Tab Items for each JSON Menu File
 var tabItems = [
     
     Tab(tab: "Beverages", foodMenu: beverages),
