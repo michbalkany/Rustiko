@@ -49,7 +49,7 @@ struct Home: View {
                 .foregroundColor(.primary)
                 .padding(.horizontal)
                 
-                // Scroll View Reader for top level tabs
+                // Scroll View Reader for Top Level Tabs
                 // To scroll tab automatically when user scrolls
                 ScrollViewReader { proxy in
                     
