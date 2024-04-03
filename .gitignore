@@ -54,4 +54,8 @@ xcuserdata/
 !*.xcodeproj/project.xcworkspace/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
+<<<<<<< HEAD
 **/xcshareddata/WorkspaceSettings.xcsettings
+=======
+**/xcshareddata/WorkspaceSettings.xcsettings
+>>>>>>> main

@@ -15,13 +15,18 @@ struct RustikoApp: App {
         FirebaseApp.configure()
     }
     
+    
     var body: some Scene {
         WindowGroup {
-//            OrderView()
+           HomeView()
+//           OrderView()
 //            AccountPreferencesView()
 //            JSONViewTest()
 //            Home()
-              AuthHomeView()
+
+
+            //  AuthHomeView()
+// 78e846c757836a3430a901d36bc320c49e3c0dfe
 //            JSONViewTest()
         }
         .modelContainer(for: SwiftDataMenuModel.self)

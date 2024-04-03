@@ -2,7 +2,7 @@
 //  Login.swift
 //  Rustiko
 //
-//  Created by Mich balkany on 3/12/24.
+//  Created by Mich balkany on 3/18/24.
 //
 
 import SwiftUI
@@ -121,7 +121,7 @@ struct Login: View {
     func EmailVerificationView() -> some View {
         VStack(spacing: 6) {
             GeometryReader { _ in
-                if let bundle = Bundle.main.path(forResource: "EmailAnimation", ofType: "json") {
+                if let bundle = Bundle.main.path(forResource: "AnimEmail ", ofType: "json") {
                     LottieView {
                         await LottieAnimation.loadedFrom(url: URL(filePath: bundle))
                     }
@@ -292,5 +292,7 @@ fileprivate extension View {
 }
 
 #Preview {
-    Login()
+    ContentsProfileView()
 }
+
+// testing comment

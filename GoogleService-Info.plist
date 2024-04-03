@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyAVqzF7laR8pv4pWD0v2F30pUNJoyfL2JE</string>
+	<string>AIzaSyANDp6JFB-JNe0FB8Z0Bw5TOxdeOygay28</string>
 	<key>GCM_SENDER_ID</key>
-	<string>683091432343</string>
+	<string>1066192725324</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.michbalkany.AuthmultiSignIn</string>
+	<string>com.michbalkany.Rustiko</string>
 	<key>PROJECT_ID</key>
-	<string>authpt2-5782e</string>
+	<string>main-auth-for-rustiko</string>
 	<key>STORAGE_BUCKET</key>
-	<string>authpt2-5782e.appspot.com</string>
+	<string>main-auth-for-rustiko.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:683091432343:ios:d29874eda8d133d314ead2</string>
+	<string>1:1066192725324:ios:5e455659552ce62c931be9</string>
 </dict>
 </plist>

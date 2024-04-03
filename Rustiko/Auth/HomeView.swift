@@ -1,14 +1,14 @@
 //
-//  ProfileView.swift
+//  HomeView.swift
 //  Rustiko
 //
-//  Created by Mich balkany on 3/12/24.
+//  Created by Mich balkany on 3/18/24.
 //
 
 import SwiftUI
 import Firebase
 
-struct ProfileView: View {
+struct HomeView: View {
     @AppStorage("log_status") private var logStatus: Bool = false
     var body: some View {
         NavigationStack {
@@ -22,5 +22,5 @@ struct ProfileView: View {
 }
 
 #Preview {
-    ProfileView()
+    HomeView()
 }
