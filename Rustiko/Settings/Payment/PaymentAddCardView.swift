@@ -9,9 +9,11 @@ import SwiftUI
 
 struct PaymentAddCardView: View {
     
+    // Card View Attributes
     @State private var cardNumber: Int = 0
     @State private var monthYear: Int = 00
     @State private var cvv: Int = 0
+    
     var body: some View {
         VStack(alignment: .center){
             // Title

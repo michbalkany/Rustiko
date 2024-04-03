@@ -9,14 +9,20 @@ import SwiftUI
 
 struct GiftCardsView: View {
     
+    // Sheet property
     @State private var showingSheet = false
     
     var body: some View {
+        
+        // Button for showing Sheet
         Button("Gift card"){
             showingSheet.toggle()
         }
         .popover(isPresented: $showingSheet) {
+            
+            // Sheet View
             VStack(alignment: .center) {
+                
                 // Title
                 Text("Gift Cards")
                     .font(.title)
@@ -30,6 +36,7 @@ struct GiftCardsView: View {
                 
                 // Buttons
                 VStack (alignment: .center) {
+                    
                     // Top Buttons
                     HStack {
                         Button("Send a Gift Card"){

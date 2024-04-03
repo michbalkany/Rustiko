@@ -24,35 +24,43 @@ struct LocationView: View {
     
     var body: some View {
         VStack {
+            
+            // Map view
             Map(position: $position)
                 .popover(isPresented: $showingSheet){
+                    
                     // Title
                     Text("Locations")
                         .font(.title)
                         .padding()
                     
-                    // Instructions
+                    // Sub heading instructions
                     Text("Click on the location Name to zoom in")
                         .padding()
                     
                     // Sample Location
                     HStack {
+                        
                         // Image Section
-                        Image("Brown bun burger")
+                        Image("caesar salad")
                             .resizable()
                             .frame(width: 80, height: 80)
                             .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
                         
                         // Text section
                         VStack (alignment: .leading) {
+                            
+                            // Location title
                             Text("Location Name")
                                 .font(.title3)
+                            
+                            // Address body
                             Text("Street, Address, Apt, Floor, Room.")
                                 .font(.subheadline)
                                 .lineLimit(2)
                                 .truncationMode(.tail)
                             
-                            // Jumpt to location
+                            // Jump to location Button
                             Button("Rustiko") {
                                 position = MapCameraPosition.region(
                                     MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 25.884855, longitude: -80.123619), latitudinalMeters: 10, longitudinalMeters: 10)

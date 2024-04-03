@@ -9,14 +9,17 @@ import SwiftUI
 
 struct OffsetModifier: ViewModifier {
     
+    // OffsetModifier tab attribute
     var tab: Tab
+    
+    // Bind currentTab to Home currentTab value
     @Binding var currentTab: String
     
     func body(content: Content) -> some View {
         content
             .overlay(
-                // Getting Scroll Offset using Geometry Reader
                 
+                // Getting Scroll Offset using Geometry Reader
                 GeometryReader { proxy in
                     
                     Color.clear
@@ -27,7 +30,6 @@ struct OffsetModifier: ViewModifier {
                 
                 // If minY is between 20 to -half of the midX
                 // then updating current tab..
-                
                 let offset = proxy.minY
                 
                 // Since on change on Home is Updating Scroll...
@@ -35,9 +37,6 @@ struct OffsetModifier: ViewModifier {
                 
                 // ADDING "SCROLL" TO LAST ID...
                 // TO IDENTIFY EASILY...
-                
-                
-                
                 withAnimation(.easeInOut) {
                     currentTab = (offset < 20 && -offset < (proxy.midX / 2) && currentTab != tab.id) ? "\(tab.id) SCROLL" : currentTab
                 }

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PrivacyAndSecurityEditView: View {
     
+    // PrivacyAndSecurityEditView attributes
     @State private var address:String = ""
     @State private var apt:String = ""
     

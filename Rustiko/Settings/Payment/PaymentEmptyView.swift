@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PaymentEmptyView: View {
     
+    // Card sheet attributes
     @State private var showingCardSheet = false
     
     var body: some View {
