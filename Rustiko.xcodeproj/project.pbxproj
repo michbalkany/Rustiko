@@ -44,10 +44,9 @@
 		C52016342BB3157000A63747 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C52016332BB3157000A63747 /* FirebaseAuth */; };
 		C52016372BB315B500A63747 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C52016362BB315B500A63747 /* Lottie */; };
 		C52016392BB3180E00A63747 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C52016382BB3180E00A63747 /* GoogleService-Info.plist */; };
-		C57409E52B8E843600241907 /* FinalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57409E42B8E843600241907 /* FinalListView.swift */; };
-		C57409E72B8E849D00241907 /* FinalScrollViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57409E62B8E849D00241907 /* FinalScrollViewTest.swift */; };
-		C52015F02BA8731A00A63747 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C52015EF2BA8731A00A63747 /* Lottie */; };
-		C52015F32BA8733C00A63747 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C52015F22BA8733C00A63747 /* FirebaseAuth */; };
+		C54326892BBDB75200D11744 /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54326882BBDB75200D11744 /* PointsView.swift */; };
+		C543268B2BBDB78E00D11744 /* RewardsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C543268A2BBDB78E00D11744 /* RewardsCard.swift */; };
+		C543268D2BBDB7E600D11744 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C543268C2BBDB7E600D11744 /* QRCode.swift */; };
 		C58B36662B6851A700BE085F /* RustikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36652B6851A700BE085F /* RustikoApp.swift */; };
 		C58B36682B6851A700BE085F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36672B6851A700BE085F /* ContentView.swift */; };
 		C58B366A2B6851AA00BE085F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58B36692B6851AA00BE085F /* Assets.xcassets */; };
@@ -96,8 +95,9 @@
 		C52016282BA8DF4E00A63747 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C520162A2BA8E16400A63747 /* AnimEmail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AnimEmail.json; sourceTree = "<group>"; };
 		C52016382BB3180E00A63747 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		C57409E42B8E843600241907 /* FinalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalListView.swift; sourceTree = "<group>"; };
-		C57409E62B8E849D00241907 /* FinalScrollViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScrollViewTest.swift; sourceTree = "<group>"; };
+		C54326882BBDB75200D11744 /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
+		C543268A2BBDB78E00D11744 /* RewardsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsCard.swift; sourceTree = "<group>"; };
+		C543268C2BBDB7E600D11744 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		C58B36622B6851A700BE085F /* Rustiko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rustiko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58B36652B6851A700BE085F /* RustikoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustikoApp.swift; sourceTree = "<group>"; };
 		C58B36672B6851A700BE085F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -262,6 +262,16 @@
 			path = "Order Views";
 			sourceTree = "<group>";
 		};
+		C54326872BBDB71500D11744 /* Loyalty Page */ = {
+			isa = PBXGroup;
+			children = (
+				C54326882BBDB75200D11744 /* PointsView.swift */,
+				C543268A2BBDB78E00D11744 /* RewardsCard.swift */,
+				C543268C2BBDB7E600D11744 /* QRCode.swift */,
+			);
+			path = "Loyalty Page";
+			sourceTree = "<group>";
+		};
 		C58B36592B6851A700BE085F = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +294,7 @@
 		C58B36642B6851A700BE085F /* Rustiko */ = {
 			isa = PBXGroup;
 			children = (
+				C54326872BBDB71500D11744 /* Loyalty Page */,
 				C5A494812BA084A3002ED576 /* Auth */,
 				75E2CE4F2B769091005F3D52 /* Data */,
 				C58B36652B6851A700BE085F /* RustikoApp.swift */,
@@ -423,12 +434,13 @@
 				754CE18C2B83A1BE00962E88 /* MenuItemsTest.swift in Sources */,
 				C51D624E2B68ABA1008C2157 /* SideMenuRowView.swift in Sources */,
 				7560B6402B7A556E00ADA62F /* DataLoader.swift in Sources */,
+				C543268B2BBDB78E00D11744 /* RewardsCard.swift in Sources */,
+				C54326892BBDB75200D11744 /* PointsView.swift in Sources */,
 				C52016292BA8DF4E00A63747 /* HomeView.swift in Sources */,
-				751207982B9778D40056267A /* ScrollViewTest.swift in Sources */,
-				C5A4948B2BA0887C002ED576 /* Login.swift in Sources */,
 				7560B63E2B7A555100ADA62F /* DataModel.swift in Sources */,
 				C52016272BA8DE8400A63747 /* Login.swift in Sources */,
 				753FE33B2B6BD83B00FE6A6A /* InboxListItemView.swift in Sources */,
+				C543268D2BBDB7E600D11744 /* QRCode.swift in Sources */,
 				75D66BB82B6E19D6009B3084 /* PaymentWithCardView.swift in Sources */,
 				75A96B752BA8484500F24BD7 /* OffsetModifier.swift in Sources */,
 				C594B6972B791DD200F35C1E /* PickUpView.swift in Sources */,
@@ -597,7 +609,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.michbalkany.Rustiko;
 				PRODUCT_BUNDLE_IDENTIFIER = com.michbalkany.AuthmultiSignIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -630,7 +641,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.michbalkany.Rustiko;
 				PRODUCT_BUNDLE_IDENTIFIER = com.michbalkany.AuthmultiSignIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
