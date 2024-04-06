@@ -9,9 +9,14 @@ import Foundation
 import SwiftData
 
 
-// Class Struct For JSON Codable
+/// Heading:
+///
+/// Description:
+///
+///
+/// Story:
 struct Menu: Identifiable, Codable, Hashable {
-    
+    // Class Struct For JSON Codable
     static func == (lhs: Menu, rhs: Menu) -> Bool {
         return lhs.id == rhs.id && lhs.category == rhs.category
     }
