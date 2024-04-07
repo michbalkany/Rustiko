@@ -9,14 +9,17 @@ import Foundation
 import SwiftData
 
 
-/// Heading:
+// Struct For JSON Codable
+/// A struct for encoding and decoding menu items.
 ///
-/// Description:
+/// The  `Menu` struct is used to encode and decode the menu files bundled together with the application.
+/// It's used in the ``load(_:)`` generic function as a protocol  to conform when decoding.
 ///
-///
-/// Story:
 struct Menu: Identifiable, Codable, Hashable {
-    // Class Struct For JSON Codable
+    /// A computed property function for checking if `Menu` item conforms to `Equatable`
+    ///
+    /// The `static func` is used to conform to the `Equatable protocol` which is used
+    /// in the `Identifiable` protocol when attempting to list items and differentiate them from othe entries.
     static func == (lhs: Menu, rhs: Menu) -> Bool {
         return lhs.id == rhs.id && lhs.category == rhs.category
     }
@@ -24,13 +27,24 @@ struct Menu: Identifiable, Codable, Hashable {
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
     }
-    
+    /// Property used for identification of ``Menu`` item instances.
     var id: Int
+    
+    /// Property used to access the name of the major category of ``Menu``.
+    ///
+    /// Options include: Beverages, Breakfast, Dessert, Dinner & Lunch.
     let menu: String
+    
+    /// Property used to access the name of a sub-category of ``Menu``.
     let category: String
+    
+    /// Property used to store an array of ``Food``.
     let item: [Food]
     
-    // Menu Item Struct
+    // Food Item Struct
+    /// A struct that represents a ``Menu`` item instance.
+    ///
+    /// It showcases the proprties of a `Menu` instance that are available for use in the application.
     struct Food: Identifiable ,Codable {
         let id: Int
         let name: String
@@ -42,7 +56,11 @@ struct Menu: Identifiable, Codable, Hashable {
         let addOn: Additions?
     }
     
-    // Menu Item Option Struct
+    // Food.options Struct
+    /// A struct that represents a ``Food`` item that has configuration options.
+    ///
+    /// This struct is optional. If available for a ``Food`` item instance,
+    /// it has four (4) properties which can be used in the application.
     struct Choices: Codable {
         let first: String
         let second: String
@@ -50,7 +68,11 @@ struct Menu: Identifiable, Codable, Hashable {
         let fourth: String
     }
     
-    // Menu Item Addition Struct
+    // Food.addOn Struct
+    /// A struct that represents a ``Food`` item that has and "extra add-on" menu option.
+    ///
+    /// This struct is optional. If available for a ``Food`` item instance,
+    /// it has two (2) properties which can be used in the application.
     struct Additions: Codable {
         let addOnItem: String
         let addOnPrice: Double
