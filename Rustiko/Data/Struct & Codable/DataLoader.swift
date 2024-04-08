@@ -16,6 +16,18 @@ var lunch: [Menu] = load("LunchMenu.json")
 
 
 // Function for finding, loading and decoding JSON files to Swift Data types
+/// A function for loading files that are bundled in the application's resources.
+///
+/// It takes a `file name` + the `file name extension` and returns a generic data type.
+///
+/// Example:
+/// ``` swift
+///var beverages: [Menu] = load("BeveragesMenu.json")
+/// ```
+/// Here, the `file name` + `file name extension` are passed in as one string.
+///
+/// The variable is assigned the data type, in this case an array of type ``Menu``.
+/// Inside the variable is an array of ``Menu`` data type data.
 func load<T: Codable>(_ filename: String) -> T {
     
     // "data" Data Type assignment
