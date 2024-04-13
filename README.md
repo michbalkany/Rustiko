@@ -18,6 +18,9 @@ It's really that simple! More features and functionalities await but let's not b
 - Access restaurant operating hours 
 
 ## App Installation
+Pretty simple really, hit one of us up at:[Michael Balkany](https://www.linkedin.com/in/michael-balkany-4ba217267/) or [Micah Njeru](https://www.linkedin.com/in/micah-njeru/) and we'll help you set it up. 
+
+You could also download Xcode, clone the files and then run it on your device(s)🤷🏾‍♂️🥲. 
 
 ## Credits
 
