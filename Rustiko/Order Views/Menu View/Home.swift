@@ -186,13 +186,13 @@ struct MenuCardView: View {
             ForEach(tab.foodMenu) { food in
                 
                 // Food Menu Item Category View
-                HStack(spacing: 15) {
+                HStack(alignment: .center, spacing: 15) {
                     
                     VStack(alignment: .leading, spacing: 10) {
                         
                         // Food Menu Item Category
-                        Text(food.category)
-                            .font(.title3.bold())
+                        Text("\(food.category)".capitalized)
+                            .font(.title2.bold())
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
@@ -203,18 +203,35 @@ struct MenuCardView: View {
                     // Loop through each Menu item in Food Category
                     ForEach(food.item) { foodItem in
                         
-                        // Food Menu Item Name
-                        Text(foodItem.name)
-                            .font(.title3)
-                        
-                        // Food Menu Item Description
-                        Text(foodItem.description ?? "Served as is")
-                            .foregroundStyle(.gray)
-                        
-                        // Food Menu Item Price
-                        Text(String(format: "Price: $%.2f", foodItem.price))
-                            .fontWeight(.bold)
-                        
+                        // Horizontal Menu Item Section
+                        HStack {
+                            // Vertical Text Section
+                            VStack (alignment: .leading) {
+                                // Food Menu Item Name
+                                Text("\(foodItem.name)".capitalized)
+                                    .font(.title3)
+                                
+                                // Food Menu Item Description
+                                Text(foodItem.description?.capitalized ?? "Served as is")
+                                    .foregroundStyle(.gray)
+                                
+                                // Food Menu Item Price
+                                Text(String(format: "Price: $%.2f", foodItem.price))
+                                    .fontWeight(.bold)
+                            }
+                            
+                            // Create Middle Space between Text and Images
+                            Spacer()
+                            
+                            // Vertical Image Section
+                            VStack {
+                                Image("\(foodItem.name)")
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(width: 100, height: 100)
+                                    .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                            }
+                        }
                         // Divider for separating each Food Menu Item
                         Divider()
                     }
