@@ -27,6 +27,18 @@ struct MenuDetail: View {
             // Menu Price
             Text("Price: $5")
                 .fontWeight(.bold)
+            
+            // Push button to bottom of screen
+            Spacer()
+            
+            // Add to Cart button
+            Text("Add to Cart")
+                .padding()
+                .frame(width: .infinity)
+                .background(.blue)
+                .clipShape(
+                    RoundedRectangle(cornerRadius: 20)
+                )
         }
         .ignoresSafeArea()
         Spacer()
