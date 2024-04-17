@@ -19,7 +19,7 @@ struct ContentView: View {
                         Label("Inbox", systemImage: "envelope")
                     }
                 
-                OrderView()
+                Home()
                     .tabItem {
                         Label("Order", systemImage: "bag")
                     }
