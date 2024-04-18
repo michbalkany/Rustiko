@@ -20,6 +20,7 @@ struct InboxListItemView: View {
             // Image Section
             Image("caesar salad")
                 .resizable()
+                .scaledToFill()
                 .frame(width: 80, height: 80)
                 .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
             
