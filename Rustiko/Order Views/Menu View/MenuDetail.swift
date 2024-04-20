@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MenuDetail: View {
+    
+    let menu: Menu.Food
     var body: some View {
         VStack {
             // Menu Image
@@ -33,6 +35,7 @@ struct MenuDetail: View {
             
             // Add to Cart button
             Text("Add to Cart")
+                .foregroundStyle(.white)
                 .padding()
                 .frame(width: .infinity)
                 .background(.blue)
@@ -46,5 +49,5 @@ struct MenuDetail: View {
 }
 
 #Preview {
-    MenuDetail()
+    MenuDetail(menu: beverages[0].item[0])
 }
