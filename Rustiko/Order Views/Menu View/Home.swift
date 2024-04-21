@@ -207,33 +207,38 @@ struct MenuCardView: View {
 //                        NavigationLink(value: foodItem) {
                             // Horizontal Menu Item Section
                             HStack {
-                                // Vertical Text Section
-                                VStack (alignment: .leading) {
-                                    // Food Menu Item Name
-                                    Text("\(foodItem.name)".capitalized)
-                                        .font(.title3)
+                                Button {
+                                    MenuDetail(menu: foodItem)
+                                } label: {
+                                    // Vertical Text Section
+                                    VStack (alignment: .leading) {
+                                        // Food Menu Item Name
+                                        Text("\(foodItem.name)".capitalized)
+                                            .font(.title3)
+                                        
+                                        // Food Menu Item Description
+                                        Text(foodItem.description?.capitalized ?? "Served as is")
+                                            .foregroundStyle(.gray)
+                                        
+                                        // Food Menu Item Price
+                                        Text(String(format: "Price: $%.2f", foodItem.price))
+                                            .fontWeight(.bold)
+                                    }
                                     
-                                    // Food Menu Item Description
-                                    Text(foodItem.description?.capitalized ?? "Served as is")
-                                        .foregroundStyle(.gray)
+                                    // Create Middle Space between Text and Images
+                                    Spacer()
                                     
-                                    // Food Menu Item Price
-                                    Text(String(format: "Price: $%.2f", foodItem.price))
-                                        .fontWeight(.bold)
+                                    // Vertical Image Section
+                                    VStack {
+                                        Image("\(foodItem.name)")
+                                            .resizable()
+                                            .scaledToFill()
+                                            .frame(width: 100, height: 100)
+                                            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                                    }
+
                                 }
-                                
-                                // Create Middle Space between Text and Images
-                                Spacer()
-                                
-                                // Vertical Image Section
-                                VStack {
-                                    Image("\(foodItem.name)")
-                                        .resizable()
-                                        .scaledToFill()
-                                        .frame(width: 100, height: 100)
-                                        .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-                                }
-                            }
+                                                            }
                             // Divider for separating each Food Menu Item
                             Divider()
 //                        }

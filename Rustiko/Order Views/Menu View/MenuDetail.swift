@@ -10,24 +10,25 @@ import SwiftUI
 struct MenuDetail: View {
     
     let menu: Menu.Food
+    
     var body: some View {
         VStack {
             // Menu Image
-            Image("french fries")
+            Image("\(menu.name)")
                 .resizable()
                 .scaledToFit()
                 .frame(width: .infinity)
             
             // Menu Title
-            Text("French Fries")
+            Text(menu.name)
                 .font(.title2.bold())
             
             // Menu Description
-            Text("Served as is")
+            Text(menu.description?.capitalized ?? "Served as is")
                 .font(.title3)
             
             // Menu Price
-            Text("Price: $5")
+            Text(String(format: "Price: $%.2f", menu.price))
                 .fontWeight(.bold)
             
             // Push button to bottom of screen
