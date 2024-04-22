@@ -153,7 +153,7 @@ struct Home: View {
             // Setting Coordinate Space name for offset
             .coordinateSpace(name: "SCROLL")
         }
-        // Setting first tab 
+        // Setting first tab
         .onAppear {
             currentTab = tabItems.first?.id ?? ""
         }
@@ -203,48 +203,39 @@ struct MenuCardView: View {
                     // Loop through each Menu item in Food Category
                     ForEach(food.item) { foodItem in
                         
-                        // Pass in view data to MenuDetail
-//                        NavigationLink(value: foodItem) {
                             // Horizontal Menu Item Section
                             HStack {
-                                Button {
-                                    MenuDetail(menu: foodItem)
-                                } label: {
-                                    // Vertical Text Section
-                                    VStack (alignment: .leading) {
-                                        // Food Menu Item Name
-                                        Text("\(foodItem.name)".capitalized)
-                                            .font(.title3)
-                                        
-                                        // Food Menu Item Description
-                                        Text(foodItem.description?.capitalized ?? "Served as is")
-                                            .foregroundStyle(.gray)
-                                        
-                                        // Food Menu Item Price
-                                        Text(String(format: "Price: $%.2f", foodItem.price))
-                                            .fontWeight(.bold)
-                                    }
+                                
+                                // Vertical Text Section
+                                VStack (alignment: .leading) {
+                                    // Food Menu Item Name
+                                    Text("\(foodItem.name)".capitalized)
+                                        .font(.title3)
                                     
-                                    // Create Middle Space between Text and Images
-                                    Spacer()
+                                    // Food Menu Item Description
+                                    Text(foodItem.description?.capitalized ?? "Served as is")
+                                        .foregroundStyle(.gray)
                                     
-                                    // Vertical Image Section
-                                    VStack {
-                                        Image("\(foodItem.name)")
-                                            .resizable()
-                                            .scaledToFill()
-                                            .frame(width: 100, height: 100)
-                                            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-                                    }
-
+                                    // Food Menu Item Price
+                                    Text(String(format: "Price: $%.2f", foodItem.price))
+                                        .fontWeight(.bold)
                                 }
-                                                            }
-                            // Divider for separating each Food Menu Item
-                            Divider()
-//                        }
-//                        .navigationDestination(for: MenuDetail.self) { sample in
-//                            MenuDetail(menu: sample)
-//                        }
+                                
+                                // Create Middle Space between Text and Images
+                                Spacer()
+                                
+                                // Vertical Image Section
+                                VStack {
+                                    Image("\(foodItem.name)")
+                                        .resizable()
+                                        .scaledToFill()
+                                        .frame(width: 100, height: 100)
+                                        .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                                }
+                            }
+                        
+                        // Divider for separating each Food Menu Item
+                        Divider()
                     }
                     
                 }
