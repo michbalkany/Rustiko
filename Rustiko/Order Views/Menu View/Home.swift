@@ -176,6 +176,7 @@ struct MenuCardView: View {
     var body: some View {
         
         VStack(alignment: .leading, spacing: 20) {
+//            NavigationStack {
             
             // Menu Section Title
             Text(tab.tab)
@@ -199,47 +200,50 @@ struct MenuCardView: View {
                 
                 // Food Menu Item View
                 VStack(alignment: .leading, spacing: 10) {
-                    
-                    // Loop through each Menu item in Food Category
-                    ForEach(food.item) { foodItem in
                         
-                            // Horizontal Menu Item Section
-                            HStack {
-                                
-                                // Vertical Text Section
-                                VStack (alignment: .leading) {
-                                    // Food Menu Item Name
-                                    Text("\(foodItem.name)".capitalized)
-                                        .font(.title3)
+                        // Loop through each Menu item in Food Category
+                        ForEach(food.item) { foodItem in
+//                            NavigationLink(value: foodItem) {
+                                // Horizontal Menu Item Section
+                                HStack {
                                     
-                                    // Food Menu Item Description
-                                    Text(foodItem.description?.capitalized ?? "Served as is")
-                                        .foregroundStyle(.gray)
+                                    // Vertical Text Section
+                                    VStack (alignment: .leading) {
+                                        // Food Menu Item Name
+                                        Text("\(foodItem.name)".capitalized)
+                                            .font(.title3)
+                                        
+                                        // Food Menu Item Description
+                                        Text(foodItem.description?.capitalized ?? "Served as is")
+                                            .foregroundStyle(.gray)
+                                        
+                                        // Food Menu Item Price
+                                        Text(String(format: "Price: $%.2f", foodItem.price))
+                                            .fontWeight(.bold)
+                                    }
                                     
-                                    // Food Menu Item Price
-                                    Text(String(format: "Price: $%.2f", foodItem.price))
-                                        .fontWeight(.bold)
+                                    // Create Middle Space between Text and Images
+                                    Spacer()
+                                    
+                                    // Vertical Image Section
+                                    VStack {
+                                        Image("\(foodItem.name)")
+                                            .resizable()
+                                            .scaledToFill()
+                                            .frame(width: 100, height: 100)
+                                            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                                    }
                                 }
-                                
-                                // Create Middle Space between Text and Images
-                                Spacer()
-                                
-                                // Vertical Image Section
-                                VStack {
-                                    Image("\(foodItem.name)")
-                                        .resizable()
-                                        .scaledToFill()
-                                        .frame(width: 100, height: 100)
-                                        .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-                                }
-                            }
+//                            }
+                        }
                         
                         // Divider for separating each Food Menu Item
                         Divider()
+                        
                     }
-                    
                 }
-            }
+//            .navigationDestination(for: Menu.Food.self, destination: MenuDetail.init)
+//            }
         }
         .modifier(OffsetModifier(tab: tab, currentTab: $currentTab))
         

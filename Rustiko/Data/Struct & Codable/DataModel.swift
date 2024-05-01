@@ -45,7 +45,16 @@ struct Menu: Identifiable, Codable, Hashable {
     /// A struct that represents a ``Menu`` item instance.
     ///
     /// It showcases the proprties of a `Menu` instance that are available for use in the application.
-    struct Food: Identifiable ,Codable {
+    struct Food: Identifiable ,Codable, Hashable {
+        
+        static func == (lhs: Food, rhs: Food) -> Bool {
+            return lhs.id == rhs.id && lhs.name == rhs.name && rhs.price == lhs.price
+        }
+        
+        func hash(into hasher: inout Hasher) {
+            hasher.combine(id)
+        }
+        
         let id: Int
         let name: String
         let price: Double
