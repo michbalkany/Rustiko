@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TabBarView: View {
     enum FilterType {
-        case inbox, order, reserve, help
+        case inbox, order, reserve, help, settings
     }
 
     let filter: FilterType
@@ -24,6 +24,8 @@ struct TabBarView: View {
             "Reserve"
         case .help:
             "Help"
+        case .settings:
+            "Settings"
         }
     }
     

@@ -33,6 +33,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Help", systemImage: "bubble.left.and.bubble.right")
                 }
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gear")
+                }
         }
     }
 }

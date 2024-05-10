@@ -10,11 +10,28 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         NavigationStack {
+            // List of Settings
             List {
-                // List of Settings
-                Text("Account Preferences")
-                Text("Payment")
-                Text("Privacy & Security")
+                // Privacy and Security
+                Button {
+//                    PrivacyAndSecurityView()
+                } label: {
+                    Text("Privacy and Security")
+                }
+                
+                // Payment
+                Button {
+//                    PaymentWithCardView()
+                } label: {
+                    Text("Payment")
+                }
+                
+                // Account Preferences
+                Button {
+//                    AccountPreferencesView()
+                } label: {
+                    Text("Account Preferences")
+                }
             }
             .navigationTitle("Settings")
         }

@@ -24,17 +24,9 @@ struct Home: View {
                 // Top Section with Back Arrow, Menu Title and Search Icon
                 HStack(spacing: 15) {
                     
-                    // Back Arrow Button
-                    Button {
-                        // Insert Button Functionality Here
-                    } label: {
-                        Image(systemName: "arrow.left")
-                            .font(.title2)
-                    }
-                    
                     // Menu Title
-                    Text("McDonald's - Chinatown")
-                        .font(.title3)
+                    Text("Rustiko Artisan Bistro")
+                        .font(.title)
                         .fontWeight(.semibold)
                         .frame(maxWidth: .infinity, alignment: .leading)
                     

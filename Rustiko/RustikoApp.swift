@@ -18,12 +18,7 @@ struct RustikoApp: App {
     
     var body: some Scene {
         WindowGroup {
-           HomeView()
-//           OrderView()
-//            Home()
-
-
-            //  AuthHomeView()
+            ContentView()
         }
         .modelContainer(for: SwiftDataMenuModel.self)
     }
