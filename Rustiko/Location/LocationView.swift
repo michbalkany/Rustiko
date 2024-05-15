@@ -61,10 +61,14 @@ struct LocationView: View {
                                 .truncationMode(.tail)
                             
                             // Jump to location Button
-                            Button("Rustiko") {
-                                position = MapCameraPosition.region(
-                                    MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 25.884855, longitude: -80.123619), latitudinalMeters: 10, longitudinalMeters: 10)
-                                )
+                            Button(action: {
+                                withAnimation(.linear(duration: 50)) {
+                                    position = MapCameraPosition.region(
+                                        MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 25.884855, longitude: -80.123619), latitudinalMeters: 10, longitudinalMeters: 10)
+                                    )
+                                }
+                            }) {
+                                Text("Rustiko")
                             }
                             
                             // Sheet settings
