@@ -19,6 +19,7 @@ struct RustikoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            ContentViewLogin()
         }
         .modelContainer(for: SwiftDataMenuModel.self)
     }

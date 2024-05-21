@@ -6,8 +6,10 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct SettingsView: View {
+    @AppStorage("log_Status") private var logStatus: Bool = false
     var body: some View {
         NavigationStack {
             // List of Settings
@@ -31,6 +33,10 @@ struct SettingsView: View {
 //                    AccountPreferencesView()
                 } label: {
                     Text("Account Preferences")
+                }
+                Button("LogOut") {
+                    try? Auth.auth().signOut()
+                    logStatus = false
                 }
             }
             .navigationTitle("Settings")
