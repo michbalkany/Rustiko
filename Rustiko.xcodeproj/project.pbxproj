@@ -37,7 +37,6 @@
 		C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */; };
 		C51D62A02B7035E5008C2157 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D629F2B7035E5008C2157 /* TabBarView.swift */; };
 		C51D62A52B70842A008C2157 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D62A42B70842A008C2157 /* OrderView.swift */; };
-		C54326C22BE9219000D11744 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C54326C12BE9219000D11744 /* FirebaseAuth */; };
 		C562648D2BF682C300E83A04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C562648C2BF682C300E83A04 /* GoogleService-Info.plist */; };
 		C562648F2BF683F700E83A04 /* AppleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C562648E2BF683F600E83A04 /* AppleSignIn.swift */; };
 		C58B36662B6851A700BE085F /* RustikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36652B6851A700BE085F /* RustikoApp.swift */; };
@@ -49,6 +48,7 @@
 		C594B6972B791DD200F35C1E /* PickUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594B6962B791DD200F35C1E /* PickUpView.swift */; };
 		C594B6992B791DDD00F35C1E /* DeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594B6982B791DDD00F35C1E /* DeliveryView.swift */; };
 		C5E3A1092BFC274A00789E42 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E3A1082BFC274A00789E42 /* MainView.swift */; };
+		C5E3A11A2BFCF07A00789E42 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C5E3A1192BFCF07A00789E42 /* FirebaseAuth */; };
 		C5EE8DBC2BF6A7DF00B5CA47 /* HomeLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EE8DBB2BF6A7DF00B5CA47 /* HomeLogin.swift */; };
 		C5EE8DBE2BF6A82D00B5CA47 /* ContentViewLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EE8DBD2BF6A82D00B5CA47 /* ContentViewLogin.swift */; };
 /* End PBXBuildFile section */
@@ -107,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C54326C22BE9219000D11744 /* FirebaseAuth in Frameworks */,
+				C5E3A11A2BFCF07A00789E42 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +343,7 @@
 			);
 			name = Rustiko;
 			packageProductDependencies = (
-				C54326C12BE9219000D11744 /* FirebaseAuth */,
+				C5E3A1192BFCF07A00789E42 /* FirebaseAuth */,
 			);
 			productName = Rustiko;
 			productReference = C58B36622B6851A700BE085F /* Rustiko.app */;
@@ -374,7 +374,7 @@
 			);
 			mainGroup = C58B36592B6851A700BE085F;
 			packageReferences = (
-				C54326C02BE9218F00D11744 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C5E3A1182BFCF07A00789E42 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = C58B36632B6851A700BE085F /* Products */;
 			projectDirPath = "";
@@ -660,20 +660,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C54326C02BE9218F00D11744 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		C5E3A1182BFCF07A00789E42 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 10.25.0;
+				minimumVersion = 10.26.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C54326C12BE9219000D11744 /* FirebaseAuth */ = {
+		C5E3A1192BFCF07A00789E42 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C54326C02BE9218F00D11744 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = C5E3A1182BFCF07A00789E42 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
