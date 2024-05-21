@@ -37,13 +37,8 @@
 		C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */; };
 		C51D62A02B7035E5008C2157 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D629F2B7035E5008C2157 /* TabBarView.swift */; };
 		C51D62A52B70842A008C2157 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51D62A42B70842A008C2157 /* OrderView.swift */; };
-		C52016252BA8DDFA00A63747 /* ContentsProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52016242BA8DDFA00A63747 /* ContentsProfileView.swift */; };
-		C52016272BA8DE8400A63747 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52016262BA8DE8400A63747 /* Login.swift */; };
-		C52016292BA8DF4E00A63747 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52016282BA8DF4E00A63747 /* HomeView.swift */; };
-		C520162B2BA8E16400A63747 /* AnimEmail.json in Resources */ = {isa = PBXBuildFile; fileRef = C520162A2BA8E16400A63747 /* AnimEmail.json */; };
-		C52016342BB3157000A63747 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C52016332BB3157000A63747 /* FirebaseAuth */; };
-		C52016372BB315B500A63747 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C52016362BB315B500A63747 /* Lottie */; };
-		C52016392BB3180E00A63747 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C52016382BB3180E00A63747 /* GoogleService-Info.plist */; };
+		C562648D2BF682C300E83A04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C562648C2BF682C300E83A04 /* GoogleService-Info.plist */; };
+		C562648F2BF683F700E83A04 /* AppleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C562648E2BF683F600E83A04 /* AppleSignIn.swift */; };
 		C58B36662B6851A700BE085F /* RustikoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36652B6851A700BE085F /* RustikoApp.swift */; };
 		C58B36682B6851A700BE085F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36672B6851A700BE085F /* ContentView.swift */; };
 		C58B366A2B6851AA00BE085F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58B36692B6851AA00BE085F /* Assets.xcassets */; };
@@ -52,6 +47,10 @@
 		C58B36762B68523000BE085F /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B36752B68523000BE085F /* SideMenuHeaderView.swift */; };
 		C594B6972B791DD200F35C1E /* PickUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594B6962B791DD200F35C1E /* PickUpView.swift */; };
 		C594B6992B791DDD00F35C1E /* DeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594B6982B791DDD00F35C1E /* DeliveryView.swift */; };
+		C5E3A1092BFC274A00789E42 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E3A1082BFC274A00789E42 /* MainView.swift */; };
+		C5E3A11A2BFCF07A00789E42 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C5E3A1192BFCF07A00789E42 /* FirebaseAuth */; };
+		C5EE8DBC2BF6A7DF00B5CA47 /* HomeLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EE8DBB2BF6A7DF00B5CA47 /* HomeLogin.swift */; };
+		C5EE8DBE2BF6A82D00B5CA47 /* ContentViewLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EE8DBD2BF6A82D00B5CA47 /* ContentViewLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,11 +85,8 @@
 		C51D624F2B68AE76008C2157 /* SideMenuOptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionsModel.swift; sourceTree = "<group>"; };
 		C51D629F2B7035E5008C2157 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		C51D62A42B70842A008C2157 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
-		C52016242BA8DDFA00A63747 /* ContentsProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsProfileView.swift; sourceTree = "<group>"; };
-		C52016262BA8DE8400A63747 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		C52016282BA8DF4E00A63747 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		C520162A2BA8E16400A63747 /* AnimEmail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AnimEmail.json; sourceTree = "<group>"; };
-		C52016382BB3180E00A63747 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C562648C2BF682C300E83A04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C562648E2BF683F600E83A04 /* AppleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignIn.swift; sourceTree = "<group>"; };
 		C58B36622B6851A700BE085F /* Rustiko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rustiko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58B36652B6851A700BE085F /* RustikoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustikoApp.swift; sourceTree = "<group>"; };
 		C58B36672B6851A700BE085F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +96,10 @@
 		C58B36752B68523000BE085F /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
 		C594B6962B791DD200F35C1E /* PickUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpView.swift; sourceTree = "<group>"; };
 		C594B6982B791DDD00F35C1E /* DeliveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryView.swift; sourceTree = "<group>"; };
+		C5E3A1082BFC274A00789E42 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C5E3A10B2BFC2A4400789E42 /* Rustiko.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rustiko.entitlements; sourceTree = "<group>"; };
+		C5EE8DBB2BF6A7DF00B5CA47 /* HomeLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLogin.swift; sourceTree = "<group>"; };
+		C5EE8DBD2BF6A82D00B5CA47 /* ContentViewLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewLogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C52016342BB3157000A63747 /* FirebaseAuth in Frameworks */,
-				C52016372BB315B500A63747 /* Lottie in Frameworks */,
+				C5E3A11A2BFCF07A00789E42 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +255,7 @@
 		C58B36592B6851A700BE085F = {
 			isa = PBXGroup;
 			children = (
-				C52016382BB3180E00A63747 /* GoogleService-Info.plist */,
+				C562648C2BF682C300E83A04 /* GoogleService-Info.plist */,
 				753FE3342B6BBC4F00FE6A6A /* README.md */,
 				C58B36642B6851A700BE085F /* Rustiko */,
 				C58B36632B6851A700BE085F /* Products */,
@@ -275,7 +274,9 @@
 		C58B36642B6851A700BE085F /* Rustiko */ = {
 			isa = PBXGroup;
 			children = (
-				C5A494812BA084A3002ED576 /* Auth */,
+				C5E3A10B2BFC2A4400789E42 /* Rustiko.entitlements */,
+				C5E3A10A2BFC288300789E42 /* Main */,
+				C5A494812BA084A3002ED576 /* AppleLogIn */,
 				75E2CE4F2B769091005F3D52 /* Data */,
 				C58B36652B6851A700BE085F /* RustikoApp.swift */,
 				C58B36672B6851A700BE085F /* ContentView.swift */,
@@ -300,15 +301,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C5A494812BA084A3002ED576 /* Auth */ = {
+		C5A494812BA084A3002ED576 /* AppleLogIn */ = {
 			isa = PBXGroup;
 			children = (
-				C52016262BA8DE8400A63747 /* Login.swift */,
-				C52016282BA8DF4E00A63747 /* HomeView.swift */,
-				C52016242BA8DDFA00A63747 /* ContentsProfileView.swift */,
-				C520162A2BA8E16400A63747 /* AnimEmail.json */,
+				C562648E2BF683F600E83A04 /* AppleSignIn.swift */,
+				C5EE8DBB2BF6A7DF00B5CA47 /* HomeLogin.swift */,
+				C5EE8DBD2BF6A82D00B5CA47 /* ContentViewLogin.swift */,
 			);
-			path = Auth;
+			path = AppleLogIn;
 			sourceTree = "<group>";
 		};
 		C5A494982BA08D74002ED576 /* Frameworks */ = {
@@ -316,6 +316,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E3A10A2BFC288300789E42 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C5E3A1082BFC274A00789E42 /* MainView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,8 +343,7 @@
 			);
 			name = Rustiko;
 			packageProductDependencies = (
-				C52016332BB3157000A63747 /* FirebaseAuth */,
-				C52016362BB315B500A63747 /* Lottie */,
+				C5E3A1192BFCF07A00789E42 /* FirebaseAuth */,
 			);
 			productName = Rustiko;
 			productReference = C58B36622B6851A700BE085F /* Rustiko.app */;
@@ -367,8 +374,7 @@
 			);
 			mainGroup = C58B36592B6851A700BE085F;
 			packageReferences = (
-				C52016322BB3157000A63747 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				C52016352BB315B500A63747 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				C5E3A1182BFCF07A00789E42 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = C58B36632B6851A700BE085F /* Products */;
 			projectDirPath = "";
@@ -386,13 +392,12 @@
 			files = (
 				751207962B9778710056267A /* DessertMenu.json in Resources */,
 				C58B366D2B6851AA00BE085F /* Preview Assets.xcassets in Resources */,
-				C52016392BB3180E00A63747 /* GoogleService-Info.plist in Resources */,
 				751207952B9778710056267A /* BeveragesMenu.json in Resources */,
-				C520162B2BA8E16400A63747 /* AnimEmail.json in Resources */,
 				751207922B9778710056267A /* DinnerMenu.json in Resources */,
 				751207932B9778710056267A /* BreakfastMenu.json in Resources */,
 				C58B366A2B6851AA00BE085F /* Assets.xcassets in Resources */,
 				751207942B9778710056267A /* LunchMenu.json in Resources */,
+				C562648D2BF682C300E83A04 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,24 +413,24 @@
 				C58B36742B6851FC00BE085F /* SideMenuView.swift in Sources */,
 				75D66BAE2B6DFD37009B3084 /* AccountPreferencesView.swift in Sources */,
 				75D66BB02B6E09A3009B3084 /* AccountPreferenceEditView.swift in Sources */,
+				C5E3A1092BFC274A00789E42 /* MainView.swift in Sources */,
 				75D8CA9D2B6D43C9009BB4F9 /* RewardsCardView.swift in Sources */,
 				75A96B732BA8480900F24BD7 /* Home.swift in Sources */,
 				753FE3392B6BCF9600FE6A6A /* InboxMessageView.swift in Sources */,
 				C58B36762B68523000BE085F /* SideMenuHeaderView.swift in Sources */,
 				C51D624E2B68ABA1008C2157 /* SideMenuRowView.swift in Sources */,
 				7560B6402B7A556E00ADA62F /* DataLoader.swift in Sources */,
-				C52016292BA8DF4E00A63747 /* HomeView.swift in Sources */,
 				7560B63E2B7A555100ADA62F /* DataModel.swift in Sources */,
-				C52016272BA8DE8400A63747 /* Login.swift in Sources */,
+				C562648F2BF683F700E83A04 /* AppleSignIn.swift in Sources */,
 				753FE33B2B6BD83B00FE6A6A /* InboxListItemView.swift in Sources */,
 				75D66BB82B6E19D6009B3084 /* PaymentWithCardView.swift in Sources */,
 				75A96B752BA8484500F24BD7 /* OffsetModifier.swift in Sources */,
 				C594B6972B791DD200F35C1E /* PickUpView.swift in Sources */,
-				C52016252BA8DDFA00A63747 /* ContentsProfileView.swift in Sources */,
 				753FE3372B6BBD6E00FE6A6A /* InboxHomeView.swift in Sources */,
 				75D66BB42B6E15F4009B3084 /* PaymentEmptyView.swift in Sources */,
 				75D8CA9B2B6D3DC4009BB4F9 /* PromoCardView.swift in Sources */,
 				C58B36682B6851A700BE085F /* ContentView.swift in Sources */,
+				C5EE8DBC2BF6A7DF00B5CA47 /* HomeLogin.swift in Sources */,
 				753856692B73D5DC00FF5663 /* LocationView.swift in Sources */,
 				75D66BBD2B6E1F63009B3084 /* PrivacyAndSecurityEditView.swift in Sources */,
 				C51D62502B68AE76008C2157 /* SideMenuOptionsModel.swift in Sources */,
@@ -435,6 +440,7 @@
 				75D8CA992B6D3703009BB4F9 /* GiftCardsView.swift in Sources */,
 				75D66BBB2B6E1F43009B3084 /* PrivacyAndSecurityView.swift in Sources */,
 				C51D62A52B70842A008C2157 /* OrderView.swift in Sources */,
+				C5EE8DBE2BF6A82D00B5CA47 /* ContentViewLogin.swift in Sources */,
 				C58B36662B6851A700BE085F /* RustikoApp.swift in Sources */,
 				75D66BAC2B6DFB73009B3084 /* SettingsView.swift in Sources */,
 			);
@@ -567,10 +573,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_ENTITLEMENTS = Rustiko/Rustiko.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rustiko/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 324KXDJHTP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSUIElement = NO;
@@ -585,7 +593,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.michbalkany.AuthmultiSignIn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michbalkany.Rustiko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -599,10 +607,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_ENTITLEMENTS = Rustiko/Rustiko.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rustiko/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 324KXDJHTP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSUIElement = NO;
@@ -617,7 +627,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.michbalkany.AuthmultiSignIn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michbalkany.Rustiko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -650,34 +660,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C52016322BB3157000A63747 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		C5E3A1182BFCF07A00789E42 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 10.23.0;
-			};
-		};
-		C52016352BB315B500A63747 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.4.1;
+				minimumVersion = 10.26.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C52016332BB3157000A63747 /* FirebaseAuth */ = {
+		C5E3A1192BFCF07A00789E42 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C52016322BB3157000A63747 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = C5E3A1182BFCF07A00789E42 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
-		};
-		C52016362BB315B500A63747 /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C52016352BB315B500A63747 /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
