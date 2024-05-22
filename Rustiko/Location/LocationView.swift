@@ -22,6 +22,8 @@ struct LocationView: View {
     // Popover sheet height settings
     let heights = stride(from: 0.3, through: 1.0, by: 0.1).map {PresentationDetent.fraction($0)}
     
+    @State private var animateMap = false
+    
     var body: some View {
         VStack {
             
@@ -63,6 +65,9 @@ struct LocationView: View {
                             // Jump to location Button
                             Button(action: {
                                 withAnimation(.linear(duration: 50)) {
+                                    
+                                    animateMap.toggle()
+                                    
                                     position = MapCameraPosition.region(
                                         MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 25.884855, longitude: -80.123619), latitudinalMeters: 10, longitudinalMeters: 10)
                                     )
