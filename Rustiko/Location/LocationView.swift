@@ -63,18 +63,15 @@ struct LocationView: View {
                                 .truncationMode(.tail)
                             
                             // Jump to location Button
-                            Button(action: {
-                                withAnimation(.linear(duration: 50)) {
-                                    
-                                    animateMap.toggle()
-                                    
-                                    position = MapCameraPosition.region(
-                                        MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 25.884855, longitude: -80.123619), latitudinalMeters: 10, longitudinalMeters: 10)
-                                    )
-                                }
-                            }) {
-                                Text("Rustiko")
+                            Button("Rustiko") {
+                                
+                                animateMap.toggle()
+                                
+                                position = MapCameraPosition.region(
+                                    MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 25.884855, longitude: -80.123619), latitudinalMeters: 10, longitudinalMeters: 10)
+                                )
                             }
+                            .animation(.easeIn(duration: 2), value: animateMap)
                             
                             // Sheet settings
                             .presentationDetents(Set(heights))
