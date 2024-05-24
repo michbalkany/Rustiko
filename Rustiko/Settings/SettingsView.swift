@@ -15,30 +15,37 @@ struct SettingsView: View {
             // List of Settings
             List {
                 // Privacy and Security
-                Button {
-//                    PrivacyAndSecurityView()
+                NavigationLink {
+                    PrivacyAndSecurityView()
                 } label: {
                     Text("Privacy and Security")
                 }
                 
                 // Payment
-                Button {
-//                    PaymentWithCardView()
+                NavigationLink {
+                    PaymentWithCardView()
                 } label: {
                     Text("Payment")
                 }
                 
                 // Account Preferences
-                Button {
-//                    AccountPreferencesView()
+                NavigationLink {
+                    AccountPreferencesView()
                 } label: {
                     Text("Account Preferences")
                 }
+            }
+            
+            VStack {
+                // Logout Button
                 Button("LogOut") {
                     try? Auth.auth().signOut()
                     logStatus = false
                 }
+                .buttonStyle(.borderedProminent)
             }
+            .padding()
+            
             .navigationTitle("Settings")
         }
     }
