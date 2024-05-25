@@ -65,6 +65,7 @@ struct PaymentAddCardView: View {
             Button("Save Card"){
                 // Insert Button Function here
             }
+            .buttonStyle(.borderedProminent)
             .padding()
         }
     }

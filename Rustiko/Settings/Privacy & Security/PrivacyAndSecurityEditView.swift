@@ -39,15 +39,17 @@ struct PrivacyAndSecurityEditView: View {
                         .stroke(.blue, lineWidth: 2)
                 )
                 .padding(.bottom)
-            
-            // Save Button
-            Button("Save") {
-                // Insert Button Function Here
-            }
         }
         .padding()
         
+        // Pushes button to the bottom
         Spacer()
+        
+        // Save Button
+        Button("Save") {
+            // Insert Button Function Here
+        }
+        .buttonStyle(.borderedProminent)
     }
 }
 

@@ -30,6 +30,7 @@ struct PaymentEmptyView: View {
             Button("Add Card"){
                 showingCardSheet.toggle()
             }
+            .buttonStyle(.borderedProminent)
             .padding()
             .popover(isPresented: $showingCardSheet) {
                 PaymentAddCardView()

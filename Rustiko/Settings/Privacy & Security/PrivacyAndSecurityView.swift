@@ -14,14 +14,41 @@ struct PrivacyAndSecurityView: View {
     @State private var showingEdit = false
     
     var body: some View {
+        NavigationStack {
+            VStack {
+                // FaceID Toggle
+                Toggle("Login with FaceID", isOn: $faceID)
+                    .padding()
+                
+                Divider()
+                
+                // Address Stack
+                HStack{
+                    Text("Address: ")
+                        .padding()
+                    Spacer()
+                }
+                
+                // Apartment Stack
+                HStack{
+                    Text("Apartment: ")
+                        .padding()
+                    Spacer()
+                }
+            }
+            
+            // Pushes Content to the top
+            Spacer()
+            .navigationTitle("Privacy & Security")
+        }
+        
         // Edit Button Stack
         HStack{
-            Spacer()
-            
             // Edit Button
             Button("Edit"){
                 showingEdit.toggle()
             }
+            .buttonStyle(.borderedProminent)
             .padding(.trailing)
             .popover(isPresented: $showingEdit){
                 PrivacyAndSecurityEditView()
@@ -30,39 +57,6 @@ struct PrivacyAndSecurityView: View {
                     .presentationDragIndicator(.visible)
             }
         }
-        
-        VStack(alignment: .center){
-            // Title
-            Text("Privacy & Security")
-                .font(.largeTitle)
-                .padding()
-            
-            // FaceID Stack
-            VStack{
-                // FaceID Toggle
-                Toggle("Login with FaceID", isOn: $faceID)
-                    .padding()
-            }
-            
-            Divider()
-                .padding()
-            
-            // Address Stack
-            HStack{
-                Text("Address: ")
-                    .padding()
-                Spacer()
-            }
-            
-            // Apartment Stack
-            HStack{
-                Text("Apartment: ")
-                    .padding()
-                Spacer()
-            }
-            
-        }
-        Spacer()
     }
 }
 
