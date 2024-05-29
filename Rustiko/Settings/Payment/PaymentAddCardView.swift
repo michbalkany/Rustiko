@@ -13,60 +13,66 @@ struct PaymentAddCardView: View {
     @State private var cardNumber: Int = 0
     @State private var monthYear: Int = 00
     @State private var cvv: Int = 0
+    @Environment(\.dismiss) private var dismiss
     
     var body: some View {
-        VStack(alignment: .center){
-            // Title
-            Text("Add Card")
-                .font(.title)
-                .padding()
-            
-            // Description
-            Text("Enter card details here. Click save once done.")
-                .padding()
-                .multilineTextAlignment(.center)
-            
-            // Text Boxes
+        NavigationStack {
             VStack(alignment: .center){
-                // Card Number
-                TextField("Card Number", value: $cardNumber, format: .number)
-                    .foregroundStyle(.gray)
+                // Description
+                Text("Enter card details here. Click save once done.")
                     .padding()
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 10)
-                            .stroke(.blue, lineWidth: 2)
-                    )
-                    .padding(.bottom)
+                    .multilineTextAlignment(.center)
                 
-                // Month Year
-                TextField("MonthYear", value: $monthYear, format: .number)
-                    .foregroundStyle(.gray)
-                    .padding()
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 10)
-                            .stroke(.blue, lineWidth: 2)
-                    )
-                    .padding(.bottom)
+                // Text Boxes
+                VStack(alignment: .center){
+                    // Card Number
+                    TextField("Card Number", value: $cardNumber, format: .number)
+                        .foregroundStyle(.gray)
+                        .padding()
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(.blue, lineWidth: 2)
+                        )
+                        .padding(.bottom)
+                    
+                    // Month Year
+                    TextField("MonthYear", value: $monthYear, format: .number)
+                        .foregroundStyle(.gray)
+                        .padding()
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(.blue, lineWidth: 2)
+                        )
+                        .padding(.bottom)
+                    
+                    // CVV
+                    TextField("CVV", value: $cvv, format: .number)
+                        .foregroundStyle(.gray)
+                        .padding()
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(.blue, lineWidth: 2)
+                        )
+                        .padding(.bottom)
+                }
+                .padding()
                 
-                // CVV
-                TextField("CVV", value: $cvv, format: .number)
-                    .foregroundStyle(.gray)
-                    .padding()
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 10)
-                            .stroke(.blue, lineWidth: 2)
-                    )
-                    .padding(.bottom)
+                Spacer()
+                // Save Card Button
+                Button("Save Card"){
+                    dismiss()
+                }
+                .buttonStyle(.borderedProminent)
+                .padding()
             }
-            .padding()
-            
-            Spacer()
-            // Save Card Button
-            Button("Save Card"){
-                // Insert Button Function here
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("Add Card")
+                        .font(.largeTitle.bold())
+                        .accessibilityAddTraits(.isHeader)
+                }
             }
-            .buttonStyle(.borderedProminent)
-            .padding()
         }
     }
 }
