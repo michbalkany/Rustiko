@@ -1,31 +1,20 @@
 //
-//  RewardsCardView.swift
+//  RewardsCardSheetView.swift
 //  Rustiko
 //
-//  Created by Micah Njeru on 02/02/2024.
+//  Created by Micah Njeru on 30/05/2024.
 //
 
 import SwiftUI
 
-struct RewardsCardView: View {
-    
-    // Sheet property
-    @State private var showingSheet = false
+struct RewardsCardSheetView: View {
+    // Sheet Dismissal variable
+    @Environment (\.dismiss) private var dismiss
     
     var body: some View {
         
-        // Button for showing Sheet
-        Button("Rewards"){
-            showingSheet.toggle()
-        }
-        .popover(isPresented: $showingSheet) {
+        NavigationStack {
             VStack(alignment: .center){
-                
-                // Title
-                Text("Rustiko Rewards")
-                    .font(.title)
-                    .padding(20)
-                
                 Spacer()
                 
                 // Center Text
@@ -47,14 +36,28 @@ struct RewardsCardView: View {
                 
                 Spacer()
                 
-                    // Sheet Settings
+                Button("Done") {
+                    dismiss()
+                }
+                .buttonStyle(.borderedProminent)
+                
+                // Sheet Settings
                     .presentationDetents([.large])
                     .presentationDragIndicator(.visible)
             }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("Rustiko Rewards")
+                        .font(.largeTitle.bold())
+                        .accessibilityAddTraits(.isHeader)
+                }
+            }
+
         }
     }
 }
 
 #Preview {
-    RewardsCardView()
+    RewardsCardSheetView()
 }

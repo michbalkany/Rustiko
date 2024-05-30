@@ -19,6 +19,9 @@
 		7545A9A32BCD7B5400E38053 /* MenuDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7545A9A22BCD7B5400E38053 /* MenuDetail.swift */; };
 		7560B63E2B7A555100ADA62F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7560B63D2B7A555100ADA62F /* DataModel.swift */; };
 		7560B6402B7A556E00ADA62F /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7560B63F2B7A556E00ADA62F /* DataLoader.swift */; };
+		757AB06C2C08D0D800EAC371 /* PromoCardSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757AB06B2C08D0D800EAC371 /* PromoCardSheetView.swift */; };
+		757AB06F2C08D20000EAC371 /* RewardsCardSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757AB06E2C08D20000EAC371 /* RewardsCardSheetView.swift */; };
+		757AB0712C08D22300EAC371 /* GiftCardsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757AB0702C08D22300EAC371 /* GiftCardsSheetView.swift */; };
 		75A96B712BA847C400F24BD7 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A96B702BA847C400F24BD7 /* Tab.swift */; };
 		75A96B732BA8480900F24BD7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A96B722BA8480900F24BD7 /* Home.swift */; };
 		75A96B752BA8484500F24BD7 /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A96B742BA8484500F24BD7 /* OffsetModifier.swift */; };
@@ -67,6 +70,9 @@
 		7545A9A22BCD7B5400E38053 /* MenuDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetail.swift; sourceTree = "<group>"; };
 		7560B63D2B7A555100ADA62F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		7560B63F2B7A556E00ADA62F /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		757AB06B2C08D0D800EAC371 /* PromoCardSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCardSheetView.swift; sourceTree = "<group>"; };
+		757AB06E2C08D20000EAC371 /* RewardsCardSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsCardSheetView.swift; sourceTree = "<group>"; };
+		757AB0702C08D22300EAC371 /* GiftCardsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardsSheetView.swift; sourceTree = "<group>"; };
 		75A96B702BA847C400F24BD7 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		75A96B722BA8480900F24BD7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		75A96B742BA8484500F24BD7 /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
@@ -153,6 +159,33 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		757AB06A2C08D04B00EAC371 /* Gift Cards */ = {
+			isa = PBXGroup;
+			children = (
+				75D8CA982B6D3703009BB4F9 /* GiftCardsView.swift */,
+				757AB0702C08D22300EAC371 /* GiftCardsSheetView.swift */,
+			);
+			path = "Gift Cards";
+			sourceTree = "<group>";
+		};
+		757AB06D2C08D19F00EAC371 /* Promo Code */ = {
+			isa = PBXGroup;
+			children = (
+				75D8CA9A2B6D3DC4009BB4F9 /* PromoCardView.swift */,
+				757AB06B2C08D0D800EAC371 /* PromoCardSheetView.swift */,
+			);
+			path = "Promo Code";
+			sourceTree = "<group>";
+		};
+		757AB0732C08D5E900EAC371 /* Rewards  */ = {
+			isa = PBXGroup;
+			children = (
+				75D8CA9C2B6D43C9009BB4F9 /* RewardsCardView.swift */,
+				757AB06E2C08D20000EAC371 /* RewardsCardSheetView.swift */,
+			);
+			path = "Rewards ";
+			sourceTree = "<group>";
+		};
 		758325202BB7C3E900192F62 /* Menu View */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,9 +239,9 @@
 		75D8CA972B6D36C3009BB4F9 /* Sheet Sliders */ = {
 			isa = PBXGroup;
 			children = (
-				75D8CA982B6D3703009BB4F9 /* GiftCardsView.swift */,
-				75D8CA9A2B6D3DC4009BB4F9 /* PromoCardView.swift */,
-				75D8CA9C2B6D43C9009BB4F9 /* RewardsCardView.swift */,
+				757AB06A2C08D04B00EAC371 /* Gift Cards */,
+				757AB06D2C08D19F00EAC371 /* Promo Code */,
+				757AB0732C08D5E900EAC371 /* Rewards  */,
 			);
 			path = "Sheet Sliders";
 			sourceTree = "<group>";
@@ -426,9 +459,11 @@
 				75D66BB82B6E19D6009B3084 /* PaymentWithCardView.swift in Sources */,
 				75A96B752BA8484500F24BD7 /* OffsetModifier.swift in Sources */,
 				C594B6972B791DD200F35C1E /* PickUpView.swift in Sources */,
+				757AB06F2C08D20000EAC371 /* RewardsCardSheetView.swift in Sources */,
 				753FE3372B6BBD6E00FE6A6A /* InboxHomeView.swift in Sources */,
 				75D66BB42B6E15F4009B3084 /* PaymentEmptyView.swift in Sources */,
 				75D8CA9B2B6D3DC4009BB4F9 /* PromoCardView.swift in Sources */,
+				757AB0712C08D22300EAC371 /* GiftCardsSheetView.swift in Sources */,
 				C58B36682B6851A700BE085F /* ContentView.swift in Sources */,
 				C5EE8DBC2BF6A7DF00B5CA47 /* HomeLogin.swift in Sources */,
 				753856692B73D5DC00FF5663 /* LocationView.swift in Sources */,
@@ -439,6 +474,7 @@
 				75A96B712BA847C400F24BD7 /* Tab.swift in Sources */,
 				75D8CA992B6D3703009BB4F9 /* GiftCardsView.swift in Sources */,
 				75D66BBB2B6E1F43009B3084 /* PrivacyAndSecurityView.swift in Sources */,
+				757AB06C2C08D0D800EAC371 /* PromoCardSheetView.swift in Sources */,
 				C51D62A52B70842A008C2157 /* OrderView.swift in Sources */,
 				C5EE8DBE2BF6A82D00B5CA47 /* ContentViewLogin.swift in Sources */,
 				C58B36662B6851A700BE085F /* RustikoApp.swift in Sources */,

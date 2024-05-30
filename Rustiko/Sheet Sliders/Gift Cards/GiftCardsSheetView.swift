@@ -1,33 +1,21 @@
 //
-//  GiftCardsView.swift
+//  GiftCardsSheetView.swift
 //  Rustiko
 //
-//  Created by Micah Njeru on 02/02/2024.
+//  Created by Micah Njeru on 30/05/2024.
 //
 
 import SwiftUI
 
-struct GiftCardsView: View {
-    
-    // Sheet property
-    @State private var showingSheet = false
+struct GiftCardsSheetView: View {
+    // Sheet Dismissal variable
+    @Environment (\.dismiss) private var dismiss
     
     var body: some View {
         
-        // Button for showing Sheet
-        Button("Gift card"){
-            showingSheet.toggle()
-        }
-        .popover(isPresented: $showingSheet) {
-            
+        NavigationStack{
             // Sheet View
             VStack(alignment: .center) {
-                
-                // Title
-                Text("Gift Cards")
-                    .font(.title)
-                    .padding(20)
-                
                 // Center Text
                 Text("You can sign up for a card, which will allow you to load value and earn special rewards.")
                     .padding()
@@ -40,33 +28,43 @@ struct GiftCardsView: View {
                     // Top Buttons
                     HStack {
                         Button("Send a Gift Card"){
-                            // Insert Button Function Here
+                            dismiss()
                         }
-                        .padding()
+                        .buttonStyle(.borderedProminent)
                         
                         Spacer()
                         
-                        Button("Add an Existing Card") {
-                            // Insert Button Function Here
+                        Button("Add Existing Card") {
+                            dismiss()
                         }
+                        .buttonStyle(.borderedProminent)
                         .padding()
                     }
                     .padding()
                     
                     // Bottom Button
                     Button("Purchase a Gift Card") {
-                        // Insert Button Function Here
+                        dismiss()
                     }
+                    .buttonStyle(.borderedProminent)
                 }
                 
-                    // Sheet Settings
-                    .presentationDetents([.large])
-                    .presentationDragIndicator(.visible)
+                // Sheet Settings
+                .presentationDetents([.large])
+                .presentationDragIndicator(.visible)
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("Gift Cards")
+                        .font(.largeTitle.bold())
+                        .accessibilityAddTraits(.isHeader)
+                }
             }
         }
     }
 }
 
 #Preview {
-    GiftCardsView()
+    GiftCardsSheetView()
 }
