@@ -11,7 +11,6 @@ It's really that simple! More features and functionalities await but let's not b
 | Screen | Preview |
 | ---------- | ---------- |
 | Home Screen | ![Screen Recording](https://github.com/michbalkany/Rustiko/blob/development/media-resources/Screen%20Recording%20-%20iPhone%2015%20Pro%20-%202024-06-07%20at%2015.12.33.gif) |
-![Screen Recording](https://github.com/michbalkany/Rustiko/blob/development/media-resources/Screen%20Recording%20-%20iPhone%2015%20Pro%20-%202024-06-07%20at%2015.12.33.gif)
 ## Features
 - View menu items
 - View locations
